@@ -1,11 +1,11 @@
 <%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
 
 <%
-path1dir="etc"
-path2dir="terms"
+path1dir="mypage"
+path2dir="login"
 path3dir=""
-path1tit="ETC"
-path2tit="이용약관"
+path1tit="마이페이지"
+path2tit="로그인"
 path3tit=""
 description = "ServeQ "
 If path3tit = "" Then description=description+path2tit Else description=description+path3tit End If
@@ -40,7 +40,7 @@ If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
 			</h1>
 
 			<!-- path // -->
-			<!--#include virtual="/inCom/path_etc.asp"-->
+			<!--#include virtual="/inCom/path_mypage.asp"-->
 			<!-- // path -->
 
 			<section class="<%= path3dir %>">

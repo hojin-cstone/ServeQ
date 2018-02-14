@@ -36,5 +36,5 @@
     </div>
 </footer>
 
-<script type="text/javascript" src="/pjtCom/js/function.js"></script>
-<script type="text/javascript" src="/pjtCom/js/serveq.js"></script>
+<script src="/pjtCom/js/function.js"></script>
+<script src="/pjtCom/js/serveq.js"></script>

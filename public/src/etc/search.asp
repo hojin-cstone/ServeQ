@@ -9,6 +9,8 @@ path2tit="검색결과"
 path3tit=""
 description = "ServeQ "
 If path3tit = "" Then description=description+path2tit Else description=description+path3tit End If
+titImg = ""
+If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
 %>
 
 <!DOCTYPE html>

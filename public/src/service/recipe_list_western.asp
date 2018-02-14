@@ -9,6 +9,8 @@ path2tit="셰프 레시피"
 path3tit="양식 레시피"
 description = "ServeQ "
 If path3tit = "" Then description=description+path2tit Else description=description+path3tit End If
+titImg = ""
+If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
 %>
 
 <!DOCTYPE html>
@@ -34,7 +36,7 @@ If path3tit = "" Then description=description+path2tit Else description=descript
 		<div id="contents" class="<%= path2dir %>">
 			<h1 class="tit">
 				<%= path2tit %>
-				<img src="/pjtCom/images/sub/bg_<%= path2dir %>_<%= path3dir %>_tit.jpg" alt="">
+				<img src="/pjtCom/images/sub/bg_<%= titImg %>_tit.jpg" alt="">
 			</h1>
 
 			<!-- path // -->

@@ -6,19 +6,38 @@
 
 /* COMMON */
 
-// 서브 로케이션
+// SUB 로케이션
 $('#path .path3').click(function(){
     $(this).toggleClass('on');
 });
 
-// 푸터 패밀리사이트
+// FOOTER 패밀리사이트
 $('#footer .family').click(function(){
     $(this).toggleClass('on');
 });
 
+// HEADER 검색
+$('#header .menu_search, #search ~ .dimd').click(function(){
+    $('#search').toggleClass('on');
+});
+
+
+// HEADER 스크롤
+$(window).scroll(function(){
+    var wScrollTop = $(this).scrollTop();
+    var wScrollLeft = $(this).scrollLeft();
+
+    if (wScrollTop > 0) {
+        $('.main').addClass('scroll');
+    } else {
+        $('.main').removeClass('scroll');
+    }
+});
+
+
 
 /* PAGE */
-var page = $('#wrap').attr('class');
+var page = $('body, #wrap').attr('class');
 
 switch (page) {
     case 'main' :
