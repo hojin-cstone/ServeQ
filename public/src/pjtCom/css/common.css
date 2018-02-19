@@ -55,29 +55,32 @@ button, input, optgroup, select, textarea { font-family:'NanumSquare', sans-seri
 
 /* input */
 input { -webkit-appearance:none; }
-input[type=text], input[type=number] { color:#333; padding:0 15px; border:1px solid #b3b3b3; border-radius:2px; }
+input[type=text], input[type=number] { height:48px; color:#555; padding:0 15px; border:1px solid #e4e4e4; }
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button { -webkit-appearance:none; }
+input::-webkit-input-placeholder { font-size:16px; color:#555; }
 
 /* checkbox */
 input[type=checkbox] { position:absolute; left:-9999px; }
-input[type=checkbox] + label { position:relative; height:24px; line-height:24px; margin-left:18px; padding-left:4px; user-select:none; cursor:pointer; }
-input[type=checkbox] + label:before { content:""; position:absolute; top:50%; left:-18px; transform:translate(0, -50%); width:18px; height:18px; border:1px solid #6e27c5; border-radius:100%; box-sizing:border-box; background:#fff; }
-input[type=checkbox] + label:after { content:""; position:absolute; top:50%; left:-18px; transform:translate(2px, -50%); width:18px; height:14px; }
-input[type=checkbox]:checked + label:after { background:url('/pjtCom/images/common/form.png') no-repeat 0 0; background-size:100px; }
+input[type=checkbox] + label { position:relative; height:26px; line-height:26px; margin-left:18px; padding-left:4px; user-select:none; cursor:pointer; }
+input[type=checkbox] + label:before { content:""; position:absolute; top:50%; left:-26px; transform:translate(0, -50%); width:26px; height:26px; border:2px solid #d9d9d9; border-radius:100%; box-sizing:border-box; background:#fff; }
+input[type=checkbox] + label:after { content:""; position:absolute; top:50%; left:-20px; transform:translate(0, -50%); width:14px; height:10px; background:url('/pjtCom/images/common/form.png') no-repeat 0 0; }
+input[type=checkbox]:checked + label:before { border:2px solid #555555; }
+input[type=checkbox]:checked + label:after { background-position:-19px 0; }
 
 /* radio */
 input[type=radio] { position:absolute; left:-9999px; }
-input[type=radio] + label { position:relative; height:24px; line-height:24px; margin-left:18px; padding-left:4px; user-select:none; cursor:pointer; }
-input[type=radio] + label:before { content:""; position:absolute; top:50%; left:-18px; transform:translate(0, -50%); width:18px; height:18px; border:1px solid #6e27c5; border-radius:100%; box-sizing:border-box; background:#fff; }
-input[type=radio] + label:after { content:""; position:absolute; top:50%; left:-18px; transform:translate(2px, -50%); width:18px; height:14px; }
-input[type=radio]:checked + label:after { background:url('/pjtCom/images/common/form.png') no-repeat 0 0; background-size:100px; }
+input[type=radio] + label { position:relative; height:26px; line-height:26px; margin-left:26px; padding-left:4px; user-select:none; cursor:pointer; }
+input[type=radio] + label:before { content:""; position:absolute; top:50%; left:-26px; transform:translate(0, -50%); width:26px; height:26px; border:2px solid #d9d9d9; border-radius:100%; box-sizing:border-box; background:#fff; }
+input[type=radio] + label:after { content:""; position:absolute; top:50%; left:-20px; transform:translate(0, -50%); width:14px; height:10px; background:url('/pjtCom/images/common/form.png') no-repeat 0 0; }
+input[type=radio]:checked + label:before { border:2px solid #555555; }
+input[type=radio]:checked + label:after { background-position:-19px 0; }
 
 /* select */
-.select { display:inline-block; position:relative; width:100px; height:30px; }
+.select { display:inline-block; position:relative; width:100px; height:48px; }
 /* .select:before { content:""; position:absolute; top:1px; right:1px; width:30px; height:calc(100% - 2px); background:#fff; } */
-.select:after { content:""; position:absolute; top:50%; right:10px; transform:translateY(-3px); width:8px; height:5px; background:url('/pjtCom/images/common/form.png') no-repeat -19px 0; background-size:100px; }
-.select select { width:100%; height:100%; padding-left:15px; border:1px solid #b3b3b3; border-radius:2px; box-sizing:border-box; background:#fff; -webkit-appearance:none; }
+.select:after { content:""; position:absolute; top:50%; right:10px; transform:translateY(-3px); width:12px; height:8px; background:url('/pjtCom/images/common/form.png') no-repeat -38px 0; }
+.select select { width:100%; height:100%; color:#555; padding-left:15px; border:1px solid #e4e4e4; box-sizing:border-box; background:#fff; -webkit-appearance:none; }
 .select select::-ms-expand { display:none; }
 
 /* button */

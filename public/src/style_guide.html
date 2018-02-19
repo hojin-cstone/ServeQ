@@ -12,8 +12,8 @@
 	<title>ServeQ STYLE GUIDE</title>
 
 	<style>
-		.htmlprocess_tit { font-size:13px; background:#000; color:#fff; font-weight:bold; padding:5px 10px; font-family:Dotum,"돋움"; }
-		.guide_wrap { width:98%; margin:0 auto; padding:10px 0 20px; }
+		.htmlprocess_tit { width:1280px; font-size:13px; background:#000; color:#fff; margin:0 auto; font-weight:bold; padding:5px 10px; box-sizing:border-box; font-family:Dotum,"돋움"; }
+		.guide_wrap { width:98%; margin:0 auto; padding:10px 0 20px !important; }
 		.guide_wrap .htmlprocess_tit2 { font-size:13px; color:#000; padding:5px 10px; margin:40px 0 20px; border-top:1px solid #000; background:#f2f2f2; }
 		.guide_wrap .htmlprocess_tit2:first-of-type { margin-top:0; }
 		.guide_wrap .guide {padding:10px; width:100%; background:#fff; box-sizing:border-box;}
@@ -39,10 +39,24 @@
 <section class="guide_wrap">
 	<div class="guide">
 	<!-- -->
+	<h2 class="htmlprocess_tit2">input</h2>
+
+	<input type="text" placeholder="text" title="text">
+	<input type="number" placeholder="number" title="number">
+
+	<code>
+	<pre>
+
+	</pre>
+	</code>
+	<!-- -->
+
+
+	<!-- -->
 	<h2 class="htmlprocess_tit2">select</h2>
 
 	<label class="select" for="select">
-		<select id="select" title="">
+		<select id="select" title="select">
 			<option>010</option>
 			<option>010</option>
 			<option>010</option>
@@ -87,6 +101,30 @@
 <!-- //  -->
 
 
+<!--  // -->
+<h1 class="htmlprocess_tit">BUTTON</h1>
+<section class="guide_wrap">
+	<div class="guide">
+	<!-- -->
+	<!-- <h2 class="htmlprocess_tit2"></h2> -->
+
+	<div class="btn_area">
+		<button type="button" class="btn_next">버튼 ( button )</button>
+		<a href="#" class="btn_next">버튼 ( a )</a>
+	</div>
+
+<code>
+<pre>
+
+</pre>
+</code>
+	<!-- -->
+
+	</div>
+</section>
+<!-- //  -->
+
+
 
 <!--  // -->
 <h1 class="htmlprocess_tit">PAGING</h1>
@@ -112,31 +150,6 @@
 
 	</pre>
 	</code>
-	<!-- -->
-
-	</div>
-</section>
-<!-- //  -->
-
-
-
-<!--  // -->
-<h1 class="htmlprocess_tit">BUTTON</h1>
-<section class="guide_wrap">
-	<div class="guide">
-	<!-- -->
-	<h2 class="htmlprocess_tit2"></h2>
-
-	<div class="btn_area">
-		<button type="button" class="btn_next">버튼 ( button )</button>
-		<a href="#" class="btn_next">버튼 ( a )</a>
-	</div>
-
-<code>
-<pre>
-
-</pre>
-</code>
 	<!-- -->
 
 	</div>
