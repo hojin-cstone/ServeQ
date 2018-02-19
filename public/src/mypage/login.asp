@@ -34,18 +34,40 @@ If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
 	<!-- wrap -->
 	<main id="wrap" class="<%= path1dir %>">
 		<div id="contents" class="<%= path2dir %>">
-			<h1 class="tit">
-				<%= path2tit %>
-				<img src="/pjtCom/images/sub/bg_<%= titImg %>_tit.jpg" alt="">
-			</h1>
-
-			<!-- path // -->
-			<!--#include virtual="/inCom/path_mypage.asp"-->
-			<!-- // path -->
-
 			<section class="<%= path3dir %>">
-				<h1 class="tit"><%= path2tit %></h1>
-				<p class="txt"></p>
+				<div class="section_inner">
+					<h1>로그인</h1>
+					<p>The Best Solution 서브큐, 오늘도 함께 해요!</p>
+					<form>
+						<fieldset>
+							<label class="log_id">
+								<input type="text" placeholder="아이디">
+							</label>
+							<div class="error_txt error_id">아이디를 입력해 주세요.</div>
+							<label class="log_pw">
+								<input type="password" placeholder="비밀번호">
+							</label>
+							<div class="error_txt error_pw">비밀번호를 입력해 주세요.</div>
+							<div class="error_txt error_idpw">아이디 또는 비밀번호가 일치하지 않습니다.</div>
+							<div class="logbox">
+								<span>
+									<input type="checkbox" id="checkbox">
+									<label for="checkbox">아이디 저장</label>
+								</span>
+								<span class="bar"></span>
+								<a href="javascript:void(0)">아이디 찾기</a>
+								<span class="bar"></span>
+								<a href="javascript:void(0)">비밀번호 찾기</a>
+							</div>
+							<!-- 로그인 에러 함수 log_error('error1'), 인자 값 error1, error2, error3 -->
+							<div class="btnbox">
+								<a href="javascript:log_error('error2')" class="btn_org">로그인</a>
+								<a href="javascript:void(0)" class="btn_naver">NAVER 로그인</a>
+							</div>
+							<span class="txt">SNS 계정을 통해 간편하게 이용하세요!</span>
+						</fieldset>
+					</form>
+				</div>
 			</section>
 		</div>
 	</main>
@@ -54,6 +76,26 @@ If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
 	<!-- footer // -->
 	<!--#include virtual="/inCom/footer.asp"-->
 	<!-- // footer -->
+
+	<!-- script -->
+	<script>
+		function log_error(err){
+			$('.mypage .login fieldset').removeClass("error1 error2 error3");
+			$('.mypage .login fieldset').addClass(err);
+			if(err=="error1"){
+				$('.mypage .login .log_id input').focus();
+			}else{
+				$('.mypage .login .log_pw input').focus();
+			}
+		}
+		$('.mypage .login input').click(function(){
+			$('.mypage .login fieldset').removeClass("error1 error2 error3");
+		});
+		$('.mypage .login input').keypress(function(){
+			$('.mypage .login fieldset').removeClass("error1 error2 error3");
+		});
+	</script>
+	<!-- // script -->
 </body>
 
 </html>

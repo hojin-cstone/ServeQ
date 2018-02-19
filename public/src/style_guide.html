@@ -126,7 +126,6 @@
 <!-- //  -->
 
 
-
 <!--  // -->
 <h1 class="htmlprocess_tit">PAGING</h1>
 <section class="guide_wrap">
@@ -151,6 +150,68 @@
 
 	</pre>
 	</code>
+	<!-- -->
+
+	</div>
+</section>
+<!-- //  -->
+
+
+<!--  // -->
+<h1 class="htmlprocess_tit">POPUP</h1>
+<section class="guide_wrap">
+	<div class="guide">
+	<!-- -->
+	<!-- <h2 class="htmlprocess_tit2"></h2> -->
+	<a href="javascript:onPopupOpen('#popupAlert1')" class="btn_">팝업띄우기</a>
+	<aside id="popupAlert1" class="popup">
+		<div class="popup_inner">
+			<a href="javascript:onPopupClose('#popupAlert1')" class="popup_close">닫기</a>
+			<h3>아이디 찾기 실패</h3>
+			<p>
+				<strong>
+					입력하신 이름, 전화번호로 아이디를 찾은 결과<br />
+					일치하는 아이디가 없습니다.
+				</strong><br />
+				다시 한 번 정확히 입력해 주세요.<br /><br />
+				<a href="javascript:onPopupClose('#popupAlert1')" class="popup_ok">확인</a>
+			</p>
+		</div>
+	</aside>
+	<!-- script -->
+	<script>
+		var winTopPos = 0;
+		function scrollStop(){
+			winTopPos = $(window).scrollTop();
+			$('#contents').css({'margin-top':+(-(winTopPos))+"px"});
+			$('html,body').css({'overflow':'hidden','height':$(window).height()});
+		}
+		function scrollMove(){
+			$('#contents').css({'margin-top':"0px"});
+			$('html,body').css({'overflow':'auto','height':'100%'});
+			$(window).scrollTop(winTopPos);
+			setTimeout(function(){
+				$(window).scrollTop(winTopPos);
+			}, 200);
+		}
+		function onPopupOpen(obj){
+			scrollStop();
+			$(obj).fadeIn(400);
+			$(obj).find('.popup_inner').css({'top':'60%'});
+			$(obj).find('.popup_inner').animate({'top':'50%'},400);
+		}
+		function onPopupClose(obj){
+			scrollMove();
+			$(obj).find('.popup_inner').animate({'top':'60%'},400);
+			$(obj).fadeOut(400);
+		}
+	</script>
+	<!-- // script -->
+<code>
+<pre>
+
+</pre>
+</code>
 	<!-- -->
 
 	</div>
