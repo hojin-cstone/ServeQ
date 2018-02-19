@@ -44,7 +44,6 @@ figure { margin:0; }
 img { vertical-align:top; }
 hr { display:none; }
 address { font-style:normal; }
-button, input, optgroup, select, textarea { font-family:'NanumSquare', sans-serif; }
 [type=file] { cursor:pointer; }
 .hide { display:none !important; }
 
@@ -54,11 +53,10 @@ button, input, optgroup, select, textarea { font-family:'NanumSquare', sans-seri
 .skip a:hover { letter-spacing:-1px; }
 
 /* input */
-input { -webkit-appearance:none; }
-input[type=text], input[type=number] { height:48px; color:#555; padding:0 15px; border:1px solid #e4e4e4; }
+input[type=text], input[type=number], input[type=password] { height:48px; color:#555; padding:0 15px; border:1px solid #e4e4e4; }
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button { -webkit-appearance:none; }
-input::-webkit-input-placeholder { font-size:16px; color:#555; }
+input::placeholder { font-size:16px; color:#555; }
 
 /* checkbox */
 input[type=checkbox] { position:absolute; left:-9999px; }
@@ -173,7 +171,7 @@ input[type=radio]:checked + label:after { background-position:-19px 0; }
 #search legend { display:none; }
 #search .search_write { border-bottom:1px solid #000000; overflow:hidden; }
 #search .write_txt { float:left; width:693px; height:65px; font-size:24px; color:#949494; border:none; outline:none; }
-input::placeholder { color:#949494; }
+#search input::placeholder { color:#949494; }
 #search .btn_search { float:left; position:relative; width:65px; height:65px; text-indent:-9999px; background:#fff; }
 #search .btn_search:after { content:""; position:absolute; top:15px; left:20px; width:30px; height:31px; background:url(/pjtCom/images/common/icon_header.png) no-repeat -69px 0; }
 #search .recommend { margin-top:13px; overflow:hidden; }
