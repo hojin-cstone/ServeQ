@@ -28,12 +28,17 @@ If path3tit = "" Then description=description+path2tit Else description=descript
 	<!-- header // -->
 	<!--#include virtual="/inCom/header.asp"-->
 	<!-- // header -->
+<style>
 
+
+</style>
 	<!-- wrap -->
 	<main id="wrap" class="<%= path1dir %>">
 		<div id="contents" class="<%= path2dir %> <%= path3dir %>">
-			CONTENTS
+			<div class="visual"><img src="/pjtCom/images/main/img_visual1.jpg" alt=""></div>
+
 			<div style="height:1000px;">
+
 			</div>
 		</div>
 	</main>

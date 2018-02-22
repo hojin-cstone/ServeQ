@@ -15,8 +15,12 @@
 <link rel="shortcut icon" type="image/x-icon" href="/pjtCom/images/common/favicon.ico">
 
 <link rel="stylesheet" type="text/css" href="/pjtCom/css/lib/normalize.min.css" />
+<link rel="stylesheet" type="text/css" href="/pjtCom/css/lib/jquery-ui.min.css">
 <link rel="stylesheet" type="text/css" href="/pjtCom/css/common.css" />
 
+
 <script src="/pjtCom/js/lib/jquery-3.3.1.min.js"></script>
+<script src="/pjtCom/js/lib/jquery-ui.min.js"></script>
+
 
 <title><%If path3tit <> "" Then Response.write path3tit+" - " Else If path3tit = "" AND path2tit <> "" Then Response.write path2tit+" - " End If %>ServeQ</title>
