@@ -1,23 +1,20 @@
 @charset "utf-8";
 
 /* mypage common */
-#wrap.mypage { background:#f6f6f6; }
+.mypage #contents { padding:180px 0 166px; background:#f6f6f6; }
+.sub_tit { font-size:30px; font-weight:600; color:#231f20; text-align:center; }
+.sub_txt { margin-top:10px; text-align:center; }
 
 /* login */
-.mypage #contents.login { padding:180px 0 166px; }
 .mypage #contents.login section { width:618px; padding:77px 0 95px; margin:0 auto 109px; background:#fff; }
 .mypage .login .section_inner { width:345px; margin:0 auto; }
 .mypage .login .section_inner h1 { font-size:48px; font-weight:600; color:#231f20; }
 .mypage .login .section_inner > p { margin:12px 0 46px; color:#807e7f; }
-.mypage .login .log_id,
-.mypage .login .log_pw { position:relative; display:block; }
-.mypage .login .log_pw { margin-top:18px; }
+.mypage .login .log_pw { display:block;margin-top:18px; }
 .mypage .login .log_id input,
-.mypage .login .log_pw input { width:100%; padding-left:50px; }
-.mypage .login .log_id input:focus,
-.mypage .login .log_pw input:focus { padding-left:49px; }
+.mypage .login .log_pw input { width:100%; }
 .mypage .login .log_id:before,
-.mypage .login .log_pw:before { content:""; position:absolute; left:15px; top:50%; transform:translate(0, -50%); display:block; width:18px; height:20px; box-sizing:border-box; background:url('/pjtCom/images/common/form_icon.png') no-repeat 0 0; }
+.mypage .login .log_pw:before { width:18px; height:20px; }
 .mypage .login .log_pw:before { background-position:-28px 0; }
 .mypage .login .logbox { margin-top:25px; text-align:right; font-size:0; }
 .mypage .login .logbox a { display:inline-block; vertical-align:middle; font-size:16px; letter-spacing:-0.04em; }
@@ -40,19 +37,17 @@
 .mypage .login .error3 .error_idpw {display:block;}
 
 /* search_id */
-.mypage #contents.searchid { padding:180px 0 166px; }
 .mypage #contents.searchid section { width:662px; padding:77px 0 95px; margin:0 auto 94px; background:#fff; }
 .mypage .searchid .section_inner { width:390px; margin:0 auto; }
 .mypage .searchid .section_inner > p { margin:12px 0 46px; color:#807e7f; }
 .mypage .searchid .section_inner .log_name { position:relative; }
-.mypage .searchid .section_inner .log_name:before { content:""; position:absolute; left:15px; top:50%; transform:translate(0, -50%); display:block; width:18px; height:20px; box-sizing:border-box; background:url('/pjtCom/images/common/form_icon.png') no-repeat 0 0; }
-.mypage .searchid .section_inner .log_name input { width:100%; padding-left:50px; }
-.mypage .searchid .section_inner .log_name input:focus { padding-left:49px; }
+.mypage .searchid .section_inner .log_name:before { width:18px; height:20px; }
+.mypage .searchid .section_inner .log_name input { width:100%; }
 .mypage .searchid .section_inner .telbox { margin-top:18px; }
 .mypage .searchid .section_inner .telbox:after { content:""; display:block; clear:both; }
 .mypage .searchid .section_inner .telbox .tel { position:relative; float:left; width:124px; padding:8px 0 8px 50px; line-height:32px; box-sizing:border-box; }
 .mypage .searchid .section_inner .telbox .tel:before { content:""; position:absolute; left:15px; top:50%; transform:translate(0, -50%); display:block; width:18px; height:18px; background:url('/pjtCom/images/common/form_icon.png') no-repeat -56px 0; }
-.mypage .searchid .section_inner .telbox .bar { position:relative; float:left; display:block; width:28px; height:48px; box-sizing:border-box;}
+.mypage .searchid .section_inner .telbox .bar { position:relative; float:left; display:block; width:28px; height:48px; box-sizing:border-box; }
 .mypage .searchid .section_inner .telbox .bar:before { content:""; position:absolute; left:50%; top:50%; transform:translate(-50%, 0); display:block; width:8px; height:1px; background:#949494;}
 .mypage .searchid .section_inner .telbox label { float:left; width:70px; }
 .mypage .searchid .section_inner .telbox label input { width:100%; text-align:center; }
@@ -60,15 +55,91 @@
 .mypage .searchid .section_inner .btnbox .btn_org { width:100%; }
 
 /* search_idresult */
-.mypage #contents.searchid_result { padding:180px 0 166px; }
 .mypage #contents.searchid_result section { width:662px; padding:77px 0 95px; margin:0 auto 94px; background:#fff; }
 .mypage .searchid_result .section_inner { width:390px; margin:0 auto; }
 .mypage .searchid_result .section_inner > p { margin:12px 0 46px; color:#807e7f; }
 .mypage .searchid_result .section_inner .id_result { padding:37px 10px; border:1px solid #dadada; box-sizing:border-box; text-align:center; font-size:16px; }
 .mypage .searchid_result .section_inner .id_result span { display:block; margin-bottom:30px; color:#231f20; }
 .mypage .searchid_result .section_inner .id_result b { font-weight:600; color:#231f20; }
-
 .mypage .searchid_result .section_inner .btnbox { margin-top:31px; }
 .mypage .searchid_result .section_inner .btnbox:after { content:""; display:block; clear:both; }
 .mypage .searchid_result .section_inner .btnbox .btn_org { float:left; width:190px; }
 .mypage .searchid_result .section_inner .btnbox .btn_line { float:right; width:190px; border:1px solid #231f20; color:#231f20; }
+
+/* search_pw */
+.mypage #contents.searchpw section { width:662px; padding:77px 0 95px; margin:0 auto 94px; background:#fff; }
+.mypage .searchpw .section_inner { width:390px; margin:0 auto; }
+.mypage .searchpw .section_inner > p { margin:12px 0 46px; color:#807e7f; }
+.mypage .searchpw .section_inner .log_name:before { width:18px; height:20px; }
+.mypage .searchpw .section_inner .log_name input { width:100%; }
+.mypage .searchpw .section_inner .log_id { display:block; margin-top:18px; }
+.mypage .searchpw .section_inner .log_id input { width:100%; }
+.mypage .searchpw .section_inner .log_id:before { width:20px; height:25px; background-position:-84px 0; }
+.mypage .searchpw .section_inner .telbox { margin-top:18px; }
+.mypage .searchpw .section_inner .telbox div:after { content:''; display:block; clear:both; }
+.mypage .searchpw .section_inner .telbox .tel { position:relative; float:left; width:116px; padding:8px 0 8px 50px; line-height:32px; box-sizing:border-box; }
+.mypage .searchpw .section_inner .telbox .tel:before { content:""; position:absolute; left:24px; top:50%; transform:translate(-50%, -50%); display:block; width:18px; height:18px; background:url('/pjtCom/images/common/form_icon.png') no-repeat -56px 0; }
+.mypage .searchpw .section_inner .telbox .bar { position:relative; float:left; display:block; width:19px; height:48px; box-sizing:border-box;}
+.mypage .searchpw .section_inner .telbox .bar:before { content:""; position:absolute; left:50%; top:50%; transform:translate(-50%, 0); display:block; width:8px; height:1px; background:#949494; }
+.mypage .searchpw .section_inner .telbox label { float:left; width:58px; }
+.mypage .searchpw .section_inner .telbox label input { padding-left:5px; padding-right:5px; text-align:center; }
+.mypage .searchpw .section_inner .telbox .btn_blk { float:right; width:50px; }
+.mypage .searchpw .section_inner .telbox .confirm_time { margin-top:18px; }
+.mypage .searchpw .section_inner .telbox .confirm_time input { width:213px; margin-left:116px; padding-left:10px; padding-right:5px; text-align:left; }
+.mypage .searchpw .section_inner .telbox .confirm_time input::placeholder { font-size:13px; letter-spacing:-0.04em; color:#949494; }
+.mypage .searchpw .section_inner .telbox .confirm_time input:focus {}
+.mypage .searchpw .section_inner .btnbox { margin-top:44px; }
+.mypage .searchpw .section_inner .btnbox .btn_org { width:100%; }
+
+/* password */
+.mypage #contents.password section { width:662px; padding:77px 0 95px; margin:0 auto 94px; background:#fff; }
+.mypage .password .section_inner { width:390px; margin:0 auto; }
+.mypage .password .section_inner > p { margin:12px 0 40px; color:#807e7f; }
+.mypage .password .section_inner small { font-size:16px; }
+.mypage .password .section_inner .log_id { display:block; margin-top:14px; }
+.mypage .password .section_inner .log_id input { width:100%; }
+.mypage .password .section_inner .log_id:before { width:20px; height:25px; background-position:-84px 0; }
+.mypage .password .section_inner .update_pw { display:block; margin-top:18px; }
+.mypage .password .section_inner .btnbox { margin-top:44px; }
+.mypage .password .section_inner .btnbox .btn_org { width:100%; }
+
+/* agree */
+.mypage #contents.agree { padding:123px 0 166px; background:#fff; }
+.mypage #contents.agree > section { padding-bottom:94px; }
+.mypage .agree .agree_terms { position:relative; overflow:hidden; margin:15px auto 0; display:block; width:1060px; height:233px; border:1px solid #e4e4e4; box-sizing:border-box; background:#fff; }
+.mypage .agree .agree_terms .term_inner { padding:40px 40px 40px 26px; font-size:16px; line-height:24px; }
+.mypage .agree .agree_terms .term_inner .agree_tbl { border:1px solid #bfbfbf; }
+.mypage .agree .agree_terms .term_inner .agree_tbl tr { border-top:1px solid #bfbfbf; }
+.mypage .agree .agree_terms .term_inner .agree_tbl tr:first-child { border-top:none; }
+.mypage .agree .agree_terms .term_inner .agree_tbl td { border-left:1px solid #bfbfbf; text-align:center; line-height:24px; padding:5px 0; }
+.mypage .agree .agree_terms .term_inner .agree_tbl td:first-child { border-left:none; }
+.agree_terms.ps--active-y > .ps__rail-y { opacity:1; width:14px; background:#f9f9f9; }
+.agree_terms.ps--active-y > .ps__thumb-y { width:14px; right:0; }
+.agree_terms .ps__thumb-y { width:14px; right:0; border-radius:0; }
+.agree_terms.ps:hover .ps__rail-y { opacity:1; background:#f9f9f9; }
+.agree_terms .ps__rail-y:hover { opacity:1; }
+.agree_terms .ps__rail-y:hover > .ps__thumb-y { width:14px; right:0; opacity:1; }
+
+.mypage .agree .step { display:block; margin-top:50px; text-align:center; }
+.mypage .agree .step:after { content:""; display:block; clear:both; }
+.mypage .agree .step li { position:relative; display:inline-block; width:300px; padding-top:109px; color:#807e7e; }
+.mypage .agree .step li:before { content:""; position:absolute; left:50%; top:0; margin-left:-45px; display:block; width:91px; height:91px; background:url('/pjtCom/images/sub/agree.png') no-repeat 0 0; }
+.mypage .agree .step li:nth-child(2):before { background-position:-101px 0; }
+.mypage .agree .step li:nth-child(3):before { background-position:-202px 0; }
+
+.mypage .agree .step li:after { content:""; position:absolute; top:29px; right:-10px; display:block; width:20px; height:34px; background:url('/pjtCom/images/common/form_icon.png') no-repeat 0 -66px; }
+.mypage .agree .step li:nth-child(3):after { display:none; }
+.mypage .agree .step li.on { color:#ce462d; }
+.mypage .agree .step li.on:nth-child(1):before { background-position:0 -101px; }
+.mypage .agree .step li.on:nth-child(2):before { background-position:-101px -101px; }
+.mypage .agree .step li.on:nth-child(3):before { background-position:-202px -101px; }
+.mypage .agree .step li.on:after { background-position:-30px -66px; }
+
+.mypage .agree .agree_cont { margin-top:60px; }
+.mypage .agree .agree_tit { margin-top:24px; padding-left:60px; font-size:16px; }
+.mypage .agree .agree_tit.mgt0 { margin-top:0; }
+.mypage .agree .agree_chk { display:block; margin-top:15px; margin-right:60px; text-align:right; }
+.mypage .agree .agree_chk.mgt21 { margin-top:-21px; }
+.mypage .agree .btnbox { margin-top:67px; text-align:center; }
+.mypage .agree .btnbox .btn_org { width:190px; }
+.mypage .agree .btnbox .btn_wht { width:190px; margin-left:8px; border:1px solid #322e2f; color:#322e2f; }

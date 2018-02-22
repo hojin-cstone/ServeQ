@@ -54,7 +54,7 @@ If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
 		</div>
 	</main>
 	<!-- // wrap -->
-	
+
 	<!-- footer // -->
 	<!--#include virtual="/inCom/footer.asp"-->
 	<!-- // footer -->

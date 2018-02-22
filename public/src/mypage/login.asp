@@ -40,11 +40,11 @@ If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
 					<p>The Best Solution 서브큐, 오늘도 함께 해요!</p>
 					<form>
 						<fieldset>
-							<label class="log_id">
+							<label class="inp_icon log_id">
 								<input type="text" placeholder="아이디">
 							</label>
 							<div class="error_txt error_id">아이디를 입력해 주세요.</div>
-							<label class="log_pw">
+							<label class="inp_icon log_pw">
 								<input type="password" placeholder="비밀번호">
 							</label>
 							<div class="error_txt error_pw">비밀번호를 입력해 주세요.</div>
@@ -59,9 +59,16 @@ If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
 								<span class="bar"></span>
 								<a href="javascript:void(0)">비밀번호 찾기</a>
 							</div>
-							<!-- 로그인 에러 함수 log_error('error1'), 인자 값 error1, error2, error3 -->
+
+							<!--
+								로그인 에러 함수 mypage_error('error1')
+								호출 시 문구 출력 및 해당되는 input 폼태그로 포커싱 처리
+								error1: 아이디 미입력
+								eroor2: 비밀번호 미입력
+								error3: 아이디,비번 불일치
+							-->
 							<div class="btnbox">
-								<a href="javascript:log_error('error2')" class="btn_org">로그인</a>
+								<a href="javascript:mypage_error('error1')" class="btn_org">로그인</a>
 								<a href="javascript:void(0)" class="btn_naver">NAVER 로그인</a>
 							</div>
 							<span class="txt">SNS 계정을 통해 간편하게 이용하세요!</span>
@@ -79,7 +86,7 @@ If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
 
 	<!-- script -->
 	<script>
-		function log_error(err){
+		function mypage_error(err){
 			$('.mypage .login fieldset').removeClass("error1 error2 error3");
 			$('.mypage .login fieldset').addClass(err);
 			if(err=="error1"){
