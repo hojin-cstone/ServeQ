@@ -2,10 +2,10 @@
 
 <%
 path1dir="mypage"
-path2dir="searchid_result"
+path2dir="joinfinish"
 path3dir=""
-path1tit="마이페이지"
-path2tit="아이디 찾기"
+path1tit="회원가입"
+path2tit="가입완료"
 path3tit=""
 description = "ServeQ "
 If path3tit = "" Then description=description+path2tit Else description=description+path3tit End If
@@ -36,18 +36,25 @@ If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
 		<div id="contents" class="<%= path2dir %>">
 			<section class="<%= path3dir %>">
 				<div class="section_inner">
-					<h3>아이디 찾기</h3>
-					<p>이름, 전화번호로 아이디를 찾아보세요.</p>
-					<div class="id_result">
-						<span>
-							<b>박보검</b>님의 정보와 일치하는 아이디 입니다.
-						</span>
-						<b>parkbogum</b>
-					</div>
+					<h2 class="sub_tit">회원가입</h2>
+					<p class="sub_txt">Best Solution을 찾으러 오셨나요? 환영합니다!</p>
+					<ul class="step">
+						<li>본인인증</li>
+						<li>회원정보입력</li>
+						<li class="on">가입완료</li>
+					</ul>
 
-					<div class="btnbox">
-						<a href="javascript:void(0)" class="btn_org">로그인하기</a>
-						<a href="javascript:void(0)" class="btn_line">비밀번호 찾기</a>
+					<div class="cont">
+						<strong>
+							반갑습니다!<br />
+							회원가입이 완료 되었습니다.
+						</strong>
+						<span>
+							서브큐의 다양한 서비스를 이용해 보세요!
+						</span>
+						<div class="btnbox">
+							<a href="javascript:void(0)" class="btn_org">확인</a>
+						</div>
 					</div>
 				</div>
 			</section>

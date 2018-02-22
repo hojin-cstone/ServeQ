@@ -36,7 +36,7 @@ If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
 		<div id="contents" class="<%= path2dir %>">
 			<section class="<%= path3dir %>">
 				<div class="section_inner">
-					<h1>비밀번호 찾기</h1>
+					<h3>비밀번호 찾기</h3>
 					<p>이름, 아이디, 전화번호로 비밀번호를 찾아보세요.</p>
 					<form>
 						<fieldset>
@@ -48,9 +48,9 @@ If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
 							</label>
 
 							<!--
-								팝업 호출함수 onPopupOpen('#popupAlert1')
-								#popupAlert1: 잘못된 휴대폰 번호
-								#popupAlert2: 인증실패
+								팝업 호출함수 fn.alertOpen('#alert1')
+								#alert1: 잘못된 휴대폰 번호
+								#alert2: 인증실패
 
 								인증번호 Timer 함수 missionTimer(duration)
 								5분 타이머 : missionTimer(0.05)
@@ -58,16 +58,25 @@ If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
 							<div class="telbox">
 								<div>
 									<span class="tel">전화번호</span>
-									<label><input type="text"></label>
+									<label class="select type3">
+										<select id="select2">
+											<option>010</option>
+											<option>011</option>
+											<option>016</option>
+											<option>017</option>
+											<option>018</option>
+											<option>019</option>
+										</select>
+									</label>
 									<span class="bar"></span>
-									<label><input type="text"></label>
+									<label class="inp_type3"><input type="text"></label>
 									<span class="bar"></span>
-									<label><input type="text"></label>
-									<a href="javascript:onPopupOpen('#popupAlert1');missionTimer(0.05);" class="btn_blk">인증</a>
+									<label class="inp_type3"><input type="text"></label>
+									<a href="javascript:fn.alertOpen('#alert1');missionTimer(0.05);" class="btn_blk">인증</a>
 								</div>
 								<div class="confirm_time">
 									<label><input type="text" placeholder=""></label>
-									<a href="javascript:onPopupOpen('#popupAlert2')" class="btn_blk">확인</a>
+									<a href="javascript:fn.alertOpen('#alert2')" class="btn_blk">확인</a>
 								</div>
 							</div>
 							<div class="btnbox">
@@ -82,31 +91,26 @@ If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
 	<!-- // wrap -->
 
 	<!-- popup -->
-	<aside id="popupAlert1" class="popup">
-		<div class="popup_inner">
-			<a href="javascript:onPopupClose('#popupAlert1')" class="popup_close">닫기</a>
-			<h3>잘못된 인증번호</h3>
-			<div class="popup_txt">
-				<p class="ft16">
-					잘못된 휴대폰 번호입니다.<br />
-					번호를 확인하신 후 다시 입력해 주세요.<br />
-					<a href="javascript:onPopupClose('#popupAlert1')" class="popup_ok mt21">확인</a>
-				</p>
-			</div>
+	<div id="alert1" class="alert type3">
+		<div class="inner">
+			<button onclick="fn.alertClose()" type="button" class="btn_close">닫기</button>
+			<p class="txt">
+				잘못된 휴대폰 번호입니다.<br />
+				번호를 확인하신 후 다시 입력해 주세요.
+			</p>
+			<button onclick="fn.alertClose()" type="button" class="btn_ok">확인</button>
 		</div>
-	</aside>
-	<aside id="popupAlert2" class="popup">
-		<div class="popup_inner">
-			<a href="javascript:onPopupClose('#popupAlert2')" class="popup_close">닫기</a>
-			<h3>인증 실패</h3>
-			<div class="popup_txt">
-				<p class="ft16">
-					인증에 실패하였습니다.<br />
-					<a href="javascript:onPopupClose('#popupAlert2');" class="popup_ok mt21">확인</a>
-				</p>
-			</div>
+	</div>
+
+	<div id="alert2" class="alert type1">
+		<div class="inner">
+			<button onclick="fn.alertClose()" type="button" class="btn_close">닫기</button>
+			<p class="txt">
+				인증에 실패하였습니다.
+			</p>
+			<button onclick="fn.alertClose()" type="button" class="btn_ok">확인</button>
 		</div>
-	</aside>
+	</div>
 	<!-- // popup -->
 
 	<!-- footer // -->
@@ -115,34 +119,6 @@ If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
 
 	<!-- script -->
 	<script>
-		/* 팝업 공통 스크립트 */
-		var winTopPos = 0;
-		function scrollStop(){
-			winTopPos = $(window).scrollTop();
-			$('#contents').css({'margin-top':+(-(winTopPos))+"px"});
-			$('html,body').css({'overflow':'hidden','height':$(window).height()});
-		}
-		function scrollMove(){
-			$('#contents').css({'margin-top':"0px"});
-			$('html,body').css({'overflow':'auto','height':'100%'});
-			$(window).scrollTop(winTopPos);
-			setTimeout(function(){
-				$(window).scrollTop(winTopPos);
-			}, 200);
-		}
-		function onPopupOpen(obj){
-			scrollStop();
-			$(obj).fadeIn(400);
-			$(obj).find('.popup_inner').css({'top':'60%'});
-			$(obj).find('.popup_inner').animate({'top':'50%'},400);
-		}
-		function onPopupClose(obj){
-			scrollMove();
-			$(obj).find('.popup_inner').animate({'top':'60%'},400);
-			$(obj).fadeOut(400);
-		}
-		/* //팝업 공통 스크립트 */
-
 		/* 인증번호 타이머 함수 */
 		var confirmTimer;
 		function missionTimer(duration){

@@ -200,12 +200,12 @@ If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
 					</form>
 
 					<!--
-						팝업 호출함수 onPopupOpen('#popupAlert1')
-						#popupAlert1: 이용약관 동의체크
+						팝업 호출함수 fn.alertOpen('#alert1')
+						#alert1: 이용약관 동의체크
 					-->
 					<div class="btnbox">
-						<a href="javascript:onPopupOpen('#popupAlert1')" class="btn_org">가입하기</a>
-						<a href="javascript:onPopupOpen('#popupAlert1')" class="btn_wht">취소</a>
+						<a href="javascript:fn.alertOpen('#alert1')" class="btn_org">가입하기</a>
+						<a href="javascript:void(0)" class="btn_wht">취소</a>
 					</div>
 				</div>
 			</section>
@@ -214,74 +214,20 @@ If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
 	<!-- // wrap -->
 
 	<!-- popup -->
-	<aside id="popupAlert1" class="popup">
-		<div class="popup_inner">
-			<a href="javascript:onPopupClose('#popupAlert1')" class="popup_close">닫기</a>
-			<h3>이용약관 동의 체크</h3>
-			<div class="popup_txt">
-				<p class="ft16">
-					이용약관에 동의해 주시기 바랍니다.<br />
-					<a href="javascript:onPopupClose('#popupAlert1')" class="popup_ok">확인</a>
-				</p>
-			</div>
+	<div id="alert1" class="alert type1">
+		<div class="inner">
+			<button onclick="fn.alertClose()" type="button" class="btn_close">닫기</button>
+			<p class="txt">
+				이용약관에 동의해 주시기 바랍니다.
+			</p>
+			<button onclick="fn.alertClose()" type="button" class="btn_ok">확인</button>
 		</div>
-	</aside>
+	</div>
 	<!-- // popup -->
 
 	<!-- footer // -->
 	<!--#include virtual="/inCom/footer.asp"-->
 	<!-- // footer -->
-
-	<!-- script -->
-	<!-- 스크롤바 스크립트 IMPORT -->
-		<link rel="stylesheet" type="text/css" href="/pjtCom/css/lib/perfect-scrollbar.css" />
-		<script src="/pjtCom/js/lib/perfect-scrollbar.min.js"></script>
-	<!-- //스크롤바 스크립트 IMPORT -->
-	<script>
-		/* 스크롤바 */
-		$('document').ready(function(){
-			// or just with selector string
-			var agree1 = new PerfectScrollbar('.terms1',{
-				wheelSpeed:0.5
-			});
-			var agree2 = new PerfectScrollbar('.terms2',{
-				wheelSpeed:0.5
-			});
-			var agree3 = new PerfectScrollbar('.terms3',{
-				wheelSpeed:0.5
-			});
-		});
-		/* 스크롤바 */
-
-		/* 팝업 공통 스크립트 */
-		var winTopPos = 0;
-		function scrollStop(){
-			winTopPos = $(window).scrollTop();
-			$('#contents').css({'margin-top':+(-(winTopPos))+"px"});
-			$('html,body').css({'overflow':'hidden','height':$(window).height()});
-		}
-		function scrollMove(){
-			$('#contents').css({'margin-top':"0px"});
-			$('html,body').css({'overflow':'auto','height':'100%'});
-			$(window).scrollTop(winTopPos);
-			setTimeout(function(){
-				$(window).scrollTop(winTopPos);
-			}, 200);
-		}
-		function onPopupOpen(obj){
-			scrollStop();
-			$(obj).fadeIn(400);
-			$(obj).find('.popup_inner').css({'top':'60%'});
-			$(obj).find('.popup_inner').animate({'top':'50%'},400);
-		}
-		function onPopupClose(obj){
-			scrollMove();
-			$(obj).find('.popup_inner').animate({'top':'60%'},400);
-			$(obj).fadeOut(400);
-		}
-		/* //팝업 공통 스크립트 */
-	</script>
-	<!-- //script -->
 </body>
 
 </html>

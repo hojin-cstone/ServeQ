@@ -36,7 +36,7 @@ If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
 		<div id="contents" class="<%= path2dir %>">
 			<section class="<%= path3dir %>">
 				<div class="section_inner">
-					<h1>로그인</h1>
+					<h3>로그인</h3>
 					<p>The Best Solution 서브큐, 오늘도 함께 해요!</p>
 					<form>
 						<fieldset>

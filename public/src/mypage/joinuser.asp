@@ -2,10 +2,10 @@
 
 <%
 path1dir="mypage"
-path2dir="searchid_result"
+path2dir="joinuser"
 path3dir=""
-path1tit="마이페이지"
-path2tit="아이디 찾기"
+path1tit="회원가입"
+path2tit="회원가입"
 path3tit=""
 description = "ServeQ "
 If path3tit = "" Then description=description+path2tit Else description=description+path3tit End If
@@ -36,18 +36,17 @@ If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
 		<div id="contents" class="<%= path2dir %>">
 			<section class="<%= path3dir %>">
 				<div class="section_inner">
-					<h3>아이디 찾기</h3>
-					<p>이름, 전화번호로 아이디를 찾아보세요.</p>
-					<div class="id_result">
-						<span>
-							<b>박보검</b>님의 정보와 일치하는 아이디 입니다.
-						</span>
-						<b>parkbogum</b>
-					</div>
-
-					<div class="btnbox">
-						<a href="javascript:void(0)" class="btn_org">로그인하기</a>
-						<a href="javascript:void(0)" class="btn_line">비밀번호 찾기</a>
+					<h2 class="sub_tit">회원가입</h2>
+					<p class="sub_txt">Best Solution을 찾으러 오셨나요? 환영합니다!</p>
+					<div class="cont">
+						<div class="join_img">
+							<img src="/pjtCom/images/sub/joinuser.jpg" alt="" />
+						</div>
+						<div class="btnbox">
+							<a href="javascript:void(0)" class="btn_org">로그인</a>
+							<a href="javascript:void(0)" class="btn_naver">NAVER 로그인</a>
+						</div>
+						<span class="joinuser_txt">네이버 계정으로 간편하게 가입하실 수 있습니다.</span>
 					</div>
 				</div>
 			</section>
