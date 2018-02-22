@@ -21,6 +21,7 @@ $('#header .menu_search, #search ~ .dimd').click(function(){
     $('#search').toggleClass('on');
 });
 
+// SELECT
 $('select').selectmenu();
 
 
