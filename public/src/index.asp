@@ -2,7 +2,7 @@
 
 <%
 path1dir=""
-path2dir=""
+path2dir="1"
 path3dir=""
 path1tit=""
 path2tit=""
