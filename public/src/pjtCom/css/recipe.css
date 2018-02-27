@@ -7,7 +7,7 @@
 .recipe .search_area { width:1280px; margin:5px auto 0; padding:0 50px; overflow:hidden; box-sizing:border-box; }
 .recipe .search_area .inner { float:right; position:relative; width:342px; }
 .recipe .search_area input {  }
-.recipe .search_area .btn_search { position:absolute; top:0; right:0; width:45px; height:100%; text-indent:-9999px; background:none; }
+.recipe .search_area .btn_search { position:absolute; top:1px; right:1px; width:45px; height:45px; text-indent:-9999px; }
 .recipe .search_area .btn_search:after { content:""; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:25px; height:25px; background:url(/pjtCom/images/common/form_icon.png) no-repeat 0 -118px; }
 .recipe .menu_area { width:835px; text-align:center; margin:50px auto 30px; overflow:hidden; }
 .recipe .menu_area li { display:inline-block; position:relative; line-height:36px; }
