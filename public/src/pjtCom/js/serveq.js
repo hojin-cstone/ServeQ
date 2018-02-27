@@ -16,17 +16,6 @@ $('#footer .family').click(function(){
     $(this).toggleClass('on');
 });
 
-// FOOTER 탑 스크롤
-$(window).scroll(function(){
-    var wScrollTop = $(this).scrollTop();
-
-    if(wScrollTop >1080){
-        $('#footer').addClass('on');
-    }else{
-        $('#footer').removeClass('on');
-    }
-});
-
 // HEADER 검색
 $('#header .menu_search, #search ~ .dimd').click(function(){
     $('#search').toggleClass('on');
@@ -35,16 +24,26 @@ $('#header .menu_search, #search ~ .dimd').click(function(){
 // SELECT
 $('select').selectmenu();
 
+// 말줄임처리
+fn.ellipsis('.ellipsis');
 
-// HEADER 스크롤
+
 $(window).scroll(function(){
     var wScrollTop = $(this).scrollTop();
     var wScrollLeft = $(this).scrollLeft();
 
+    // HEADER 스크롤
     if (wScrollTop > 0) {
         $('.main').addClass('scroll');
     } else {
         $('.main').removeClass('scroll');
+    }
+
+    // FOOTER 탑 스크롤
+    if(wScrollTop > 0){
+        $('#footer').addClass('on');
+    }else{
+        $('#footer').removeClass('on');
     }
 });
 

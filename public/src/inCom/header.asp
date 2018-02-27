@@ -12,13 +12,13 @@
 		<h1 class="logo"><a href="/">ServeQ</a></h1>
 
 		<nav id="gnb">
-			<h1 class="hide">ServeQ 메뉴</h1>
+			<h2 class="hide">ServeQ 메뉴</h2>
 
 			<ul class="gnb_depth1">
 				<li><a href="/brand/serveq.asp">브랜드소개</a></li>
 				<li><a href="/infra/research.asp">인프라</a></li>
 				<li><a href="/product/afl_list.asp">상품안내</a></li>
-				<li><a href="/service/about.asp">고객지원</a></li>
+				<li><a href="/service/about.asp">고객지원서비스</a></li>
 				<li><a href="/pr/press_list.asp">홍보센터</a></li>
 			</ul>
 

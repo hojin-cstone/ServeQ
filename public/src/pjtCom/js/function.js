@@ -43,6 +43,37 @@ var fn = (function() {
             $obj.fadeOut(400);
 
             fn.scroll('enabled');
-        }
+        },
+
+        // 말줄임 처리
+        ellipsis: function(obj) {
+            $(obj).each(function() {
+                var obj = $(this),
+                    tempTxt = obj.text(),
+                    tempTxtArr = tempTxt.split(''),
+                    tempTxtLen = tempTxt.length,
+                    ellipsisTxt = '',
+                    ellipsisTxtLen;
+
+                obj.empty();
+                obj.append('<div></div>');
+
+                for (var i = 0; i <= tempTxtLen - 1; i++) {
+                    if (obj.height() >= obj.children().height()) {
+                        ellipsisTxt += tempTxtArr[i];
+                        obj.children().text(ellipsisTxt);
+                    }
+                }
+
+                if (obj.height() < obj.children().height()) {
+                    ellipsisTxtLen = ellipsisTxt.length;
+                    ellipsisTxt = ellipsisTxt.substr(0, ellipsisTxtLen - 3);
+                    ellipsisTxt += '...';
+                }
+
+                obj.empty();
+                obj.text(ellipsisTxt);
+            });
+        },
     }
 })();

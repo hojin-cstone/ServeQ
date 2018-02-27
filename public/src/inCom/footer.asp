@@ -6,8 +6,7 @@
     <div class="inner">
         <ul class="menu">
             <li><a href="/etc/terms.asp">이용약관</a></li>
-            <li><a href="/etc/privacy.asp">개인정보취급방침</a></li>
-            <li><a href="/etc/catalog.asp">카달로그</a></li>
+            <li><a href="/etc/privacy.asp"><b>개인정보취급방침</b></a></li>
             <li><a href="/etc/sitemap.asp">사이트맵</a></li>
         </ul>
 
