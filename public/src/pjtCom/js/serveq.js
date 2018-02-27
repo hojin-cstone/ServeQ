@@ -16,6 +16,17 @@ $('#footer .family').click(function(){
     $(this).toggleClass('on');
 });
 
+// FOOTER 탑 스크롤
+$(window).scroll(function(){
+    var wScrollTop = $(this).scrollTop();
+
+    if(wScrollTop >1080){
+        $('#footer').addClass('on');
+    }else{
+        $('#footer').removeClass('on');
+    }
+});
+
 // HEADER 검색
 $('#header .menu_search, #search ~ .dimd').click(function(){
     $('#search').toggleClass('on');

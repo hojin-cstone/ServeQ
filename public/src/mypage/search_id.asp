@@ -44,7 +44,7 @@ If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
 								<input type="text" placeholder="이름">
 							</label>
 							<div class="telbox">
-								<span class="tel">전화번호</span>
+								<span class="tel">휴대전화</span>
 								<label class="select type3">
 									<select id="select2">
 										<option>010</option>

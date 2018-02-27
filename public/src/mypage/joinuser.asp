@@ -43,8 +43,8 @@ If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
 							<img src="/pjtCom/images/sub/joinuser.jpg" alt="" />
 						</div>
 						<div class="btnbox">
-							<a href="javascript:void(0)" class="btn_org">로그인</a>
-							<a href="javascript:void(0)" class="btn_naver">NAVER 로그인</a>
+							<a href="javascript:void(0)" class="btn_org">일반 회원가입</a>
+							<a href="javascript:void(0)" class="btn_naver">NAVER 계정 회원가입</a>
 						</div>
 						<span class="joinuser_txt">네이버 계정으로 간편하게 가입하실 수 있습니다.</span>
 					</div>
