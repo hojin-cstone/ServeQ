@@ -151,7 +151,7 @@
 /* agree,joinform,joinfinish common */
 .mypage .step { display:block; margin-top:50px; text-align:center; }
 .mypage .step:after { content:""; display:block; clear:both; }
-.mypage .step li { position:relative; display:inline-block; width:300px; padding-top:109px; color:#807e7e; }
+.mypage .step li { position:relative; display:inline-block; width:270px; padding-top:109px; color:#807e7e; }
 .mypage .step li:before { content:""; position:absolute; left:50%; top:0; margin-left:-45px; display:block; width:91px; height:91px; background:url('/pjtCom/images/sub/agree.png') no-repeat 0 0; }
 .mypage .step li:nth-child(2):before { background-position:-101px 0; }
 .mypage .step li:nth-child(3):before { background-position:-202px 0; }
@@ -165,7 +165,8 @@
 
 /* agree */
 .mypage #contents.agree { background:#fff; }
-.mypage #contents.agree > section { padding-top:106px; padding-bottom:94px; }
+.mypage #contents.agree > section { width:1180px; margin:0 auto; padding:106px 10px 94px; }
+.mypage #contents.agree > section .sub_tit { font-size:40px; font-weight:600; color:#231f20; }
 .mypage .agree .agree_terms { position:relative; overflow:auto; margin:15px auto 0; display:block; width:1060px; height:233px; border:1px solid #e4e4e4; box-sizing:border-box; background:#fff; }
 .mypage .agree .agree_terms .term_inner { padding:40px 40px 40px 26px; font-size:16px; line-height:24px; }
 .mypage .agree .agree_terms .term_inner .agree_tbl { border:1px solid #bfbfbf; }
@@ -174,9 +175,9 @@
 .mypage .agree .agree_terms .term_inner .agree_tbl td { border-left:1px solid #bfbfbf; text-align:center; line-height:24px; padding:5px 0; }
 .mypage .agree .agree_terms .term_inner .agree_tbl td:first-child { border-left:none; }
 .mypage .agree .agree_cont { margin-top:60px; }
-.mypage .agree .agree_tit { margin-top:24px; padding-left:60px; font-size:16px; }
+.mypage .agree .agree_tit { margin-top:24px; padding-left:50px; font-size:16px; }
 .mypage .agree .agree_tit.mgt0 { margin-top:0; }
-.mypage .agree .agree_chk { display:block; margin-top:15px; margin-right:60px; text-align:right; }
+.mypage .agree .agree_chk { display:block; margin-top:15px; margin-right:80px; text-align:right; }
 .mypage .agree .agree_chk.mgt21 { margin-top:-21px; }
 .mypage .agree .btnbox { margin-top:67px; text-align:center; }
 .mypage .agree .btnbox .btn_org { width:190px; }
@@ -184,7 +185,8 @@
 
 /* joinform */
 .mypage #contents.joinform { background:#fff; }
-.mypage #contents.joinform > section { padding-top:106px; padding-bottom:94px; }
+.mypage #contents.joinform > section { width:1180px; margin:0 auto; padding:106px 10px 94px; }
+.mypage #contents.joinform > section .sub_tit { font-size:40px; font-weight:600; color:#231f20; }
 .mypage .joinform .cont { margin-top:55px; padding:80px 130px 93px; border:1px solid #e4e4e4; box-sizing:border-box; }
 .mypage .joinform .cont small { display:inline-block; margin-top:10px; padding-left:15px; font-size:13px; }
 .mypage .joinform .cont small.mgt1 { display:block; margin-top:-1em; margin-left:96px;}
@@ -222,7 +224,8 @@
 
 /* joinfinish */
 .mypage #contents.joinfinish { background:#fff; }
-.mypage #contents.joinfinish > section { padding-top:106px; padding-bottom:94px; }
+.mypage #contents.joinfinish > section { width:1180px; margin:0 auto; padding:106px 10px 94px; }
+.mypage #contents.joinfinish > section .sub_tit { font-size:40px; font-weight:600; color:#231f20; }
 .mypage .joinfinish .cont { margin-top:55px; padding:80px 360px 93px; border:1px solid #e4e4e4; box-sizing:border-box; }
 .mypage .joinfinish .cont strong { display:block; line-height:36px; font-size:30px; font-weight:400; }
 .mypage .joinfinish .cont span { display:block; margin-top:19px; font-size:16px; }

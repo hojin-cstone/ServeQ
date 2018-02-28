@@ -1,8 +1,8 @@
 @charset "utf-8";
 
 /* serveq */
-#contents.serveq section { margin-bottom:153px; padding-top:100px; }
-.serveq .cont { position:relative; padding-left:366px; margin-top:100px; box-sizing:border-box; font-size:22px; color:#231f20; }
+#contents.serveq section { width:1180px; margin:0 auto 153px; padding-top:100px; }
+.serveq .cont { position:relative; padding-left:366px; margin-top:93px; box-sizing:border-box; font-size:22px; color:#231f20; }
 .serveq .cont p { position:relative; top:-3px; }
 .serveq .cont.intro { min-height:220px; }
 .serveq .cont.intro .img_intro { position:absolute; left:0; top:0; width:100px; height:100px; }
@@ -10,6 +10,7 @@
 .serveq .cont.intro p strong { display:block; font-size:22px; font-weight:600; }
 .serveq .cont.intro p span { display:block; margin-top:26px; font-size:16px; }
 .serveq .cont h3 { position:absolute; left:0; top:0; display:block; font-size:30px; font-weight:600; color:#555; }
+.serveq .cont.identity { margin-top:95px; }
 .serveq .cont.identity p { top:-5px; font-size:22px; line-height:32px; }
 .serveq .cont.identity dl { margin-top:27px; }
 .serveq .cont.identity dl.dlf { margin-top:39px; }
@@ -30,16 +31,18 @@
 .serveq .cont.motif ul { display:block; width:100%; height:212px; margin-top:15px; background:url('/pjtCom/images/sub/brand_motif.jpg') no-repeat 0 0; }
 .serveq .cont.motif ul li { display:none; }
 
+/* business common */
+#contents.business > section { width:1180px; padding-top:103px; margin:0 auto; }
+#contents.business > section >.txt { margin-top:13px; font-size:14px; line-height:24px; }
+
 /* business_circulation */
-.business .circulation {  }
 .business .circulation .cont { margin-top:180px; }
 .business .circulation .cont h3 { font-size:30px; text-align:center; }
-.business .circulation .cont p { margin-top:12px; font-size:14px; line-height:24px; text-align:center; }
+.business .circulation .cont p { margin-top:13px; font-size:14px; line-height:24px; text-align:center; }
 .business .circulation .cont.circu { display:block; width:712px; height:534px; margin:60px auto 0; background:url('/pjtCom/images/sub/circulation_circu.jpg') no-repeat 0 0; }
 .business .circulation .cont.circu ul { display:none; }
 .business .circulation .cont.food > div { width:656px; height:440px; margin:34px auto 0; background:url('/pjtCom/images/sub/circulation_food.jpg') no-repeat 0 0; }
 .business .circulation .cont.food ul { display:none; }
-
 .business .circulation .cont.sourcing h3 span { font-weight:400; }
 .business .circulation .cont.sourcing ul { margin-top:36px; }
 .business .circulation .cont.sourcing ul:after { content:""; display:block; clear:both; }
@@ -52,7 +55,6 @@
 .business .circulation .cont.sourcing ul li strong { display:block; margin-top:32px; font-size:22px; line-height:18px; text-align:center; }
 .business .circulation .cont.sourcing ul li strong span { font-size:14px; }
 .business .circulation .cont.sourcing ul li > span { display:block; margin-top:11px; text-align:center; line-height:26px; letter-spacing:-0.04em; }
-
 .business .circulation .cont.solution { margin-top:138px; }
 .business .circulation .cont.solution ul { margin-top:38px; }
 .business .circulation .cont.solution ul:after { content:""; display:block; clear:both; }
@@ -61,20 +63,76 @@
 .business .circulation .cont.solution ul li strong { display:block; margin-top:32px; font-size:22px; line-height:18px; text-align:center; }
 .business .circulation .cont.solution ul li strong span { font-size:14px; }
 .business .circulation .cont.solution ul li > span { display:block; margin-top:13px; text-align:center; line-height:26px; letter-spacing:-0.04em; }
-
 .business .circulation .cont.customer { margin-top:100px; }
 .business .circulation .cont.customer span,
 .business .circulation .cont.customer ul { display:none; }
 .business .circulation .cont.customer h3,
 .business .circulation .cont.customer p { margin-top:23px; margin-left:-10px; }
 .business .circulation .cont.customer { position:relative; left:10px; height:344px; background:url('/pjtCom/images/sub/circulation_customer.jpg') no-repeat 0 0; }
-
 .business .circulation .cont.hygiene { margin-top:120px; }
 .business .circulation .cont.hygiene ul { margin:40px 0 100px; }
 .business .circulation .cont.hygiene ul:after { content:""; display:block; clear:both; }
-.business .circulation .cont.hygiene ul li { float:left; width:288px; height:438px; margin-left:5px; }
+.business .circulation .cont.hygiene ul li { float:left; width:288px; height:438px; margin-left:8px; }
 .business .circulation .cont.hygiene ul li:first-child { margin-left:0; }
 .business .circulation .cont.hygiene ul li strong { position:relative; display:block; margin-top:49px; font-size:22px; line-height:18px; text-align:center; }
 .business .circulation .cont.hygiene ul li strong:before { content:""; position:absolute; left:50%; top:-19px; transform:translate(-50%,0); display:block; width:25px; height:3px; background:#ee3124; }
 .business .circulation .cont.hygiene ul li strong span { font-size:14px; }
 .business .circulation .cont.hygiene ul li > span { display:block; margin-top:16px; text-align:center; line-height:26px; letter-spacing:-0.04em; }
+
+/* business_material */
+#contents.business > section.material { margin-bottom:120px; }
+.business .material .cont { position:relative; padding-left:364px; box-sizing:border-box; }
+.business .material .cont h3 { position:absolute; left:0; top:0; font-size:30px; }
+.business .material .cont p { position:relative; top:-5px; font-size:14px; line-height:24px; letter-spacing:-0.025em; }
+.business .material .cont > div { margin-top:7px; }
+.business .material .cont.sugar { margin-top:98px; }
+.business .material .cont.milling { margin-top:75px; }
+.business .material .cont.oil { margin-top:75px; }
+.business .material .cont.starch { margin-top:115px; }
+.business .material .cont.brand { margin-top:80px; }
+.business .material .cont.brand strong { font-size:22px; color:#231f20; }
+
+/* business_consum */
+#contents.business > section.consumption { margin-bottom:80px; }
+#contents.business > section.consumption .txt { margin-top:10px; }
+.business .consumption .cont ul { margin-top:35px; }
+.business .consumption .cont ul:after { content:""; display:block; clear:both; }
+.business .consumption .cont ul li { float:left; width:388px; height:325px; margin-left:8px; text-align:center; }
+.business .consumption .cont ul li:nth-child(1),
+.business .consumption .cont ul li:nth-child(4) { margin-left:0; }
+.business .consumption .cont ul li strong { display:block; margin-top:30px; font-size:22px; color:#231f20; text-align:center; }
+.business .consumption .cont ul li a { position:relative; display:inline-block; margin-top:15px; padding-right:16px; font-size:14px; line-height:24px; }
+.business .consumption .cont ul li a:after { content:""; position:absolute; right:0; top:50%; transform:translate(0,-50%); display:block; width:7px; height:11px; background:url('/pjtCom/images/common/form_icon.png') no-repeat -42px -105px; }
+
+/* business_office */
+#contents.business > section.office { margin-bottom:120px; }
+.business .office .btnbox { width:400px; height:50px; margin:54px auto 0; }
+.business .office .btnbox:after { content:""; display:block; clear:both; }
+.business .office .btnbox .btn_tab { float:left; display:block; width:50%; height:50px; line-height:50px; font-size:16px; color:#949494; border:1px solid #949494; box-sizing:border-box; }
+.business .office .btnbox .btn_tab.on { background:#ce462d; border:none; color:#fff; }
+.business .office .cont { margin-top:40px; }
+.business .office .cont:after { content:""; display:block; clear:both; }
+.business .office .info { float:left; width:360px; height:400px; }
+.business .office .info:after { content:""; display:block; clear:both; }
+.business .office .map { float:left; width:790px; height:400px; margin-left:30px; overflow:hidden; }
+.business .office .map [id^="daumRoughmapContainer"] { margin-left:-30px; }
+.business .office .map_wrap { margin-top:40px; }
+.business .office .map_wrap:after { content:""; display:block; clear:both; }
+.business .office .tabbox.op0 .sales,
+.business .office .tabbox.op1 .factory { position:relative; z-index:-1; height:0; overflow:hidden; opacity:0; margin-top:0; }
+.business .office .factory .map_wrap:first-child { margin-top:0; }
+.business .office .factory h3 { margin-top:32px; font-size:22px; font-weight:600; }
+.business .office .factory dl { float:left; width:50%; margin-top:12px; }
+.business .office .factory dl.w100 { width:100%; margin-top:20px; }
+.business .office .factory dl:after { content:""; display:block; clear:both; }
+.business .office .factory dt,
+.business .office .factory dd { width:100%; font-size:14px; line-height:24px; }
+.business .office .factory dt { font-weight:600; }
+.business .office .sales .info { position:relative; height:320px; padding:16px 0 0 127px; box-sizing:border-box; }
+.business .office .sales .info h3 { position:absolute; left:0; top:0; padding-top:16px; font-size:22px; font-weight:600; }
+.business .office .sales .info h3:before { content:""; position:absolute; left:0; top:0; display:block; width:25px; height:3px; background:#ee3124; }
+.business .office .sales .info dl { font-size:14px; line-height:24px; }
+.business .office .sales .info dt { font-weight:600; }
+.business .office .sales .info dl.w100 { margin-top:-5px; }
+.business .office .sales .info dl:last-child { margin-top:10px; }
+.business .office .sales .map { height:320px; }

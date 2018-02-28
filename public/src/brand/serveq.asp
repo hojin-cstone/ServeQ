@@ -9,9 +9,9 @@ path2tit="사업소개"
 path3tit="서브큐소개"
 description = "ServeQ "
 If path3tit = "" Then description=description+path2tit Else description=description+path3tit End If
-titImg = "brand"
+titImg = ""
 If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
-pageTit = ""
+pageTit = "서브큐소개"
 If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 %>
 
@@ -46,7 +46,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 			<!-- // path -->
 
 			<section class="<%= path3dir %>">
-				<h1 class="tit"><%= path3tit %></h1>
+				<h2 class="tit"><%= pageTit %></h2>
 				<div class="cont intro">
 					<span class="img_intro">
 						<img src="/pjtCom/images/sub/brand_intro.jpg" alt="" />
@@ -69,14 +69,14 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 						<dd>가독성을 고려한 대소문자의 조합으로  ‘Q’부분에 디자인 컨셉을 집약적으로 표현하여, 식자재 유통 브랜드의 Look & Feel이 반영이 되었습니다.</dd>
 					</dl>
 					<div class="img_slogan">
-						<img src="/pjtCom/images/sub/brand_slogan.jpg" alt="" />
+						<img src="/pjtCom/images/sub/brand_slogan.jpg" alt="Brand Identity 슬로건 조합형" />
 					</div>
 					<dl class="dlf">
 						<dt>프레임형</dt>
 						<dd>‘ServeQ’ 브랜드 로고를 활용하는데 있어 아이템에 따른 적용을 용이하게 하기 위하여 임팩트 효과를 고려한 프레임 타입의 로고가 개발 되었습니다. 박스나 개별 패키지에 활용할 수 있습니다.</dd>
 					</dl>
 					<div class="img_frame">
-						<img src="/pjtCom/images/sub/brand_frame.jpg" alt="" />
+						<img src="/pjtCom/images/sub/brand_frame.jpg" alt="Brand Identity 프레임형" />
 					</div>
 				</div>
 				<div class="cont color">

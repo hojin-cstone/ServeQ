@@ -11,7 +11,7 @@ description="ServeQ"
 If path3tit = "" Then description=description+path2tit Else description=description+path3tit End If
 titImg = ""
 If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
-pageTit = ""
+pageTit = "서브큐소개"
 If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 %>
 
@@ -46,7 +46,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 			<!-- // path -->
 
 			<section class="<%= path3dir %>">
-				<h1 class="tit"><%= path3tit %></h1>
+				<h2 class="tit"><%= pageTit %></h2>
 				<p class="txt">
 					삼양사는 베이커리 및 레스토랑 고객을 대상으로 하는 푸드서비스 사업으로 사업영역을 확대하였습니다.<br />
 					설탕, 밀가루, 유지 등 기존 소재 제품을 기반으로 하여 다양한 상품을 One Stop으로 제공하여 고객의 성공을 지원하는<br />
@@ -98,7 +98,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 					</p>
 					<ul>
 						<li>
-							<img src="/pjtCom/images/sub/circulation_sourcing01.jpg" alt="" />
+							<div><img src="/pjtCom/images/sub/circulation_sourcing01.jpg" alt="CSM LOGO" /></div>
 							<strong>
 								CSM<br />
 								<span>미국</span>
@@ -109,7 +109,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							</span>
 						</li>
 						<li>
-							<img src="/pjtCom/images/sub/circulation_sourcing02.jpg" alt="" />
+							<div><img src="/pjtCom/images/sub/circulation_sourcing02.jpg" alt="Fonterra LOGO" /></div>
 							<strong>
 								Fonterra<br />
 								<span>뉴질랜드</span>
@@ -120,7 +120,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							</span>
 						</li>
 						<li>
-							<img src="/pjtCom/images/sub/circulation_sourcing03.jpg" alt="" />
+							<div><img src="/pjtCom/images/sub/circulation_sourcing03.jpg" alt="MUTTI LOGO" /></div>
 							<strong>
 								MUTTI<br />
 								<span>이탈리아</span>
@@ -131,7 +131,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							</span>
 						</li>
 						<li>
-							<img src="/pjtCom/images/sub/circulation_sourcing04.jpg" alt="" />
+							<div><img src="/pjtCom/images/sub/circulation_sourcing04.jpg" alt="ANTONIOMATO LOGO" /></div>
 							<strong>
 								ANTONIOMATO<br />
 								<span>이탈리아</span>
@@ -140,9 +140,8 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 								수정
 							</span>
 						</li>
-
 						<li class="royal">
-							<img src="/pjtCom/images/sub/circulation_sourcing05.jpg" alt="" />
+							<div><img src="/pjtCom/images/sub/circulation_sourcing05.jpg" alt="Royal Steensma LOGO" /></div>
 							<strong>
 								Royal Steensma<br />
 								<span>네덜란드</span>
@@ -153,7 +152,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							</span>
 						</li>
 						<li>
-							<img src="/pjtCom/images/sub/circulation_sourcing06.jpg" alt="" />
+							<div><img src="/pjtCom/images/sub/circulation_sourcing06.jpg" alt="CEMOI LOGO" /></div>
 							<strong>
 								CEMOI<br />
 								<span>프랑스</span>
@@ -164,7 +163,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							</span>
 						</li>
 						<li>
-							<img src="/pjtCom/images/sub/circulation_sourcing07.jpg" alt="" />
+							<div><img src="/pjtCom/images/sub/circulation_sourcing07.jpg" alt="Coup de pates LOGO" /></div>
 							<strong>
 								Coup de pates<br />
 								<span>프랑스</span>
@@ -184,7 +183,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 					</p>
 					<ul>
 						<li>
-							<img src="/pjtCom/images/sub/circulation_solution01.jpg" alt="" />
+							<div><img src="/pjtCom/images/sub/circulation_solution01.jpg" alt="핵심상품 직접 제조" /></div>
 							<strong>핵심상품 직접 제조</strong>
 							<span>
 								고객이 원하는 식자재의 원활한 공급을 위해 핵심 식자재<br />
@@ -192,7 +191,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							</span>
 						</li>
 						<li>
-							<img src="/pjtCom/images/sub/circulation_solution02.jpg" alt="" />
+							<div><img src="/pjtCom/images/sub/circulation_solution02.jpg" alt="식품연구소 운영" /></div>
 							<strong>식품연구소 운영</strong>
 							<span>
 								꾸준히 식품연구 및 고객의 상황에 맞는<br />
@@ -200,7 +199,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							</span>
 						</li>
 						<li>
-							<img src="/pjtCom/images/sub/circulation_solution03.jpg" alt="" />
+							<div><img src="/pjtCom/images/sub/circulation_solution03.jpg" alt="수준 높은 전문가 서비스" /></div>
 							<strong>수준 높은 전문가 서비스</strong>
 							<span>
 								전문 인력을 확보하여 고객에게<br />
@@ -228,7 +227,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 					<h3>식품위생관리</h3>
 					<ul>
 						<li>
-							<img src="/pjtCom/images/sub/circulation_hygiene01.jpg" alt="" />
+							<div><img src="/pjtCom/images/sub/circulation_hygiene01.jpg" alt="식품안전 점검" /></div>
 							<strong>식품안전 점검</strong>
 							<span>
 								엄격한 Audit을 통한 믿을 수 있는<br />
@@ -236,7 +235,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							</span>
 						</li>
 						<li>
-							<img src="/pjtCom/images/sub/circulation_hygiene02.jpg" alt="" />
+							<div><img src="/pjtCom/images/sub/circulation_hygiene02.jpg" alt="안심 먹거리" /></div>
 							<strong>안심 먹거리</strong>
 							<span>
 								금속검출기, 엑스레이 등을 통한<br />
@@ -244,7 +243,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							</span>
 						</li>
 						<li>
-							<img src="/pjtCom/images/sub/circulation_hygiene03.jpg" alt="" />
+							<div><img src="/pjtCom/images/sub/circulation_hygiene03.jpg" alt="정확한 상품정보" /></div>
 							<strong>정확한 상품정보</strong>
 							<span>
 								원산지, 알레르기 물질 함유 여부 등<br />
@@ -252,7 +251,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							</span>
 						</li>
 						<li>
-							<img src="/pjtCom/images/sub/circulation_hygiene04.jpg" alt="" />
+							<div><img src="/pjtCom/images/sub/circulation_hygiene04.jpg" alt="종합식품 안전관리" /></div>
 							<strong>종합식품 안전관리</strong>
 							<span>
 								정기적인 위생점검 및 제조, 물류, 운송에<br />
