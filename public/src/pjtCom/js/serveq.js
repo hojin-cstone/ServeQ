@@ -21,12 +21,22 @@ $('#header .menu_search, #search ~ .dimd').click(function(){
     $('#search').toggleClass('on');
 });
 
+//
+$('a[href="#"]').click(function(e){
+    e.preventDefault();
+});
+
 // SELECT
 $('select').selectmenu();
 
 // 말줄임처리
 fn.ellipsis('.ellipsis');
 
+// 탭메뉴
+$('.tab_menu a').click(function(e){
+    fn.tabMenu(this);
+    e.preventDefault();
+});
 
 $(window).scroll(function(){
     var wScrollTop = $(this).scrollTop();
@@ -48,12 +58,48 @@ $(window).scroll(function(){
 });
 
 
+/* MAIN */
+if ($('body').hasClass('main')) {
 
-/* PAGE */
-var page = $('body, #wrap').attr('class');
+}
 
-switch (page) {
-    case 'main' :
+/* SUB */
+var path1 = $('#wrap').attr('class'),
+    path2 = $('#contents').attr('class');
+
+switch (path1) {
+    case 'service' :
+
+        switch (path2) {
+            case 'recipe' :
+                // 슬라이드
+                fn.slide('.product_area',{
+                    btnPrev : '.btn_prev',
+                    btnNext : '.btn_next',
+                    margin : '71px'
+                });
+
+                var infoAreaImg = $('.info_area .img').clone();
+            	var infoAreaTit = $('.info_area .tit').clone();
+            	var tabContents = $('.tab_contents').clone();
+            	var useArea = $('.use_area').clone();
+
+            	$('.btn_print').click(function(){
+                    $('#header, #wrap, #footer, .btn_print').addClass('no_print');
+            		$('.print_contents').empty();
+                    $('.print_contents').append('<div class="info_area"></div>');
+                    $('.print_contents div').append(infoAreaTit, infoAreaImg);
+            		$('.print_contents').append(tabContents, useArea);
+            		$('.print_contents .product_area button').remove();
+            		$('#print').addClass('show');
+            	});
+
+            	$('#print .btn_close').click(function(){
+                    $('#header, #wrap, #footer, .btn_print').removeClass('no_print');
+            		$('#print').removeClass('show');
+            	});
+            break;
+        }
 
     break;
 }

@@ -50,7 +50,7 @@
 
 					<ul class="service">
 						<li><a href="/service/about.asp">고객지원 안내</a></li>
-						<li><a href="/service/recipe_list_western.asp">셰프 레시피</a></li>
+						<li><a href="/service/recipe.asp">셰프 레시피</a></li>
 						<li><a href="/service/calculator.asp">메뉴 원가계산기</a></li>
 						<li><a href="/service/seminar_list_cooking.asp">서브큐 세미나</a></li>
 						<li><a href="/service/form_list_pop.asp">서식창고</a></li>

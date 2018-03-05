@@ -73,7 +73,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 					<p class="txt3">보다 일반적인 단어로 검색해 주세요.</p>
 				</div>
 
-				<ul class="menu_area">
+				<ul class="menu_list">
 					<li><a href="#" class="now">전체</a></li><!-- 현재 페이지에서 class="now" -->
 					<li><a href="#">에피타이저</a></li>
 					<li><a href="#">샐러드 스프</a></li>
@@ -93,7 +93,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 						<ul class="result_list">
 							<!-- 반복영역 // -->
 							<li>
-								<a href="#">
+								<a href="/service/recipe_view_western.asp">
 									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="">
 									<p class="sort">피자</p>
 									<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
@@ -102,7 +102,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							<!-- // 반복영역 -->
 
 							<li>
-								<a href="#">
+								<a href="/service/recipe_view_western.asp">
 									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="">
 									<p class="sort">에피타이저</p>
 									<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타 무띠 피자소스로 만든 푸실리 파스타</p>
@@ -110,7 +110,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							</li>
 
 							<li>
-								<a href="#">
+								<a href="/service/recipe_view_western.asp">
 									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="">
 									<p class="sort">기타</p>
 									<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
@@ -118,7 +118,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							</li>
 
 							<li>
-								<a href="#">
+								<a href="/service/recipe_view_western.asp">
 									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="">
 									<p class="sort">파스타/누들</p>
 									<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
@@ -126,7 +126,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							</li>
 
 							<li>
-								<a href="#">
+								<a href="/service/recipe_view_western.asp">
 									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="">
 									<p class="sort">피자</p>
 									<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
@@ -134,7 +134,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							</li>
 
 							<li>
-								<a href="#">
+								<a href="/service/recipe_view_western.asp">
 									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="">
 									<p class="sort">피자</p>
 									<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
@@ -142,7 +142,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							</li>
 
 							<li>
-								<a href="#">
+								<a href="/service/recipe_view_western.asp">
 									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="">
 									<p class="sort">피자</p>
 									<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
@@ -150,7 +150,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							</li>
 
 							<li>
-								<a href="#">
+								<a href="/service/recipe_view_western.asp">
 									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="">
 									<p class="sort">피자</p>
 									<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>

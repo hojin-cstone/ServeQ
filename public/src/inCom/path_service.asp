@@ -6,7 +6,8 @@
 		<% If path2dir = "about" Then %>
 			<a href="/service/about.asp" class="path2"><%= path2tit %></a>
 		<% ElseIf path2dir = "recipe" Then %>
-			<a href="/service/recipe_list_western.asp" class="path2"><%= path2tit %></a>
+			<a href="/service/recipe.asp" class="path2"><%= path2tit %></a>
+			<% If path3dir <> "" Then %>
 			<div class="path3">
 				<span><%= path3tit %></span>
 				<ul class="path3_list">
@@ -16,6 +17,7 @@
 					<li <% If path3dir = "counsel" Then %>class="hide"<% End If %>><a href="/service/recipe_counsel.asp">셰프 1:1 상담</a></li>
 				</ul>
 			</div>
+			<% End If %>
 		<% ElseIf path2dir = "calculator" Then %>
 			<a href="/service/calculator.asp" class="path2"><%= path2tit %></a>
 		<% ElseIf path2dir = "seminar" Then %>

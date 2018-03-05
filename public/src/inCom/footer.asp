@@ -1,7 +1,7 @@
 <hr />
 
 <footer id="footer">
-    <a href="#" class="btn_top">상단으로</a>
+    <a href="#header" class="btn_top">상단으로</a>
 
     <div class="inner">
         <ul class="menu">

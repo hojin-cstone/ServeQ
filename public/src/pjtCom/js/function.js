@@ -46,7 +46,7 @@ var fn = (function() {
         },
 
         // 말줄임 처리
-        ellipsis: function(obj) {
+        ellipsis : function(obj) {
             $(obj).each(function() {
                 var obj = $(this),
                     tempTxt = obj.text(),
@@ -75,5 +75,44 @@ var fn = (function() {
                 obj.text(ellipsisTxt);
             });
         },
+
+        // 탭메뉴
+        tabMenu : function(obj){
+            var $obj = $(obj),
+                objHref = obj.attributes.href.value;
+
+            if (objHref.indexOf('#') != -1) {
+                $('.tab_menu a').removeClass('on');
+    			$obj.addClass('on');
+
+    			$('.tab_contents').removeClass('show');
+    			$(objHref).addClass('show');
+            }
+        },
+
+        // 슬라이드
+        slide : function(obj, option){
+            var $obj = $(obj),
+                $objInner = $obj.children('.inner'),
+                $objMain = $obj.children('.inner').children(),
+                $btnPrev = $(option.btnPrev),
+                $btnNext = $(option.btnNext),
+                optionMargin = parseInt(option.margin);
+
+            var listWidth = $obj.find('li').length * ($obj.find('li').width() + optionMargin) - optionMargin;
+
+        	$objMain.css({'width':listWidth});
+
+        	$btnNext.click(function(){
+        		if (!$objMain.is(':animated') && parseInt($objMain.css('left')) > $objInner.width() - $objMain.width()) {
+        			$objMain.animate({'left':'-=' + ($obj.find('li').width() + optionMargin)}, 500);
+        		}
+        	});
+            $btnPrev.click(function(){
+        		if (!$objMain.is(':animated') && parseInt($objMain.css('left')) !== 0 ) {
+        			$objMain.animate({'left':'+=' + ($obj.find('li').width() + optionMargin)}, 500);
+        		}
+        	});
+        }
     }
 })();
