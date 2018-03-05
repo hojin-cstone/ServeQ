@@ -76,6 +76,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 
 							<div class="btn_area">
 								<a href="\service\calculator.asp" class="btn_calculator">원가계산기</a>
+								<p class="txt">해당 레시피의 원가를 계산해보세요.</p>
 								<a href="\service\recipe_counsel.asp" class="btn_counsel">셰프 1:1상담</a>
 							</div>
 						</div>

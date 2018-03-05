@@ -49,19 +49,24 @@
 
 /* 레시피 상세 */
 .recipe .view_area { position:relative; width:1180px; margin:55px auto 0; padding:77px 0 130px; border-top:1px solid #221e1f; overflow:hidden; }
-.recipe .view_area .info_area { overflow:hidden; }
+.recipe .view_area .info_area:after { content:""; display:block; clear:both; }
 .recipe .view_area .info_area .img { float:left; width:521px; height:521px; margin-left:2px; border-radius:100%; overflow:hidden; }
-.recipe .view_area .txt_area { float:left; margin-left:145px; padding:23px 0 0; }
+.recipe .view_area .txt_area { float:left; width:454px; margin-left:145px; padding:23px 0 0; }
 .recipe .view_area .txt_area .sort { display:inline-block; height:27px; font-size:16px; text-align:center; line-height:27px; padding:0 17px; border:1px solid #bbb; }
 .recipe .view_area .txt_area .tit { height:125px; font-weight:400; font-size:44px; color:#231f20; margin:32px 0 0; }
-.recipe .view_area .txt_area .txt { height:77px; font-size:16px; color:#555; }
-.recipe .view_area .txt_area .hash_list { width:300px; height:150px; margin:-10px 0 0 -8px; overflow:hidden; }
+.recipe .view_area .txt_area > .txt { height:77px; font-size:16px; color:#555; }
+.recipe .view_area .txt_area .hash_list { height:150px; margin:-10px 0 0 -8px; overflow:hidden; }
 .recipe .view_area .txt_area .hash_list li { float:left; margin:10px 0 0 8px; }
 .recipe .view_area .txt_area .hash_list li a { display:inline-block; height:27px; font-size:16px; line-height:27px; color:#231f20; padding:0 9px; background:#f5f4f2; }
 .recipe .view_area .txt_area .btn_area [class^="btn"] { width:210px; height:60px; font-size:18px; margin-left:10px; }
+.recipe .view_area .txt_area .btn_area [class^="btn"]:before { content:""; display:inline-block; width:24px; height:30px; vertical-align:middle; margin-right:15px; background:url(/pjtCom/images/sub/icon_recipe_btn.png) no-repeat 0 0; }
 .recipe .view_area .txt_area .btn_area [class^="btn"]:first-child { margin-left:0; }
 .recipe .view_area .txt_area .btn_area .btn_calculator { color:#fff; background:#d3472d; }
 .recipe .view_area .txt_area .btn_area .btn_counsel { color:#231f20; background:#e5e5e5; }
+.recipe .view_area .txt_area .btn_area .btn_calculator:before { background-position:0 0; }
+.recipe .view_area .txt_area .btn_area .btn_counsel:before { background-position:-29px 0; }
+.recipe .view_area .txt_area .btn_area .txt { position:absolute; top:77px; left:0; font-size:14px; line-height:23px; color:#949494; }
+.recipe .view_area .txt_area .btn_area .txt:before { content:""; display:inline-block; width:23px; height:23px; vertical-align:middle; margin-right:8px; background:url(/pjtCom/images/sub/icon_recipe.png) no-repeat 0 0; }
 .recipe .view_area .share_list { position:absolute; top:14px ; left:0; }
 .recipe .view_area .share_list li { float:left; margin-left:6px; }
 .recipe .view_area .share_list li:first-child { margin-left:0; }

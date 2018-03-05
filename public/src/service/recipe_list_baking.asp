@@ -77,10 +77,12 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 				<!-- 검색결과 없을때 // -->
 				<div class="no_data">
 					<img src="/pjtCom/images/common/no_data.png" alt="">
-					<p class="txt2">검색결과가 없습니다.</p>
+					<p class="txt1">검색결과가 없습니다.</p>
 
-					<p class="txt3">입력하신 단어가 정확한지 확인해 주세요.</p>
-					<p class="txt3">보다 일반적인 단어로 검색해 주세요.</p>
+					<ul class="txt2_list">
+						<li class="txt2">입력하신 단어가 정확한지 확인해 주세요.</li>
+						<li class="txt2">보다 일반적인 단어로 검색해 주세요.</li>
+					</ul>
 				</div>
 				<!-- // 검색결과 없을때 -->
 

@@ -143,9 +143,10 @@ input[type=radio]:checked + label:before { background-position:-36px -30px; }
 .search_area .btn_search:after { content:""; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:25px; height:25px; background:url(/pjtCom/images/common/form_icon.png) no-repeat 0 -118px; }
 .search_txt { font-size:20px; text-align:center; margin-top:15px; }
 .no_data { text-align:center; margin:30px 0 85px; }
-.no_data .txt2 { font-weight:bold; font-size:22px; margin:15px 0 50px; }
-.no_data .txt3 { font-size:16px; line-height:24px; color:#000; }
-.no_data .txt3:before { content:"-"; display:inline-block; }
+.no_data .txt1 { font-weight:bold; font-size:22px; margin:15px 0 50px; }
+.no_data .txt2_list { display:inline-block; text-align:left; }
+.no_data .txt2 { font-size:16px; line-height:24px; color:#000; }
+.no_data .txt2:before { content:"-"; display:inline-block; }
 
 /**
 * header
