@@ -22,19 +22,15 @@
 
 
 /* 레시피 리스트 */
-.recipe .search_area { width:1280px; margin:5px auto 0; padding:0 50px; overflow:hidden; box-sizing:border-box; }
-.recipe .search_area .inner { float:right; position:relative; width:342px; }
-.recipe .search_area input {  }
-.recipe .search_area .btn_search { position:absolute; top:1px; right:1px; width:45px; height:45px; text-indent:-9999px; }
-.recipe .search_area .btn_search:after { content:""; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:25px; height:25px; background:url(/pjtCom/images/common/form_icon.png) no-repeat 0 -118px; }
-.recipe .menu_list { width:835px; text-align:center; margin:50px auto 30px; overflow:hidden; }
-.recipe .menu_list li { display:inline-block; position:relative; line-height:36px; }
-.recipe .menu_list li:before { content:""; display:inline-block; width:1px; height:15px; vertical-align:middle; margin:-2px 32px 0; background:#e4e4e4 }
-.recipe .menu_list li:first-child:before { display:none; }
-.recipe .menu_list li:nth-child(2):before { background:none; }
-.recipe .menu_list a { font-size:20px; color:#231f20; }
-.recipe .menu_list .now { font-weight:600; }
-.recipe .result_area { background:#f6f6f6; }
+.recipe .sort_list { width:835px; text-align:center; margin:50px auto 30px; overflow:hidden; }
+.recipe .sort_list li { display:inline-block; position:relative; line-height:36px; }
+.recipe .sort_list li:before { content:""; display:inline-block; width:1px; height:15px; vertical-align:middle; margin:-2px 32px 0; background:#e4e4e4 }
+.recipe .sort_list li:first-child:before { display:none; }
+.recipe .sort_list li:nth-child(2):before { background:none; }
+.recipe .sort_list a { font-size:20px; color:#231f20; }
+.recipe .sort_list .now { font-weight:600; }
+.recipe .result_area { margin-top:70px; background:#f6f6f6; }
+.recipe .sort_list + .result_area { margin-top:0; }
 .recipe .result_area .inner { width:1180px; margin:0 auto; padding:34px 0 107px; }
 .recipe .result_area .result { display:block; color:#555; margin-bottom:15px; }
 .recipe .result_area .result_list { overflow:hidden; }
@@ -49,11 +45,6 @@
 .recipe .result_area .result_list .sort { font-size:14px; line-height:27px; color:#e19d3b; margin-top:36px; }
 .recipe .result_area .result_list .name { height:48px; font-size:18px; line-height:24px; color:#231f20; }
 .recipe .result_area .paging { margin-top:96px; }
-.recipe .no_data { text-align:center; margin:10px 0 85px; }
-.recipe .no_data .txt1 { font-size:20px; margin-bottom:30px; }
-.recipe .no_data .txt2 { font-weight:bold; font-size:22px; margin:15px 0 50px; }
-.recipe .no_data .txt3 { font-size:16px; line-height:24px; color:#000; }
-.recipe .no_data .txt3:before { content:"-"; display:inline-block; }
 
 
 /* 레시피 상세 */
@@ -88,8 +79,6 @@
 .recipe .view_area .tab_menu a { display:inline-block; position:relative; height:50px; font-size:24px; line-height:50px; color:#555555; padding:0 10px; }
 .recipe .view_area .tab_menu a.on { font-weight:600; color:#231f20; }
 .recipe .view_area .tab_menu a.on:after { content:""; position:absolute; bottom:0; left:0; width:100%; height:4px; background:#d0442b; }
-.recipe .view_area .tab_contents { display:none; }
-.recipe .view_area .tab_contents.show { display:block; }
 .recipe .view_area .ingredient table { font-family:'Malgun Gothic', sans-serif; }
 .recipe .view_area .ingredient table th { height:39px; font-weight:normal; text-align:left; color:#81674a; padding-left:70px; background:#f5f4f2; }
 .recipe .view_area .ingredient table th:first-child { text-align:center; padding-left:0; }

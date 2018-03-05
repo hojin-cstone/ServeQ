@@ -1,0 +1,41 @@
+/**
+* --------------------------------
+* form CSS
+* --------------------------------
+*/
+
+/* 서식창고 리스트 */
+.form .btn_info { position:absolute; bottom:-39px; left:10px; height:22px; line-height:22px; background:none; }
+.form .btn_info:before { content:""; display:inline-block; width:22px; height:22px; vertical-align:top; margin-right:8px; background:url(/pjtCom/images/sub/icon_form.png) no-repeat 0 0; }
+.form .month_area { background:#f6f6f6; }
+.form .month_area .inner { width:1180px; margin:0 auto; padding:38px 0; }
+.form .month_area .result_list { margin-top:34px; }
+.form .month_area .result_list:after { content:""; display:block; clear:both; }
+.form .month_area .result_list li { float:left; margin-left:20px; }
+.form .month_area .result_list li:first-child { margin-left:0; }
+.form .month_area .result_list a { display:block; position:relative; width:280px; height:423px; text-align:center; padding:52px 58px 49px;  border:1px solid #e4e4e4; background:#fff; box-sizing:border-box; }
+.form .month_area .result_list .name { height:48px; font-size:18px; line-height:24px; color:#231f20; margin-top:32px; }
+.form .month_area .result_list .state { position:absolute; z-index:1; top:-6px; right:20px; width:80px; height:40px; font-size:16px; text-align:center; color:#fff; overflow:hidden; }
+.form .month_area .result_list .state:before { content:""; position:absolute; z-index:-1; bottom:0; left:0; width:80px; height:80px; border-radius:100%; }
+.form .month_area .result_list .state.best:before { background:#ee3023; }
+.form .month_area .result_list .state.new:before { background:#fdba13; }
+.form .month_area .result_list .state:after { content:""; display:inline-block; height:100%; vertical-align:middle; }
+.form .result_area { margin-top:70px; background:#fff; }
+.form .month_area + .result_area { margin-top:0; }
+.form .result_area .inner { width:1180px; margin:0 auto; padding:34px 0 107px; }
+.form .result_area .result { display:block; color:#555; margin-bottom:15px; }
+.form .result_area .result_list:after { content:""; display:block; clear:both; }
+.form .result_area .result_list li { float:left; margin:20px 0 0 20px; }
+.form .result_area .result_list li:nth-child(1),
+.form .result_area .result_list li:nth-child(2),
+.form .result_area .result_list li:nth-child(3),
+.form .result_area .result_list li:nth-child(4) { margin-top:0; }
+.form .result_area .result_list li:nth-child(4n+1) { margin-left:0; }
+.form .result_area .result_list a { display:block; position:relative; width:280px; height:423px; text-align:center; padding:52px 58px 49px;  border:1px solid #e4e4e4; background:#fff; box-sizing:border-box; }
+.form .result_area .result_list .name { height:48px; font-size:18px; line-height:24px; color:#231f20; margin-top:32px; }
+.form .result_area .result_list .state { position:absolute; z-index:1; top:-6px; right:20px; width:80px; height:40px; font-size:16px; text-align:center; color:#fff; overflow:hidden; }
+.form .result_area .result_list .state:before { content:""; position:absolute; z-index:-1; bottom:0; left:0; width:80px; height:80px; border-radius:100%; }
+.form .result_area .result_list .state.best:before { background:#ee3023; }
+.form .result_area .result_list .state.new:before { background:#fdba13; }
+.form .result_area .result_list .state:after { content:""; display:inline-block; height:100%; vertical-align:middle; }
+.form .result_area .paging { margin-top:96px; }

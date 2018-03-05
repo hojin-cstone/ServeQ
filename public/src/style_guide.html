@@ -14,7 +14,7 @@
 
 	<style>
 		.htmlprocess_tit { width:1280px; font-size:13px; background:#000; color:#fff; margin:0 auto; font-weight:bold; padding:5px 10px; box-sizing:border-box; font-family:Dotum,"돋움"; }
-		.guide_wrap { width:98%; margin:0 auto; padding:10px 0 20px !important; }
+		.guide_wrap { width:1280px; margin:0 auto; padding:10px 0 20px !important; }
 		.guide_wrap .htmlprocess_tit2 { font-size:13px; color:#000; padding:5px 10px; margin:40px 0 20px; border-top:1px solid #000; background:#f2f2f2; }
 		.guide_wrap .htmlprocess_tit2:first-of-type { margin-top:0; }
 		.guide_wrap .guide {padding:10px; width:100%; background:#fff; box-sizing:border-box;}
@@ -48,7 +48,9 @@
 
 	<code>
 	<pre>
-
+&lt;input type="text" placeholder="text" title="text"&gt;
+&lt;input type="number" placeholder="number" title="number"&gt;
+&lt;input type="password" placeholder="password" title="password"&gt;
 	</pre>
 	</code>
 	<!-- -->
@@ -97,7 +99,8 @@
 
 	<code>
 	<pre>
-
+&lt;input type="checkbox" id="checkbox"&gt;
+&lt;label for="checkbox"&gt;체크박스&lt;/label&gt;
 	</pre>
 	</code>
 	<!-- -->
@@ -111,7 +114,8 @@
 
 	<code>
 	<pre>
-
+&lt;input type="radio" name="" id="radio"&gt;
+&lt;label for="radio"&gt;라디오&lt;/label&gt;
 	</pre>
 	</code>
 	<!-- -->
@@ -128,15 +132,16 @@
 	<!-- <h2 class="htmlprocess_tit2"></h2> -->
 
 	<div class="btn_area">
-		<button type="button" class="btn_next">버튼 ( button )</button>
-		<a href="#" class="btn_next">버튼 ( a )</a>
+		<button type="button">버튼 ( button )</button>
+		<a href="#">버튼 ( a )</a>
 	</div>
 
-<code>
-<pre>
-
-</pre>
-</code>
+	<code>
+	<pre>
+&lt;button type="button"&gt;버튼 ( button )&lt;/button&gt;
+&lt;a href="#"&gt;버튼 ( a )&lt;/a&gt;
+	</pre>
+	</code>
 	<!-- -->
 
 	</div>
@@ -150,8 +155,8 @@
 	<div class="guide">
 	<!-- -->
 	<div class="paging">
-		<a href="#" class="btn first icon">처음으로</a>
-		<a href="#" class="btn prev icon">이전</a>
+		<a href="#" class="btn_first">처음으로</a>
+		<a href="#" class="btn_prev">이전</a>
 		<span class="num">
 			<a href="#" class="on">1</a>
 			<a href="#">2</a>
@@ -159,13 +164,25 @@
 			<a href="#">4</a>
 			<a href="#">5</a>
 		</span>
-		<a href="#" class="btn next icon">다음</a>
-		<a href="#" class="btn last icon">끝으로</a>
+		<a href="#" class="btn_next">다음</a>
+		<a href="#" class="btn_last">끝으로</a>
 	</div>
 
 	<code>
 	<pre>
-
+&lt;div class="paging"&gt;
+	&lt;a href="#" class="btn_first"&gt;처음으로&lt;/a&gt;
+	&lt;a href="#" class="btn_prev"&gt;이전&lt;/a&gt;
+	&lt;span class="num"&gt;
+		&lt;a href="#" class="on"&gt;1&lt;/a&gt;
+		&lt;a href="#"&gt;2&lt;/a&gt;
+		&lt;a href="#"&gt;3&lt;/a&gt;
+		&lt;a href="#"&gt;4&lt;/a&gt;
+		&lt;a href="#"&gt;5&lt;/a&gt;
+	&lt;/span&gt;
+	&lt;a href="#" class="btn_next"&gt;다음&lt;/a&gt;
+	&lt;a href="#" class="btn_last"&gt;끝으로&lt;/a&gt;
+&lt;/div&gt;
 	</pre>
 	</code>
 	<!-- -->
@@ -266,6 +283,62 @@ $('.alert .btn_close, .alert .btn_ok').click(function(){
 &lt;button type="button" class="btn_close" onclick="fn.alertClose();"&gt;닫기&lt;/button&gt;
 </pre>
 </code>
+	<!-- -->
+
+	</div>
+</section>
+<!-- //  -->
+
+<!--  // -->
+<h1 class="htmlprocess_tit">TAB MENU</h1>
+<section class="guide_wrap">
+	<div class="guide">
+	<!-- -->
+	<h2 class="htmlprocess_tit2">링크이동 O</h2>
+
+	<div class="tab_menu">
+		<a href="http://www.google.com" class="on">메뉴1</a>
+		<a href="http://www.naver.com">메뉴2</a>
+	</div>
+
+	<h2 class="htmlprocess_tit2">링크이동 X</h2>
+
+	<div class="tab_menu">
+		<a href="#menu1" class="on">메뉴1</a>
+		<a href="#menu2">메뉴2</a>
+	</div>
+
+	<div id="menu1" class="tab_contents show">
+		내용1
+	</div>
+
+	<div id="menu2" class="tab_contents">
+		내용2
+	</div>
+
+	<code>
+	<pre>
+// 링크이동 O
+&lt;div class="tab_menu"&gt;
+	&lt;a href="http://www.google.com" class="on"&gt;메뉴1&lt;/a&gt;
+	&lt;a href="http://www.naver.com"&gt;메뉴2&lt;/a&gt;
+&lt;/div&gt;
+
+// 링크이동 X
+&lt;div class="tab_menu"&gt;
+	&lt;a href="#menu1" class="on"&gt;메뉴1&lt;/a&gt;
+	&lt;a href="#menu2"&gt;메뉴2&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id="menu1" class="tab_contents show"&gt;
+	내용1
+&lt;/div&gt;
+
+&lt;div id="menu2" class="tab_contents"&gt;
+	내용2
+&lt;/div&gt;
+	</pre>
+	</code>
 	<!-- -->
 
 	</div>

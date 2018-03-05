@@ -49,6 +49,8 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 				<h2 class="tit"><%= pageTit %></h2>
 				<p class="txt">양식 전문 셰프가 제안하는 양식 레시피입니다.</p>
 
+
+
 				<!-- 검색영역 // -->
 				<div class="search_area">
 					<div class="inner">
@@ -64,16 +66,29 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 				</div>
 				<!-- // 검색영역 -->
 
+
+
+				<!-- 검색결과 메세지 // -->
+				<p class="search_txt">‘마시멜로우’에 대한 검색결과입니다.</p>
+				<!-- // 검색결과 메세지 -->
+
+
+
+				<!-- 검색결과 없을때 // -->
 				<div class="no_data">
-					<p class="txt1">‘마시멜로우’에 대한 검색결과입니다.</p>
 					<img src="/pjtCom/images/common/no_data.png" alt="">
 					<p class="txt2">검색결과가 없습니다.</p>
 
 					<p class="txt3">입력하신 단어가 정확한지 확인해 주세요.</p>
 					<p class="txt3">보다 일반적인 단어로 검색해 주세요.</p>
 				</div>
+				<!-- // 검색결과 없을때 -->
 
-				<ul class="menu_list">
+
+
+				<!-- 검색 전 노출 // -->
+				<!-- 분류 // -->
+				<ul class="sort_list">
 					<li><a href="#" class="now">전체</a></li><!-- 현재 페이지에서 class="now" -->
 					<li><a href="#">에피타이저</a></li>
 					<li><a href="#">샐러드 스프</a></li>
@@ -85,7 +100,12 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 					<li><a href="#">메인요리</a></li>
 					<li><a href="#">기타</a></li>
 				</ul>
+				<!-- // 분류 -->
+				<!-- // 검색 전 노출 -->
 
+
+
+				<!-- 검색결과 // -->
 				<div class="result_area">
 					<div class="inner">
 						<p class="result">전체(84)</p>
@@ -158,6 +178,8 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							</li>
 						</ul>
 
+
+
 						<!-- paging // -->
 						<div class="paging">
 							<a href="#" class="btn_first">처음으로</a>
@@ -178,10 +200,16 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							<a href="#" class="btn_last">끝으로</a>
 						</div>
 						<!-- // paging -->
+
+
+
 					</div>
 				</div>
-			</div>
-		</section>
+				<!-- // 검색결과 -->
+
+
+
+			</section>
 		</div>
 	</main>
 	<!-- // wrap -->

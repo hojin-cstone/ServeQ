@@ -21,7 +21,7 @@ $('#header .menu_search, #search ~ .dimd').click(function(){
     $('#search').toggleClass('on');
 });
 
-//
+// 앵커이동 X
 $('a[href="#"]').click(function(e){
     e.preventDefault();
 });
@@ -34,8 +34,7 @@ fn.ellipsis('.ellipsis');
 
 // 탭메뉴
 $('.tab_menu a').click(function(e){
-    fn.tabMenu(this);
-    e.preventDefault();
+    fn.tabMenu(e, this);
 });
 
 $(window).scroll(function(){

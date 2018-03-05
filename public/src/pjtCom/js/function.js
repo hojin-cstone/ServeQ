@@ -77,11 +77,13 @@ var fn = (function() {
         },
 
         // 탭메뉴
-        tabMenu : function(obj){
+        tabMenu : function(e, obj){
             var $obj = $(obj),
                 objHref = obj.attributes.href.value;
 
             if (objHref.indexOf('#') != -1) {
+                e.preventDefault();
+
                 $('.tab_menu a').removeClass('on');
     			$obj.addClass('on');
 
