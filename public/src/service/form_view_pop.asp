@@ -52,12 +52,12 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 
 				<article class="view_area">
 					<div class="info_area">
-						<figure class="img"><img src="/pjtCom/images/temp/img_recipe_521x521.jpg" alt=""></figure>
+						<figure class="img"><img src="/pjtCom/images/temp/img_form_450x670.jpg" alt=""></figure>
 
 						<div class="txt_area">
-							<small class="sort">빵</small>
-							<h3 class="tit">스모크햄 호밀빵 샌드위치</h3>
-							<p class="txt">호밀가루를 30% 사용하여 칼로리를 낮춘 무가당 호밀빵 샌드위치</p>
+							<small class="sort">졸업&입학</small>
+							<h3 class="tit">졸업&입학을 축하합니다!</h3>
+							<p class="txt">새로운 시작을 응원하며 고마운 분들께 감사의 인사를 전해 보세요.</p>
 
 							<div class="hash_area">
 								<span class="hide">관련 검색어</span>
@@ -76,12 +76,10 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							</div>
 
 							<div class="btn_area">
-								<a href="\service\calculator.asp" class="btn_calculator">원가계산기</a>
-								<a href="\service\recipe_counsel.asp" class="btn_counsel">셰프 1:1상담</a>
+								<a href="#" class="btn_download">다운로드</a>
 							</div>
 						</div>
 					</div>
-					<p style="page-break-before:always"><br style="height:0; line-height:0"></p>
 
 
 
@@ -102,6 +100,24 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 					</div>
 					<!-- // SNS -->
 
+
+					<!-- 내용 // -->
+					<div class="edit_area">
+						<p style="font-weight:bold; font-size:24px;">졸업&입학을 축하합니다!</p><br><br>
+						<p style="line-height:26px;">
+							새로운 시작을 응원하며 고마운 분들께 감사의 인사를 전해보세요.<br>
+							졸업&입학 POP를 판매대 및 입구에 거치하여<br>
+							매장을 방문하시는 고객 분들에게 알리세요!
+						</p><br><br>
+
+						<p style="font-weight:bold; font-size:24px;">사용 Tip</p><br><br>
+						<p style="line-height:26px;">
+							1.  파일을 열어 인쇄한 뒤, POP 크기에 맞추어 커팅해줍니다.<br>
+							2.  오래 사용할 수 있도록, 코팅을 해주면 더욱 좋습니다.<br>
+							3  고객 분에게 안내가 진행될 수 있도록 판매대 및 입구에 전시해주세요.
+						</p>
+					</div>
+					<!-- // 내용 -->
 
 
 

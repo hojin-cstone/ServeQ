@@ -48,16 +48,17 @@
 
 
 /* 레시피 상세 */
-.recipe .view_area { position:relative; width:1180px; margin:55px auto 0; padding:77px 0 130px; border-top:1px solid #221e1f; overflow:hidden; }
+.recipe .view_area { position:relative; width:1180px; margin:55px auto 0; padding:55px 0 130px; border-top:1px solid #221e1f; overflow:hidden; }
 .recipe .view_area .info_area:after { content:""; display:block; clear:both; }
-.recipe .view_area .info_area .img { float:left; width:521px; height:521px; margin-left:2px; border-radius:100%; overflow:hidden; }
-.recipe .view_area .txt_area { float:left; width:454px; margin-left:145px; padding:23px 0 0; }
+.recipe .view_area .info_area .img { float:left; width:496px; height:496px; margin-left:30px; border-radius:100%; overflow:hidden; }
+.recipe .view_area .txt_area { float:left; width:473px; margin-left:130px; padding:45px 0 0; }
 .recipe .view_area .txt_area .sort { display:inline-block; height:27px; font-size:16px; text-align:center; line-height:27px; padding:0 17px; border:1px solid #bbb; }
-.recipe .view_area .txt_area .tit { height:125px; font-weight:400; font-size:44px; color:#231f20; margin:32px 0 0; }
-.recipe .view_area .txt_area > .txt { height:77px; font-size:16px; color:#555; }
-.recipe .view_area .txt_area .hash_list { height:150px; margin:-10px 0 0 -8px; overflow:hidden; }
+.recipe .view_area .txt_area .tit { font-weight:400; font-size:44px; line-height:53px; color:#231f20; margin:30px 0 18px; }
+.recipe .view_area .txt_area > .txt { font-size:16px; line-height:20px; color:#555; }
+.recipe .view_area .txt_area .hash_list { min-height:101px; margin:37px 0 62px -8px; overflow:hidden; }
 .recipe .view_area .txt_area .hash_list li { float:left; margin:10px 0 0 8px; }
 .recipe .view_area .txt_area .hash_list li a { display:inline-block; height:27px; font-size:16px; line-height:27px; color:#231f20; padding:0 9px; background:#f5f4f2; }
+.recipe .view_area .txt_area .btn_area { position:relative; }
 .recipe .view_area .txt_area .btn_area [class^="btn"] { width:210px; height:60px; font-size:18px; margin-left:10px; }
 .recipe .view_area .txt_area .btn_area [class^="btn"]:before { content:""; display:inline-block; width:24px; height:30px; vertical-align:middle; margin-right:15px; background:url(/pjtCom/images/sub/icon_recipe_btn.png) no-repeat 0 0; }
 .recipe .view_area .txt_area .btn_area [class^="btn"]:first-child { margin-left:0; }
@@ -76,20 +77,21 @@
 .recipe .view_area .share_list li.kakao button { background-position:-70px 0; }
 .recipe .view_area .function_area { position:absolute; top:14px ; right:14px; }
 .recipe .view_area .function_area [class^="btn"] { position:relative; width:34px; height:auto; font-size:13px; text-align:center; color:#231f20; margin-left:24px; }
-.recipe .view_area .function_area [class^="btn"]:before { content:""; display:block; height:33px; margin:0 auto 7px; background:url(/pjtCom/images/sub/icon_recipe_function.png) no-repeat 0 0; }
+.recipe .view_area .function_area [class^="btn"]:before { content:""; display:block; height:35px; margin:0 auto 7px; background:url(/pjtCom/images/sub/icon_recipe_function.png) no-repeat 0 0; }
 .recipe .view_area .function_area [class^="btn"]:first-child { margin-left:0; }
-.recipe .view_area .function_area .btn_print:before { width:34px; background-position:0 0; }
-.recipe .view_area .function_area .btn_scrap:before { width:25px; background-position:-39px 0; }
+.recipe .view_area .function_area .btn_print:before { width:33px; background-position:0 0; }
+.recipe .view_area .function_area .btn_scrap:before { width:29px; background-position:-38px 0; }
 .recipe .view_area .tab_menu { text-align:center; margin:65px 0 43px; }
 .recipe .view_area .tab_menu a { display:inline-block; position:relative; height:50px; font-size:24px; line-height:50px; color:#555555; padding:0 10px; }
 .recipe .view_area .tab_menu a.on { font-weight:600; color:#231f20; }
 .recipe .view_area .tab_menu a.on:after { content:""; position:absolute; bottom:0; left:0; width:100%; height:4px; background:#d0442b; }
+.recipe .view_area .ingredient { padding:0 50px; }
 .recipe .view_area .ingredient table { font-family:'Malgun Gothic', sans-serif; }
 .recipe .view_area .ingredient table th { height:39px; font-weight:normal; text-align:left; color:#81674a; padding-left:70px; background:#f5f4f2; }
 .recipe .view_area .ingredient table th:first-child { text-align:center; padding-left:0; }
 .recipe .view_area .ingredient table td { height:40px; color:#231f20; padding-left:70px; border-bottom:1px solid #ece9e6; }
 .recipe .view_area .ingredient table td[rowspan] { text-align:center; padding-left:0; }
-.recipe .view_area .make { width:660px; margin:0 auto; font-family:'Malgun Gothic', sans-serif; margin-top:18px; }
+.recipe .view_area .make { width:660px; font-family:'Malgun Gothic', sans-serif; margin:18px auto 0; padding:0 50px; }
 .recipe .view_area .make section { margin-top:34px; }
 .recipe .view_area .make section:first-child { margin-top:0; }
 .recipe .view_area .make h4 { font-size:20px; line-height:50px; color:#ce462e; }
@@ -134,19 +136,19 @@
 .print .btn_close { position:absolute; top:0; right:-59px; width:59px; height:59px; text-indent:-9999px; border:1px solid #ebebeb; background:none; }
 .print .btn_close:after { content:""; position:absolute; top:50%;left:50%; transform:translate(-50%, -50%); width:44px; height:44px; background:url(/pjtCom/images/sub/btn_recipe_close.png) no-repeat 0 0; }
 .print .btn_print { position:absolute; top:77px; left:85px; height:33px; font-size:13px; color:#231f20; }
-.print .btn_print:before { content:""; display:inline-block; width:34px; height:33px; vertical-align:middle; margin-right:14px; background:url(/pjtCom/images/sub/icon_recipe_function.png) no-repeat -69px 0; }
+.print .btn_print:before { content:""; display:inline-block; width:34px; height:33px; vertical-align:middle; margin-right:14px; background:url(/pjtCom/images/sub/icon_recipe_function.png) no-repeat -72px 0; }
 .print .print_contents { border-top:1px solid #221e1f; }
-.print .print_contents .info_area .img { width:521px; height:521px; margin:0 auto; border-radius:100%; overflow:hidden; }
-.print .print_contents .info_area .tit { height:125px; font-weight:400; font-size:44px; text-align:center; color:#231f20; margin:64px 0 0; }
+.print .print_contents .info_area .tit { font-weight:400; font-size:44px; text-align:center; color:#231f20; margin:64px 0 0; }
+.print .print_contents .info_area .img { width:423px; height:423px; margin:32px auto 0; border-radius:100%; overflow:hidden; }
 .print .print_contents .ingredient { page-break-before:always; }
-.print .print_contents .ingredient table {  font-family:'Malgun Gothic', sans-serif; margin-top:40px; }
+.print .print_contents .ingredient table { font-family:'Malgun Gothic', sans-serif; }
 .print .print_contents .ingredient table caption { position:relative; left:0; width:62px; height:50px; font-family:'NanumSquare', sans-serif; font-weight:600; font-size:24px; line-height:50px; color:#231f20; margin:55px auto 40px; }
 .print .print_contents .ingredient table caption:after { content:""; position:absolute; bottom:0; left:0; width:100%; height:4px; background:#d0442b; }
 .print .print_contents .ingredient table th { height:39px; font-weight:normal; text-align:left; color:#81674a; padding-left:70px; background:#f5f4f2; }
 .print .print_contents .ingredient table th:first-child { text-align:center; padding-left:0; }
 .print .print_contents .ingredient table td { height:40px; color:#231f20; padding-left:70px; border-bottom:1px solid #ece9e6; }
 .print .print_contents .ingredient table td[rowspan] { text-align:center; padding-left:0; }
-.print .print_contents .make { width:660px; margin:55px auto 0; font-family:'Malgun Gothic', sans-serif; page-break-before:always; }
+.print .print_contents .make { display:block; width:660px; margin:55px auto 0; font-family:'Malgun Gothic', sans-serif; page-break-before:always; }
 .print .print_contents .make .tit { position:relative; left:0; width:129px; height:50px; font-family:'NanumSquare', sans-serif; font-weight:600; font-size:24px; text-align:center; line-height:50px; color:#231f20; margin:0 auto 50px; }
 .print .print_contents .make .tit:after { content:""; position:absolute; bottom:0; left:0; width:100%; height:4px; background:#d0442b; }
 .print .print_contents .make section { margin-top:34px; }

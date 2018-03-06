@@ -58,6 +58,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							<h3 class="tit">스모크햄 호밀빵 샌드위치</h3>
 							<p class="txt">호밀가루를 30% 사용하여 칼로리를 낮춘 무가당 호밀빵 샌드위치</p>
 
+							<!-- 해시태그 // -->
 							<div class="hash_area">
 								<span class="hide">관련 검색어</span>
 								<ul class="hash_list">
@@ -71,8 +72,13 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 									<li><a href="#">#빵</a></li>
 									<li><a href="#">#스모크햄샌드위치</a></li>
 									<li><a href="#">#브런치</a></li>
+									<li><a href="#">#샌드위치</a></li>
+									<li><a href="#">#다이어트</a></li>
+									<li><a href="#">#건강</a></li>
+									<li><a href="#">#빵</a></li>
 								</ul>
 							</div>
+							<!-- // 해시태그 -->
 
 							<div class="btn_area">
 								<a href="\service\calculator.asp" class="btn_calculator">원가계산기</a>
@@ -81,7 +87,6 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							</div>
 						</div>
 					</div>
-					<p style="page-break-before:always"><br style="height:0; line-height:0"></p>
 
 
 
