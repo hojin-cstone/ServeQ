@@ -1,9 +1,3 @@
-/**
-* --------------------------------
-* form CSS
-* --------------------------------
-*/
-
 /* 서식창고 리스트 */
 .form .month_area { background:#f6f6f6; }
 .form .month_area .result_list { margin-top:34px; }
@@ -12,7 +6,6 @@
 .form .result_list a { padding:52px 19px 0; }
 .form .result_list .img { width:auto; height:240px; }
 .form .name .result_list .img { width:208px; height:auto; }
-
 
 
 /* 서식창고 상세 */
@@ -24,7 +17,6 @@
 .form .view_area .txt_area .btn_area .btn_download:before { background-position:-58px 0; }
 .form .view_area .edit_area { margin-top:70px; padding:0 74px; }
 .form .view_area .btn_list { display:block; width:113px; height:39px; color:#fff; margin:88px auto 0; background:#555; }
-
 .form .poster .info_area { position:relative; padding:0 40px; }
 .form .poster .info_area .tit { height:54px; font-weight:normal; font-size:30px; line-height:53px; color:#000; padding-left:35px; border-bottom:1px solid #a6a6a6; box-sizing:border-box; }
 .form .poster .info_area dl { height:80px; font-size:16px; line-height:80px; color:#555; border-bottom:1px solid #e5e5e5; overflow:hidden; }

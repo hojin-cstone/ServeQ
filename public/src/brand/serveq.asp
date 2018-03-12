@@ -37,12 +37,12 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 	<main id="wrap" class="<%= path1dir %>">
 		<div id="contents" class="<%= path2dir %>">
 			<h1 class="tit">
-				<%= pageTit%>
+				<%= pageTit %>
 				<img src="/pjtCom/images/sub/bg_<%= titImg %>_tit.jpg" alt="">
 			</h1>
 
 			<!-- path // -->
-			<!--#include virtual="/inCom/path_brand.asp"-->
+			<!--#include virtual="/inCom/path.asp"-->
 			<!-- // path -->
 
 			<section class="<%= path3dir %>">

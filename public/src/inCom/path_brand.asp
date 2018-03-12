@@ -1,22 +1,17 @@
-<div id="path">
-	<div class="inner">
-		<a href="/" class="home">HOME</a>
-		<a href="/brand/serveq.asp" class="path1"><%= path1tit %></a>
+<a href="/brand/serveq.asp" class="path1"><%= path1tit %></a>
 
-		<% If path2dir = "serveq" Then %>
-			<a href="/brand/serveq.asp" class="path2"><%= path2tit %></a>
-		<% ElseIf path2dir = "business" Then %>
-			<a href="/brand/business_circulation.asp" class="path2"><%= path2tit %></a>
-			<div class="path3">
-				<span><%= path3tit %></span>
-				<ul class="path3_list">
-					<li <% If path3dir = "circulation" Then %>class="hide"<% End If %>><a href="/brand/business_circulation.asp">식자재유통사업</a></li>
-					<li <% If path3dir = "bakery" Then %>class="hide"<% End If %>><a href="/brand/business_bakery.asp">냉동베이커리사업</a></li>
-					<li <% If path3dir = "material" Then %>class="hide"<% End If %>><a href="/brand/business_material.asp">식품소재사업</a></li>
-					<li <% If path3dir = "consumption" Then %>class="hide"<% End If %>><a href="/brand/business_consumption.asp">소비재사업</a></li>
-					<li <% If path3dir = "office" Then %>class="hide"<% End If %>><a href="/brand/business_office.asp">사업장안내</a></li>
-				</ul>
-			</div>
-		<% End If %>
+<% If path2dir = "serveq" Then %>
+	<a href="/brand/serveq.asp" class="path2"><%= path2tit %></a>
+<% ElseIf path2dir = "business" Then %>
+	<a href="/brand/business_circulation.asp" class="path2"><%= path2tit %></a>
+	<div class="path3">
+		<span><%= path3tit %></span>
+		<ul class="path3_list">
+			<li <% If path3dir = "circulation" Then %>class="hide"<% End If %>><a href="/brand/business_circulation.asp">식자재유통사업</a></li>
+			<li <% If path3dir = "bakery" Then %>class="hide"<% End If %>><a href="/brand/business_bakery.asp">냉동베이커리사업</a></li>
+			<li <% If path3dir = "material" Then %>class="hide"<% End If %>><a href="/brand/business_material.asp">식품소재사업</a></li>
+			<li <% If path3dir = "consumption" Then %>class="hide"<% End If %>><a href="/brand/business_consumption.asp">소비재사업</a></li>
+			<li <% If path3dir = "office" Then %>class="hide"<% End If %>><a href="/brand/business_office.asp">사업장안내</a></li>
+		</ul>
 	</div>
-</div>
+<% End If %>
