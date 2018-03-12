@@ -42,7 +42,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 			</h1>
 
 			<!-- path // -->
-			<!--#include virtual="/inCom/path.asp"-->
+			<!--#include virtual="/inCom/path_brand.asp"-->
 			<!-- // path -->
 
 			<section class="<%= path3dir %>">
@@ -63,7 +63,8 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 				<div class="cont milling">
 					<h3>제분/프리믹스</h3>
 					<p>
-						제분사업은 첨단 전자동설비와 우수한 제분기술 그리고 철저한 품질 및 위생관리를 바탕으로 우수한 품질의 큐원 밀가루와 프리믹스를 생산하고 있습니다.<br />
+						제분사업은 첨단 전자동설비와 우수한 제분기술 그리고 철저한 품질 및 위생관리를 바탕으로 우수한 품질의 큐원 밀가루와 프리믹스를<br />
+						생산하고 있습니다.<br />
 						<br />
 						특히 프리믹스 부문에서는 최적의 배합비로 혼합하여 뛰어난 풍미를 보이는 다양한 제품군을 보유하고 있으며, 균일한 품질과 뛰어난 가공안정성, 철저한 위생관리 공정으로 국내 프리믹스 Leading 업체로서의 위상을 보이고 있습니다
 					</p>
