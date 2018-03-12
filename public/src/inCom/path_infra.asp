@@ -11,8 +11,6 @@
 			<a href="/infra/plaza.asp" class="path2"><%= path2tit %></a>
 		<% ElseIf path2dir = "distribute" Then %>
 			<a href="/infra/distribute.asp" class="path2"><%= path2tit %></a>
-		<% ElseIf path2dir = "purchase" Then %>
-			<a href="/infra/purchase.asp" class="path2"><%= path2tit %></a>
 		<% ElseIf path2dir = "oms" Then %>
 			<a href="/infra/oms.asp" class="path2"><%= path2tit %></a>
 		<% End If %>
