@@ -1,9 +1,3 @@
-/**
-* --------------------------------
-* 브랜드 소개 CSS
-* --------------------------------
-*/
-
 /* serveq */
 #contents.serveq section { width:1180px; margin:0 auto 153px; padding-top:100px; }
 .serveq .cont { position:relative; padding-left:366px; margin-top:93px; box-sizing:border-box; font-size:22px; color:#231f20; }
@@ -12,7 +6,7 @@
 .serveq .cont.intro .img_intro { position:absolute; left:0; top:0; width:100px; height:100px; }
 .serveq .cont.intro p {  line-height:26px; }
 .serveq .cont.intro p strong { display:block; font-size:22px; font-weight:600; }
-.serveq .cont.intro p span { display:block; margin-top:26px; font-size:16px; }
+.serveq .cont.intro p span { display:block; margin-top:26px; font-size:16px; letter-spacing:-0.02em; }
 .serveq .cont h3 { position:absolute; left:0; top:0; display:block; font-size:30px; font-weight:600; color:#555; }
 .serveq .cont.identity { margin-top:95px; }
 .serveq .cont.identity p { top:-5px; font-size:22px; line-height:32px; }

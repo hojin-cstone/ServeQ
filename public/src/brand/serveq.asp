@@ -37,12 +37,12 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 	<main id="wrap" class="<%= path1dir %>">
 		<div id="contents" class="<%= path2dir %>">
 			<h1 class="tit">
-				<%= pageTit %>
+				<%= pageTit%>
 				<img src="/pjtCom/images/sub/bg_<%= titImg %>_tit.jpg" alt="">
 			</h1>
 
 			<!-- path // -->
-			<!--#include virtual="/inCom/path.asp"-->
+			<!--#include virtual="/inCom/path_brand.asp"-->
 			<!-- // path -->
 
 			<section class="<%= path3dir %>">
@@ -55,9 +55,9 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 						<strong>고객에게 언제나 우수한 품질의 제품과 서비스를 안전하고 신속하게 제공한다는 의미의 삼양사 식자재 유통 전문 브랜드입니다.</strong>
 						<span>
 						서브큐는 ‘생활을 풍요롭고 편리하게 하는 기업’이라는 삼양사의 기업정신 위에서 태어났습니다.<br />
-						보다 완벽하고 안전한 성공을 위한 식자재 유통의 베스트 솔루션 서브큐. 저희는 믿을 수 있는 상품을 제공하고
-						고객의 Needs를 충족시킬 수 있는 전문적인 맞춤형 Solution을 제공하고 있으며, 고객이 만족할 수 있는 Best 가격으로
-						상품을 제공하려 노력하고 있습니다. 고객에게 신뢰받는 식자재 Total Solution Provider가 되어 고객과 함께 성장하겠습니다.
+						보다 완벽하고 안전한 성공을 위한 식자재 유통의 베스트 솔루션 서브큐. 저희는 믿을 수 있는 상품을 제공하고<br />
+						고객의 Needs를 충족시킬 수 있는 전문적인 맞춤형 Solution을 제공하고 있으며, 고객이 만족할 수 있는 Best 가격으로<br />
+						상품을 제공하려 노력하고 있습니다. 고객에게 신뢰받는 식자재 Total Solution Provider가 되어 고객과 함께 성장하겠습니다.<br />
 						우수한 품질의 제품과 서비스를 공급해 드리기 위해 언제나 최선을 다 하겠습니다.
 						</span>
 					</p>

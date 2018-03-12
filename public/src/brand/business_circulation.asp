@@ -42,7 +42,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 			</h1>
 
 			<!-- path // -->
-			<!--#include virtual="/inCom/path.asp"-->
+			<!--#include virtual="/inCom/path_brand.asp"-->
 			<!-- // path -->
 
 			<section class="<%= path3dir %>">
@@ -110,9 +110,9 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							</span>
 						</li>
 						<li>
-							<div><img src="/pjtCom/images/sub/circulation_sourcing02.jpg" alt="ANTONIOMATO LOGO" /></div>
+							<div><img src="/pjtCom/images/sub/circulation_sourcing02.jpg" alt="ANTONIOAMATO LOGO" /></div>
 							<strong>
-								ANTONIOMATO<br />
+								ANTONIOAMATO<br />
 								<span>이탈리아</span>
 							</strong>
 							<span>
@@ -200,7 +200,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 						<li>
 							<div><img src="/pjtCom/images/sub/circulation_sourcing10.jpg" alt="OTISPUNKMEYER LOGO" /></div>
 							<strong>
-								OTISPUNKMEYER<br />
+								OTIS SPUNKMEYER<br />
 								<span>미국</span>
 							</strong>
 							<span>
