@@ -16,7 +16,7 @@
 
 			<ul class="gnb_depth1">
 				<li><a href="/brand/serveq.asp">브랜드소개</a></li>
-				<li><a href="/infra/research.asp">인프라</a></li>
+				<li><a href="/infra/lab.asp">인프라</a></li>
 				<li><a href="/product/afl_list.asp">상품안내</a></li>
 				<li><a href="/service/about.asp">고객지원서비스</a></li>
 				<li><a href="/pr/press_list.asp">홍보센터</a></li>
@@ -30,7 +30,7 @@
 					</ul>
 
 					<ul class="infra">
-						<li><a href="/infra/research.asp">식품연구소</a></li>
+						<li><a href="/infra/lab.asp">식품연구소</a></li>
 						<li><a href="/infra/safety.asp">식품안전센터</a></li>
 						<li><a href="/infra/plaza.asp">셰프플라자</a></li>
 						<li><a href="/infra/distribute.asp">물류시스템</a></li>

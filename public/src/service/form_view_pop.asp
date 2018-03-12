@@ -50,30 +50,37 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 				<p class="txt">매장 운영에 필요한 다양한 POP 서식을 다운로드해 보세요.</p>
 
 
-				<article class="view_area">
+				<article class="bbs_gallery_view view_area">
 					<div class="info_area">
-						<figure class="img"><img src="/pjtCom/images/temp/img_form_450x670.jpg" alt=""></figure>
+						<figure class="img"><img src="/pjtCom/images/temp/img_form_pop_450x670(500x743).jpg" alt=""></figure>
 
 						<div class="txt_area">
-							<small class="sort">졸업&입학</small>
-							<h3 class="tit">졸업&입학을 축하합니다!</h3>
+							<small class="sort">졸업&amp;입학</small>
+							<h3 class="tit">졸업&amp;입학을 축하합니다!</h3>
 							<p class="txt">새로운 시작을 응원하며 고마운 분들께 감사의 인사를 전해 보세요.</p>
 
+							<!-- 해시태그 // -->
 							<div class="hash_area">
 								<span class="hide">관련 검색어</span>
 								<ul class="hash_list">
-									<li><a href="#">#아침</a></li>
-									<li><a href="#">#바쁠때</a></li>
-									<li><a href="#">#간식</a></li>
-									<li><a href="#">#호밀빵</a></li>
-									<li><a href="#">#샌드위치</a></li>
-									<li><a href="#">#다이어트</a></li>
-									<li><a href="#">#건강</a></li>
-									<li><a href="#">#빵</a></li>
-									<li><a href="#">#스모크햄샌드위치</a></li>
-									<li><a href="#">#브런치</a></li>
+									<li><a href="#">#졸업</a></li>
+									<li><a href="#">#새학기</a></li>
+									<li><a href="#">#축하</a></li>
+									<li><a href="#">#졸업선물</a></li>
+									<li><a href="#">#입학선물</a></li>
+									<li><a href="#">#졸업</a></li>
+									<li><a href="#">#새학기</a></li>
+									<li><a href="#">#축하</a></li>
+									<li><a href="#">#졸업선물</a></li>
+									<li><a href="#">#입학선물</a></li>
+									<li><a href="#">#졸업</a></li>
+									<li><a href="#">#새학기</a></li>
+									<li><a href="#">#축하</a></li>
+									<li><a href="#">#졸업선물</a></li>
+									<li><a href="#">#입학선물</a></li>
 								</ul>
 							</div>
+							<!-- // 해시태그 -->
 
 							<div class="btn_area">
 								<a href="#" class="btn_download">다운로드</a>

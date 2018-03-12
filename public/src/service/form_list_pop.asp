@@ -92,7 +92,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 
 				<!-- 검색 전 노출 // -->
 				<!-- 이달의 인기 POP // -->
-				<article class="month_area">
+				<article class="no_search bbs_gallery_list month_area">
 					<div class="inner">
 						<h3>이달의 인기 POP</h3>
 
@@ -100,10 +100,12 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							<!-- 반복영역 // -->
 							<li>
 								<a href="\service\form_view_pop.asp">
-									<strong class="state best">BEST</strong> <!-- BEST POP -->
-									<!-- <strong class="state new">NEW</strong> --> <!-- NEW POP -->
-									<img src="/pjtCom/images/temp/img_form_163x240.jpg" alt="">
-									<p class="ellipsis name">졸업&입학을 축하합니다! 졸업&입학을 축하합니다! 졸업&입학을 축하합니다!</p>
+									<strong class="state best">BEST</strong> <!-- BEST 일때 -->
+									<!-- <strong class="state new">NEW</strong> --> <!-- NEW 일때 -->
+									<img src="/pjtCom/images/temp/img_form_pop_240x240(267x267).jpg" alt="" class="img">
+									<div class="txt_area">
+										<p class="ellipsis name">졸업&입학을 축하합니다! 졸업&입학을 축하합니다! 졸업&입학을 축하합니다!</p>
+									</div>
 								</a>
 							</li>
 							<!-- // 반복영역 -->
@@ -111,22 +113,28 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							<li>
 								<a href="\service\form_view_pop.asp">
 									<strong class="state new">NEW</strong>
-									<img src="/pjtCom/images/temp/img_form_163x240.jpg" alt="">
-									<p class="ellipsis name">졸업&입학을 축하합니다!</p>
+									<img src="/pjtCom/images/temp/img_form_pop_240x240(267x267).jpg" alt="" class="img">
+									<div class="txt_area">
+										<p class="ellipsis name">졸업&입학을 축하합니다!</p>
+									</div>
 								</a>
 							</li>
 
 							<li>
 								<a href="\service\form_view_pop.asp">
-									<img src="/pjtCom/images/temp/img_form_163x240.jpg" alt="">
-									<p class="ellipsis name">졸업&입학을 축하합니다!</p>
+									<img src="/pjtCom/images/temp/img_form_pop_240x240(267x267).jpg" alt="" class="img">
+									<div class="txt_area">
+										<p class="ellipsis name">졸업&입학을 축하합니다!</p>
+									</div>
 								</a>
 							</li>
 
 							<li>
 								<a href="\service\form_view_pop.asp">
-									<img src="/pjtCom/images/temp/img_form_163x240.jpg" alt="">
-									<p class="ellipsis name">졸업&입학을 축하합니다!</p>
+									<img src="/pjtCom/images/temp/img_form_pop_240x240(267x267).jpg" alt="" class="img">
+									<div class="txt_area">
+										<p class="ellipsis name">졸업&입학을 축하합니다!</p>
+									</div>
 								</a>
 							</li>
 						</ul>
@@ -138,7 +146,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 
 
 				<!-- 검색결과 // -->
-				<div class="result_area">
+				<div class="bbs_gallery_list result_area">
 					<div class="inner">
 						<p class="result">전체(84)</p>
 
@@ -146,9 +154,12 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							<!-- 반복영역 // -->
 							<li>
 								<a href="\service\form_view_pop.asp">
-									<strong class="state best">BEST</strong>
-									<img src="/pjtCom/images/temp/img_form_163x240.jpg" alt="">
-									<p class="ellipsis name">졸업&입학을 축하합니다! 졸업&입학을 축하합니다! 졸업&입학을 축하합니다!</p>
+									<strong class="state best">BEST</strong> <!-- BEST 일때 -->
+									<!-- <strong class="state new">NEW</strong> --> <!-- NEW 일때 -->
+									<img src="/pjtCom/images/temp/img_form_pop_240x240(267x267).jpg" alt="" class="img">
+									<div class="txt_area">
+										<p class="ellipsis name">졸업&입학을 축하합니다! 졸업&입학을 축하합니다! 졸업&입학을 축하합니다!</p>
+									</div>
 								</a>
 							</li>
 							<!-- // 반복영역 -->
@@ -156,50 +167,64 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							<li>
 								<a href="\service\form_view_pop.asp">
 									<strong class="state new">NEW</strong>
-									<img src="/pjtCom/images/temp/img_form_163x240.jpg" alt="">
-									<p class="ellipsis name">졸업&입학을 축하합니다!</p>
+									<img src="/pjtCom/images/temp/img_form_pop_240x240(267x267).jpg" alt="" class="img">
+									<div class="txt_area">
+										<p class="ellipsis name">졸업&입학을 축하합니다!</p>
+									</div>
 								</a>
 							</li>
 
 							<li>
 								<a href="\service\form_view_pop.asp">
-									<img src="/pjtCom/images/temp/img_form_163x240.jpg" alt="">
-									<p class="ellipsis name">졸업&입학을 축하합니다!</p>
+									<img src="/pjtCom/images/temp/img_form_pop_240x240(267x267).jpg" alt="" class="img">
+									<div class="txt_area">
+										<p class="ellipsis name">졸업&입학을 축하합니다!</p>
+									</div>
 								</a>
 							</li>
 
 							<li>
 								<a href="\service\form_view_pop.asp">
-									<img src="/pjtCom/images/temp/img_form_163x240.jpg" alt="">
-									<p class="ellipsis name">졸업&입학을 축하합니다!</p>
+									<img src="/pjtCom/images/temp/img_form_pop_240x240(267x267).jpg" alt="" class="img">
+									<div class="txt_area">
+										<p class="ellipsis name">졸업&입학을 축하합니다!</p>
+									</div>
 								</a>
 							</li>
 
 							<li>
 								<a href="\service\form_view_pop.asp">
-									<img src="/pjtCom/images/temp/img_form_163x240.jpg" alt="">
-									<p class="ellipsis name">졸업&입학을 축하합니다!</p>
+									<img src="/pjtCom/images/temp/img_form_pop_240x240(267x267).jpg" alt="" class="img">
+									<div class="txt_area">
+										<p class="ellipsis name">졸업&입학을 축하합니다!</p>
+									</div>
 								</a>
 							</li>
 
 							<li>
 								<a href="\service\form_view_pop.asp">
-									<img src="/pjtCom/images/temp/img_form_163x240.jpg" alt="">
-									<p class="ellipsis name">졸업&입학을 축하합니다!</p>
+									<img src="/pjtCom/images/temp/img_form_pop_240x240(267x267).jpg" alt="" class="img">
+									<div class="txt_area">
+										<p class="ellipsis name">졸업&입학을 축하합니다!</p>
+									</div>
 								</a>
 							</li>
 
 							<li>
 								<a href="\service\form_view_pop.asp">
-									<img src="/pjtCom/images/temp/img_form_163x240.jpg" alt="">
-									<p class="ellipsis name">졸업&입학을 축하합니다!</p>
+									<img src="/pjtCom/images/temp/img_form_pop_240x240(267x267).jpg" alt="" class="img">
+									<div class="txt_area">
+										<p class="ellipsis name">졸업&입학을 축하합니다!</p>
+									</div>
 								</a>
 							</li>
 
 							<li>
 								<a href="\service\form_view_pop.asp">
-									<img src="/pjtCom/images/temp/img_form_163x240.jpg" alt="">
-									<p class="ellipsis name">졸업&입학을 축하합니다!</p>
+									<img src="/pjtCom/images/temp/img_form_pop_240x240(267x267).jpg" alt="" class="img">
+									<div class="txt_area">
+										<p class="ellipsis name">졸업&입학을 축하합니다!</p>
+									</div>
 								</a>
 							</li>
 						</ul>

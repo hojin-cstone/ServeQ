@@ -1,0 +1,27 @@
+/* OMS시스템 */
+.oms > section { padding-bottom:110px; }
+.oms .composition_area { width:1180px; text-align:center; margin:93px auto 0; }
+.oms .composition_area .txt { font-size:30px; line-height:36px; margin-bottom:35px; }
+.oms .composition_area .txt b { display:block; }
+.oms .composition_list { margin-top:38px; padding:0 80px; overflow:hidden; }
+.oms .composition_list > li { float:left; width:340px; }
+.oms .composition_list span { font-weight:400; font-size:16px; line-height:21px; color:#231f20; }
+.oms .composition_list b { display:block; font-size:22px; line-height:27px; color:#231f20; }
+.oms .composition_list ul { margin-top:11px; }
+.oms .composition_list ul li { font-size:16px; line-height:26px; color:#231f20; }
+.oms .composition_list ul li:before { content:"-"; display:inline-block; }
+.oms .system_list { width:1180px; margin:95px auto 0; overflow:hidden; }
+.oms .system_list > li { float:left; margin:35px 0 0 20px; }
+.oms .system_list > li:nth-child(2n+1) { margin-left:0; }
+.oms .system_list > li:nth-child(1),
+.oms .system_list > li:nth-child(2) { margin-top:0; }
+.oms .system_list .img {display:block;  margin-bottom:20px; }
+.oms .system_list b { float:left; position:relative; width:92px;font-size:22px; color:#231f20; padding:15px 0 0 20px; box-sizing:border-box; }
+.oms .system_list b:before { content:""; position:absolute; top:0; left:20px; width:25px; height:3px; background:#ee3124; }
+.oms .system_list ul { float:left; margin-top:12px; }
+.oms .system_list ul li { line-height:26px; color:#231f20; }
+.oms .system_list ul li:before { content:"-"; display:inline-block; }
+.oms .btn_oms { display:block; position:relative; width:1180px; height:100px; font-weight:400; font-size:22px; text-align:left; color:#fff; margin:95px auto 0; padding-left:100px; background:none; box-sizing:border-box; }
+.oms .btn_oms:before { content:""; display:inline-block; height:100%; vertical-align:middle; }
+.oms .btn_oms:after { content:""; display:inline-block; width:12px; height:20px; vertical-align:middle; margin-left:20px; background:url(/pjtCom/images/sub/icon_infra_oms.png) no-repeat 0 0; }
+.oms .btn_oms .img { position:absolute; z-index:-1; top:0; left:0; }

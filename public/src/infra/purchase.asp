@@ -11,6 +11,8 @@ description = "ServeQ "
 If path3tit = "" Then description=description+path2tit Else description=description+path3tit End If
 titImg = ""
 If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
+pageTit = ""
+If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 %>
 
 <!DOCTYPE html>
@@ -44,7 +46,7 @@ If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
 			<!-- // path -->
 
 			<section class="<%= path3dir %>">
-				<h1 class="tit"><%= path2tit %></h1>
+				<h2 class="tit"><%= pageTit %></h2>
 				<p class="txt"></p>
 			</section>
 		</div>

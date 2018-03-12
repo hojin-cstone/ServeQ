@@ -49,9 +49,9 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 				<h2 class="tit"><%= pageTit %></h2>
 				<p class="txt">제과기능장이 제안하는 제과제빵 레시피입니다.</p>
 
-				<article class="view_area">
+				<article class="bbs_gallery_view view_area">
 					<div class="info_area">
-						<figure class="img"><img src="/pjtCom/images/temp/img_recipe_521x521.jpg" alt=""></figure>
+						<figure class="img"><img src="/pjtCom/images/temp/img_recipe_448x411.jpg" alt=""></figure>
 
 						<div class="txt_area">
 							<small class="sort">빵</small>
@@ -310,44 +310,46 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 
 
 					<!-- 서브큐 추천 레시피 // -->
-					<section class="recommend_area">
-						<h3 class="tit">서브큐 추천 레시피</h3>
+					<section class="bbs_gallery_list recommend_area">
+						<div class="inner">
+							<h3 class="tit">서브큐 추천 레시피</h3>
 
-						<ul class="recommend_list">
-							<!-- 반복영역 // -->
-							<li>
-								<a href="/service/recipe_view_chinese.asp">
-									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="">
-									<p class="sort">피자</p>
-									<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타 무띠 피자소스로 만든 푸실리 파스타</p>
-								</a>
-							</li>
-							<!-- // 반복영역 -->
+							<ul class="result_list recommend_list">
+								<!-- 반복영역 // -->
+								<li>
+									<a href="/service/recipe_view_chinese.asp">
+										<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="">
+										<p class="sort">피자</p>
+										<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타 무띠 피자소스로 만든 푸실리 파스타</p>
+									</a>
+								</li>
+								<!-- // 반복영역 -->
 
-							<li>
-								<a href="/service/recipe_view_chinese.asp">
-									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="">
-									<p class="sort">피자</p>
-									<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
-								</a>
-							</li>
+								<li>
+									<a href="/service/recipe_view_chinese.asp">
+										<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="">
+										<p class="sort">피자</p>
+										<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
+									</a>
+								</li>
 
-							<li>
-								<a href="/service/recipe_view_chinese.asp">
-									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="">
-									<p class="sort">피자</p>
-									<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
-								</a>
-							</li>
+								<li>
+									<a href="/service/recipe_view_chinese.asp">
+										<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="">
+										<p class="sort">피자</p>
+										<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
+									</a>
+								</li>
 
-							<li>
-								<a href="/service/recipe_view_chinese.asp">
-									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="">
-									<p class="sort">피자</p>
-									<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
-								</a>
-							</li>
-						</ul>
+								<li>
+									<a href="/service/recipe_view_chinese.asp">
+										<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="">
+										<p class="sort">피자</p>
+										<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
+									</a>
+								</li>
+							</ul>
+						</div>
 					</section>
 					<!-- // 서브큐 추천 레시피 -->
 

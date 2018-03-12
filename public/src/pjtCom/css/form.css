@@ -5,63 +5,33 @@
 */
 
 /* 서식창고 리스트 */
-.form .btn_info { height:22px; line-height:22px; margin-top:17px; background:none; }
-.form .btn_info:before { content:""; display:inline-block; width:22px; height:22px; vertical-align:top; margin-right:8px; background:url(/pjtCom/images/sub/icon_form.png) no-repeat 0 0; }
 .form .month_area { background:#f6f6f6; }
-.form .month_area .inner { width:1180px; margin:0 auto; padding:38px 0; }
 .form .month_area .result_list { margin-top:34px; }
-.form .month_area .result_list:after { content:""; display:block; clear:both; }
-.form .month_area .result_list li { float:left; margin-left:20px; }
-.form .month_area .result_list li:first-child { margin-left:0; }
-.form .month_area .result_list a { display:block; position:relative; width:280px; height:423px; text-align:center; padding:52px 58px 49px;  border:1px solid #e4e4e4; background:#fff; box-sizing:border-box; }
-.form .month_area .result_list .name { height:48px; font-size:18px; line-height:24px; color:#231f20; margin-top:32px; }
-.form .month_area .result_list .state { position:absolute; z-index:1; top:-6px; right:20px; width:80px; height:40px; font-size:16px; text-align:center; color:#fff; overflow:hidden; }
-.form .month_area .result_list .state:before { content:""; position:absolute; z-index:-1; bottom:0; left:0; width:80px; height:80px; border-radius:100%; }
-.form .month_area .result_list .state.best:before { background:#ee3023; }
-.form .month_area .result_list .state.new:before { background:#fdba13; }
-.form .month_area .result_list .state:after { content:""; display:inline-block; height:100%; vertical-align:middle; }
-.form .result_area { margin-top:70px; background:#fff; }
-.form .month_area + .result_area { margin-top:0; }
-.form .result_area .inner { width:1180px; margin:0 auto; padding:34px 0 107px; }
-.form .result_area .result { display:block; color:#555; margin-bottom:15px; }
-.form .result_area .result_list:after { content:""; display:block; clear:both; }
-.form .result_area .result_list li { float:left; margin:20px 0 0 20px; }
-.form .result_area .result_list li:nth-child(1),
-.form .result_area .result_list li:nth-child(2),
-.form .result_area .result_list li:nth-child(3),
-.form .result_area .result_list li:nth-child(4) { margin-top:0; }
-.form .result_area .result_list li:nth-child(4n+1) { margin-left:0; }
-.form .result_area .result_list a { display:block; position:relative; width:280px; height:423px; text-align:center; padding:52px 58px 49px;  border:1px solid #e4e4e4; background:#fff; box-sizing:border-box; }
-.form .result_area .result_list .name { height:48px; font-size:18px; line-height:24px; color:#231f20; margin-top:32px; }
-.form .result_area .result_list .state { position:absolute; z-index:1; top:-6px; right:20px; width:80px; height:40px; font-size:16px; text-align:center; color:#fff; overflow:hidden; }
-.form .result_area .result_list .state:before { content:""; position:absolute; z-index:-1; bottom:0; left:0; width:80px; height:80px; border-radius:100%; }
-.form .result_area .result_list .state.best:before { background:#ee3023; }
-.form .result_area .result_list .state.new:before { background:#fdba13; }
-.form .result_area .result_list .state:after { content:""; display:inline-block; height:100%; vertical-align:middle; }
-.form .result_area .paging { margin-top:96px; }
+.form .name .month_area .result_list .img { width:208px; height:208px; }
+.form .result_area { background:#fff; }
+.form .result_list a { padding:52px 19px 0; }
+.form .result_list .img { width:auto; height:240px; }
+.form .name .result_list .img { width:208px; height:auto; }
+
 
 
 /* 서식창고 상세 */
-.form .view_area { position:relative; width:1180px; margin:55px auto 0; padding:83px 0 130px; border-top:1px solid #221e1f; overflow:hidden; }
-.form .view_area .info_area { overflow:hidden; }
-.form .view_area .info_area .img { float:left; width:450px; height:670px; margin-left:50px; overflow:hidden; }
-.form .view_area .txt_area { float:left; width:473px; margin-left:130px; padding:45px 0 0; }
-.form .view_area .txt_area .sort { display:inline-block; font-size:22px; line-height:27px; }
-.form .view_area .txt_area .tit { font-weight:400; font-size:44px; line-height:53px; color:#231f20; margin:30px 0 18px; }
-.form .view_area .txt_area > .txt { font-size:16px; line-height:20px; color:#555; }
-.form .view_area .txt_area .hash_list { min-height:163px; margin:37px 0 0 -8px; overflow:hidden; }
-.form .view_area .txt_area .hash_list li { float:left; margin:10px 0 0 8px; }
-.form .view_area .txt_area .hash_list li a { display:inline-block; height:27px; font-size:16px; line-height:27px; color:#231f20; padding:0 9px; background:#f5f4f2; }
-.form .view_area .txt_area .btn_area [class^="btn"] { width:210px; height:60px; font-size:18px; margin-left:10px; }
-.form .view_area .txt_area .btn_area [class^="btn"]:before { content:""; display:inline-block; width:25px; height:30px; vertical-align:middle; margin-right:15px; background:url(/pjtCom/images/sub/icon_form_btn.png) no-repeat 0 0; }
-.form .view_area .txt_area .btn_area [class^="btn"]:first-child { margin-left:0; }
+.form .view_area { padding:83px 0 130px; }
+.form .view_area .info_area .img { width:450px; height:670px; margin-left:74px; overflow:hidden; }
+.form .view_area .txt_area { padding:25px 0 0; }
+.form .view_area .txt_area .sort { font-size:22px; line-height:27px; }
 .form .view_area .txt_area .btn_area .btn_download { color:#fff; background:#d4462c; }
-.form .view_area .share_area { position:absolute; top:14px ; left:0; }
-.form .view_area .share_list li { float:left; margin-left:6px; }
-.form .view_area .share_list li:first-child { margin-left:0; }
-.form .view_area .share_list li button { display:block; width:30px; height:30px; text-indent:-9999px; background:url(/pjtCom/images/common/icon_sns.png) no-repeat 0 0; }
-.form .view_area .share_list li.facebook button { background-position:0 0; }
-.form .view_area .share_list li.blog button { background-position:-35px 0; }
-.form .view_area .share_list li.kakao button { background-position:-70px 0; }
-.form .view_area .edit_area { margin-top:70px; padding:0 50px; }
+.form .view_area .txt_area .btn_area .btn_download:before { background-position:-58px 0; }
+.form .view_area .edit_area { margin-top:70px; padding:0 74px; }
 .form .view_area .btn_list { display:block; width:113px; height:39px; color:#fff; margin:88px auto 0; background:#555; }
+
+.form .poster .info_area { position:relative; padding:0 40px; }
+.form .poster .info_area .tit { height:54px; font-weight:normal; font-size:30px; line-height:53px; color:#000; padding-left:35px; border-bottom:1px solid #a6a6a6; box-sizing:border-box; }
+.form .poster .info_area dl { height:80px; font-size:16px; line-height:80px; color:#555; border-bottom:1px solid #e5e5e5; overflow:hidden; }
+.form .poster .info_area dt { float:left; position:relative; width:125px; text-align:center; margin-left:65px; }
+.form .poster .info_area dt.state { margin-left:0; }
+.form .poster .info_area dt:before { content:""; position:absolute; top:50%; left:-65px; transform:translateY(-50%);width:1px; height:18px; vertical-align:middle; background:#bfbfbf; }
+.form .poster .info_area dt.state:before { display:none; }
+.form .poster .info_area dd { float:left; padding-left:15px; box-sizing:border-box; }
+.form .poster .info_area dd.state { width:155px; }
+.form .poster .info_area .btn_apply { position:absolute; bottom:16px; right:77px; width:209px; height:49px; color:#fff; background:#d4462c; }

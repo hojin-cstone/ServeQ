@@ -47,7 +47,71 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 
 			<section class="<%= path3dir %>">
 				<h2 class="tit"><%= pageTit %></h2>
-				<p class="txt"></p>
+				<p class="txt">매장 운영에 필요한 다양한 노하우와 최신트렌드 및 정보를 제공해 드립니다.</p>
+
+				<article class="bbs_gallery_view view_area">
+
+					<!-- SNS // -->
+					<div class="share_area">
+						<span class="hide">SNS 공유하기</span>
+						<ul class="share_list">
+							<li class="facebook">
+								<button type="button">FACEBOOK 공유하기</button>
+							</li>
+							<li class="blog">
+								<button type="button">BLOG 공유하기</button>
+							</li>
+							<li class="kakao">
+								<button type="button">KAKAOSTORY 공유하기</button>
+							</li>
+						</ul>
+					</div>
+					<!-- // SNS -->
+
+
+
+					<!-- 스크랩 // -->
+					<div class="function_area">
+						<a href="#" class="btn_scrap">스크랩</a>
+					</div>
+					<!-- // 스크랩 -->
+
+
+
+					<div class="info_area">
+						<h3 class="tit">2018 주목해야 할 외식업 트렌드 키워드</h3>
+
+						<dl>
+							<dt class="date">등록날짜</dt>
+							<dd class="date">2017.10.29</dd>
+						</dl>
+					</div>
+
+					<!-- 내용 // -->
+					<div class="edit_area">
+						<p style="font-weight:bold; font-size:24px;">졸업&입학을 축하합니다!</p><br><br>
+						<p style="line-height:26px;">
+							새로운 시작을 응원하며 고마운 분들께 감사의 인사를 전해보세요.<br>
+							졸업&입학 POP를 판매대 및 입구에 거치하여<br>
+							매장을 방문하시는 고객 분들에게 알리세요!
+						</p><br><br>
+
+						<p style="font-weight:bold; font-size:24px;">사용 Tip</p><br><br>
+						<p style="line-height:26px;">
+							1.  파일을 열어 인쇄한 뒤, POP 크기에 맞추어 커팅해줍니다.<br>
+							2.  오래 사용할 수 있도록, 코팅을 해주면 더욱 좋습니다.<br>
+							3  고객 분에게 안내가 진행될 수 있도록 판매대 및 입구에 전시해주세요.
+						</p>
+					</div>
+					<!-- // 내용 -->
+
+
+
+					<a href="/service/magazine_list.asp" class="btn_list">목록</a>
+				</article>
+
+
+
 			</section>
 		</div>
 	</main>

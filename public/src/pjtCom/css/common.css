@@ -1,5 +1,3 @@
-@charset "utf-8";
-
 /**
  * --------------------------------
  * Common CSS
@@ -13,6 +11,16 @@
      url('/pjtCom/fonts/NanumSquareL.eot'),
      url('/pjtCom/fonts/NanumSquareL.eot?#iefix') format('embedded-opentype'),
      url('/pjtCom/fonts/NanumSquareL.woff') format('woff');
+ }
+
+ @font-face {
+     font-family: 'NanumSquare';
+     font-style: normal;
+     font-weight: 500;
+     src: local('NanumSquareR'),
+     url('/pjtCom/fonts/NanumSquareR.eot'),
+     url('/pjtCom/fonts/NanumSquareR.eot?#iefix') format('embedded-opentype'),
+     url('/pjtCom/fonts/NanumSquareR.woff') format('woff');
  }
 
  @font-face {
@@ -136,12 +144,14 @@ input[type=radio]:checked + label:before { background-position:-36px -30px; }
 .alert.type2 .inner .txt .small { display:block; font-size:13px; color:#949494; margin-top:10px; }
 
 /* search */
-.search_area { width:1280px; margin:5px auto 0; padding:0 50px; box-sizing:border-box; }
+.search_area { width:1280px; margin:5px auto 30px; padding:0 50px; box-sizing:border-box; }
 .search_area:after { content:""; display:block; clear:both; }
 .search_area .inner { float:right; position:relative; width:342px; }
 .search_area .btn_search { position:absolute; top:1px; right:1px; width:45px; height:45px; text-indent:-9999px; }
 .search_area .btn_search:after { content:""; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:25px; height:25px; background:url(/pjtCom/images/common/form_icon.png) no-repeat 0 -118px; }
-.search_txt { font-size:20px; text-align:center; margin-top:15px; }
+.search_area .btn_info { height:22px; line-height:22px; margin-top:17px; background:none; }
+.search_area .btn_info:before { content:""; display:inline-block; width:22px; height:22px; vertical-align:top; margin-right:8px; background:url(/pjtCom/images/sub/icon_form.png) no-repeat 0 0; }
+.search_txt { font-size:20px; text-align:center; }
 .no_data { text-align:center; margin:30px 0 85px; }
 .no_data .txt1 { font-weight:bold; font-size:22px; margin:15px 0 50px; }
 .no_data .txt2_list { display:inline-block; text-align:left; }
@@ -245,6 +255,7 @@ input[type=radio]:checked + label:before { background-position:-36px -30px; }
 #contents > section { padding-top:98px; box-sizing:border-box; }
 #contents > section > .tit { font-size:40px; font-weight:600; line-height:53px; text-align:center; color:#2c1004; }
 #contents > section > .txt { font-size:16px; line-height:24px; letter-spacing:-0.04em; text-align:center; color:#807e7f; }
+#contents > section > .txt ~ * { font-weight:500; }
 
 #path { height:50px; border-bottom:1px solid #e4e4e4; box-sizing:border-box; }
 #path .inner { position:relative; width:1180px; height:100%; margin:0 auto; }

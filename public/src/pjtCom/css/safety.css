@@ -1,0 +1,39 @@
+/* 식품안전센터 */
+.safety > section { padding-bottom:120px; }
+.safety > section > .txt { font-size:14px !important; }
+.safety .rule_area { position:relative; width:1180px; text-align:center; margin:94px auto 0; }
+.safety .rule_area li { position:absolute; text-align:left; }
+.safety .rule_area li b { font-size:18px; line-height:26px; }
+.safety .rule_area li p { font-size:16px; line-height:26px; color:#807e7e; margin-top:10px; }
+.safety .rule_area .init { top:-40px; left:520px; }
+.safety .rule_area .init p { display:inline-block; vertical-align:top; margin-top:0; margin-left:20px; }
+.safety .rule_area .audit { top:140px; left:800px; }
+.safety .rule_area .review { top:370px; left:720px; }
+.safety .rule_area .cs { top:370px; left:260px; text-align:right; }
+.safety .rule_area .upgrade { top:140px; left:150px; text-align:right;  }
+.safety .task_area { width:1180px; margin:185px auto 0; }
+.safety .task_area > .tit { font-size:30px; text-align:center; color:#555; margin-bottom:40px; }
+.safety .task_list > li { position:relative; height:180px; margin-top:40px; border:1px solid #ebebeb; box-sizing:border-box; }
+.safety .task_list > li:first-child { margin-top:0; }
+.safety .task_list > li b { display:block; font-size:22px; color:#231f20; margin:40px 0 20px; }
+.safety .task_list > li .img { position:absolute; top:0; }
+.safety .task_list > li:nth-child(2n+1) { padding-left:690px; }
+.safety .task_list > li:nth-child(2n+2) { padding-left:100px; }
+.safety .task_list > li:nth-child(2n+1) .img { left:0; }
+.safety .task_list > li:nth-child(2n+2) .img { right:0; }
+.safety .task_list li li { font-size:16px; line-height:26px; color:#555; }
+.safety .task_list li li:before { content:"-"; display:inline-block; margin-right:4px; }
+.safety .system_area { width:1180px; margin:185px auto 0; }
+.safety .system_area > .tit { font-size:30px; text-align:center; color:#555; margin-bottom:60px; }
+.safety .system_area .after_area { margin-top:85px; }
+.safety .system_area > section > .tit { font-size:22px; text-align:center; color:#231f20; margin-bottom:27px; }
+.safety .system_list { padding:0 28px; overflow:hidden; }
+.safety .system_list > li { float:left; text-align:center; margin-left:20px; }
+.safety .system_list > li:nth-child(1) { width:218px; margin-left:0; }
+.safety .system_list > li:nth-child(2) { width:229px; }
+.safety .system_list > li:nth-child(3) { width:234px; }
+.safety .system_list > li:nth-child(4) { width:202px; }
+.safety .system_list > li:nth-child(5) { width:161px; }
+.safety .system_list > li b { display:block; font-size:22px; color:#231f20; margin:35px 0 14px; }
+.safety .system_list > li li { font-size:16px; line-height:26px; color:#555555; }
+.safety .system_list > li li:before { content:"-"; display:inline-block; margin-right:4px; }

@@ -90,7 +90,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 
 				<!-- 검색 전 노출 // -->
 				<!-- 분류 // -->
-				<ul class="sort_list">
+				<ul class="no_search sort_list">
 					<li><a href="#" class="now">전체</a></li><!-- 현재 페이지에서 class="now" -->
 					<li><a href="#">에피타이저</a></li>
 					<li><a href="#">샐러드 스프</a></li>
@@ -108,74 +108,90 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 
 
 				<!-- 검색결과 // -->
-				<div class="result_area">
+				<div class="bbs_gallery_list result_area">
 					<div class="inner">
 						<p class="result">전체(84)</p>
 
 						<ul class="result_list">
 							<!-- 반복영역 // -->
 							<li>
-								<a href="/service/recipe_view_western.asp">
-									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="">
-									<p class="sort">피자</p>
-									<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
+								<a href="/service/recipe_view_baking.asp">
+									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="" class="img">
+									<div class="txt_area">
+										<p class="sort">피자</p>
+										<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
+									</div>
 								</a>
 							</li>
 							<!-- // 반복영역 -->
 
 							<li>
-								<a href="/service/recipe_view_western.asp">
-									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="">
-									<p class="sort">에피타이저</p>
-									<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타 무띠 피자소스로 만든 푸실리 파스타</p>
+								<a href="/service/recipe_view_baking.asp">
+									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="" class="img">
+									<div class="txt_area">
+										<p class="sort">에피타이저</p>
+										<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타 무띠 피자소스로 만든 푸실리 파스타</p>
+									</div>
 								</a>
 							</li>
 
 							<li>
-								<a href="/service/recipe_view_western.asp">
-									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="">
-									<p class="sort">기타</p>
-									<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
+								<a href="/service/recipe_view_baking.asp">
+									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="" class="img">
+									<div class="txt_area">
+										<p class="sort">기타</p>
+										<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
+									</div>
 								</a>
 							</li>
 
 							<li>
-								<a href="/service/recipe_view_western.asp">
-									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="">
-									<p class="sort">파스타/누들</p>
-									<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
+								<a href="/service/recipe_view_baking.asp">
+									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="" class="img">
+									<div class="txt_area">
+										<p class="sort">파스타/누들</p>
+										<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
+									</div>
 								</a>
 							</li>
 
 							<li>
-								<a href="/service/recipe_view_western.asp">
-									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="">
-									<p class="sort">피자</p>
-									<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
+								<a href="/service/recipe_view_baking.asp">
+									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="" class="img">
+									<div class="txt_area">
+										<p class="sort">피자</p>
+										<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
+									</div>
 								</a>
 							</li>
 
 							<li>
-								<a href="/service/recipe_view_western.asp">
-									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="">
-									<p class="sort">피자</p>
-									<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
+								<a href="/service/recipe_view_baking.asp">
+									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="" class="img">
+									<div class="txt_area">
+										<p class="sort">피자</p>
+										<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
+									</div>
 								</a>
 							</li>
 
 							<li>
-								<a href="/service/recipe_view_western.asp">
-									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="">
-									<p class="sort">피자</p>
-									<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
+								<a href="/service/recipe_view_baking.asp">
+									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="" class="img">
+									<div class="txt_area">
+										<p class="sort">피자</p>
+										<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
+									</div>
 								</a>
 							</li>
 
 							<li>
-								<a href="/service/recipe_view_western.asp">
-									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="">
-									<p class="sort">피자</p>
-									<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
+								<a href="/service/recipe_view_baking.asp">
+									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="" class="img">
+									<div class="txt_area">
+										<p class="sort">피자</p>
+										<p class="ellipsis name">무띠 피자소스로 만든 푸실리 파스타</p>
+									</div>
 								</a>
 							</li>
 						</ul>

@@ -1,0 +1,17 @@
+/**
+* --------------------------------
+* 식품연구소 CSS
+* --------------------------------
+*/
+
+/* 식품연구소 */
+.lab > section { padding-bottom:120px; }
+.lab > section > .txt { font-size:14px !important; }
+.lab .txt2 { font-size:22px; text-align:center; line-height:26px; color:#231f20; margin-top:50px; }
+.lab .lab_list { width:1180px; font-size:0; margin:57px auto 0; }
+.lab .lab_list li { position:relative; height:180px; margin-top:40px; }
+.lab .lab_list li:after { content:""; display:inline-block; height:100%; vertical-align:middle; }
+.lab .lab_list li:first-child { margin-top:0; }
+.lab .lab_list .team { display:inline-block; width:330px; font-weight:600; font-size:30px; text-align:center; vertical-align:middle; color:#fff; }
+.lab .lab_list .txt { display:inline-block; width:850px; font-size:14px; line-height:24px; vertical-align:middle; color:#fff; }
+.lab .lab_list .img { position:absolute; z-index:-1; top:0; left:0; }
