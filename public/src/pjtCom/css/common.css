@@ -141,7 +141,7 @@ input[type=radio]:checked + label:before { background-position:-36px -30px; }
 .alert .inner .btn_ok { display:block; width:113px; height:39px; font-size:16px; text-align:center; color:#fff; margin:0 auto; background:#555; }
 .alert .inner .btn_ok.org { background:#ce462d; color:#fff; }
 .alert.type1 .inner .txt { margin-top:54px; }
-.alert.type2 .inner .txt .small { display:block; font-size:13px; color:#949494; margin-top:10px; }
+.alert.type2 .inner .txt .small { display:block; font-size:13px; line-height:20px; color:#949494; margin-top:10px; }
 
 /* search */
 .search_area { width:1280px; margin:5px auto 30px; padding:0 50px; box-sizing:border-box; }
@@ -206,8 +206,11 @@ input[type=radio]:checked + label:before { background-position:-36px -30px; }
 [class*="bbs_gallery_view"] .share_list li:first-child { margin-left:0; }
 [class*="bbs_gallery_view"] .share_list li button { display:block; width:30px; height:30px; text-indent:-9999px; background:url(/pjtCom/images/common/icon_sns.png) no-repeat 0 0; }
 [class*="bbs_gallery_view"] .share_list li.facebook button { background-position:0 0; }
-[class*="bbs_gallery_view"] .share_list li.blog button { background-position:-35px 0; }
+[class*="bbs_gallery_view"] .share_list li.band button { background-position:-35px 0; }
 [class*="bbs_gallery_view"] .share_list li.kakao button { background-position:-70px 0; }
+[class*="bbs_gallery_view"] .share_list li.facebook button:hover { background-position:0 -35px; }
+[class*="bbs_gallery_view"] .share_list li.band button:hover { background-position:-35px -35px; }
+[class*="bbs_gallery_view"] .share_list li.kakao button:hover { background-position:-70px -35px; }
 
 /* 게시판 : 확장형 : 목록 */
 [class*="bbs_masonry_list"] { margin-top:70px; }
@@ -228,9 +231,9 @@ input[type=radio]:checked + label:before { background-position:-36px -30px; }
 [class*="bbs_masonry_list"] .share_area { position:absolute; top:14px; right:14px; }
 [class*="bbs_masonry_list"] .share_list li { float:left; }
 [class*="bbs_masonry_list"] .share_list li button { display:block; height:33px; text-indent:-9999px; background:url(/pjtCom/images/common/icon_sns.png) no-repeat 0 0; }
-[class*="bbs_masonry_list"] .share_list li.facebook button { width:21px; background-position:0 -35px; }
-[class*="bbs_masonry_list"] .share_list li.blog button { width:25px; background-position:-26px -35px; }
-[class*="bbs_masonry_list"] .share_list li.kakao button { width:21px; background-position:-56px -35px; }
+[class*="bbs_masonry_list"] .share_list li.facebook button { width:21px; background-position:0 -70px; }
+[class*="bbs_masonry_list"] .share_list li.band button { width:25px; background-position:-26px -70px; }
+[class*="bbs_masonry_list"] .share_list li.kakao button { width:21px; background-position:-56px -70px; }
 [class*="bbs_masonry_list"] .btn_more { margin-top:96px; }
 
 

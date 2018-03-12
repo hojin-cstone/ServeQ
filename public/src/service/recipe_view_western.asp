@@ -97,8 +97,8 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							<li class="facebook">
 								<button type="button">FACEBOOK 공유하기</button>
 							</li>
-							<li class="blog">
-								<button type="button">BLOG 공유하기</button>
+							<li class="band">
+								<button type="button">BAND 공유하기</button>
 							</li>
 							<li class="kakao">
 								<button type="button">KAKAOSTORY 공유하기</button>
@@ -112,9 +112,25 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 					<!-- 인쇄 & 스크랩 // -->
 					<div class="function_area">
 						<a href="#print" class="btn_print">인쇄</a>
-						<a href="#" class="btn_scrap">스크랩</a>
+						<a href="#scrap_alert" class="btn_scrap" onclick="fn.alertOpen('#scrap_alert');">스크랩</a>
 					</div>
 					<!-- // 인쇄 & 스크랩 -->
+
+					<!-- 스크랩 alert // -->
+					<div id="scrap_alert" class="alert type2">
+						<div class="inner">
+							<button type="button" class="btn_close" onclick="fn.alertClose();">닫기</button>
+
+							<p class="txt">
+								스크랩이 완료되었습니다.
+
+								<span class="small">스크랩내역은 마이페이지에서<br>확인 가능합니다.</span>
+							</p>
+
+							<button type="button" class="btn_ok" onclick="fn.alertClose();">확인</button>
+						</div>
+					</div>
+					<!-- // 스크랩 alert -->
 
 
 
