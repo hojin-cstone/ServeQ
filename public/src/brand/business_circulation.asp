@@ -96,31 +96,10 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 						고객이 필요로 하는 양질의 상품을 조금 더 쉽게 구매하고 사용하실 수 있게 하고자 미국, 네덜란드, 프랑스, 이탈리아 등<br />
 						유명 글로벌 컴퍼니와 제휴하여 전통있는 대표 상품들을 구매, 소싱한 후 고객에게 제공하여 편리하게 이용할 수 있도록 도움을 드립니다.
 					</p>
+					<div class="img_box"><img src="/pjtCom/images/sub/circulation_sourcing_map.jpg" alt="" /></div>
 					<ul>
 						<li>
-							<div><img src="/pjtCom/images/sub/circulation_sourcing01.jpg" alt="CSM LOGO" /></div>
-							<strong>
-								CSM<br />
-								<span>미국</span>
-							</strong>
-							<span>
-								100개국 이상 베이킹<br />
-								제품 수출 브랜드
-							</span>
-						</li>
-						<li>
-							<div><img src="/pjtCom/images/sub/circulation_sourcing02.jpg" alt="Fonterra LOGO" /></div>
-							<strong>
-								Fonterra<br />
-								<span>뉴질랜드</span>
-							</strong>
-							<span>
-								세계 유제품 시장<br />
-								점유율 1위
-							</span>
-						</li>
-						<li>
-							<div><img src="/pjtCom/images/sub/circulation_sourcing03.jpg" alt="MUTTI LOGO" /></div>
+							<div><img src="/pjtCom/images/sub/circulation_sourcing01.jpg" alt="MUTTI LOGO" /></div>
 							<strong>
 								MUTTI<br />
 								<span>이탈리아</span>
@@ -131,26 +110,49 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							</span>
 						</li>
 						<li>
-							<div><img src="/pjtCom/images/sub/circulation_sourcing04.jpg" alt="ANTONIOMATO LOGO" /></div>
+							<div><img src="/pjtCom/images/sub/circulation_sourcing02.jpg" alt="ANTONIOMATO LOGO" /></div>
 							<strong>
 								ANTONIOMATO<br />
 								<span>이탈리아</span>
 							</strong>
 							<span>
-								수정
+								이탈리아의 대표적인<br />
+								정통 파스타 브랜드
+							</span>
+						</li>
+						<li>
+							<div><img src="/pjtCom/images/sub/circulation_sourcing03.jpg" alt="EURIAL LOGO" /></div>
+							<strong>
+								EURIAL<br />
+								<span>프랑스</span>
+							</strong>
+							<span>
+								프랑스 유제품 제조사
+							</span>
+						</li>
+						<li>
+							<div><img src="/pjtCom/images/sub/circulation_sourcing04.jpg" alt="DMK LOGO" /></div>
+							<strong>
+								DMK<br />
+								<span>독일</span>
+							</strong>
+							<span>
+								독일 유제품 제조사
 							</span>
 						</li>
 						<li class="royal">
-							<div><img src="/pjtCom/images/sub/circulation_sourcing05.jpg" alt="Royal Steensma LOGO" /></div>
+							<div><img src="/pjtCom/images/sub/circulation_sourcing05.jpg" alt="Fonterra LOGO" /></div>
 							<strong>
-								Royal Steensma<br />
-								<span>네덜란드</span>
+								Fonterra<br />
+								<span>뉴질랜드</span>
 							</strong>
 							<span>
-								네덜란드 베이커리<br />
-								원료의 명가
+								세계 유제품 시장<br />
+								점유율 1위
 							</span>
 						</li>
+
+
 						<li>
 							<div><img src="/pjtCom/images/sub/circulation_sourcing06.jpg" alt="CEMOI LOGO" /></div>
 							<strong>
@@ -166,11 +168,44 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							<div><img src="/pjtCom/images/sub/circulation_sourcing07.jpg" alt="Coup de pates LOGO" /></div>
 							<strong>
 								Coup de pates<br />
-								<span>프랑스</span>
+								<span>스위스</span>
 							</strong>
 							<span>
-								프랑스의 프리미엄<br />
-								냉동베이커리 브랜드
+								아이리쉬 스위스<br />
+								기업 ARYZTA와 제휴
+							</span>
+						</li>
+						<li>
+							<div><img src="/pjtCom/images/sub/circulation_sourcing08.jpg" alt="ARYZTA LOGO" /></div>
+							<strong>
+								ARYZTA<br />
+								<span>아일랜드</span>
+							</strong>
+							<span>
+								프리미엄 냉동베이커리<br />
+								솔루션 그룹
+							</span>
+						</li>
+						<li>
+							<div><img src="/pjtCom/images/sub/circulation_sourcing09.jpg" alt="METTE MUNK LOGO" /></div>
+							<strong>
+								METTE MUNK<br />
+								<span>덴마크</span>
+							</strong>
+							<span>
+								정통 덴마크<br />
+								데니쉬 브랜드
+							</span>
+						</li>
+						<li>
+							<div><img src="/pjtCom/images/sub/circulation_sourcing10.jpg" alt="OTISPUNKMEYER LOGO" /></div>
+							<strong>
+								OTISPUNKMEYER<br />
+								<span>미국</span>
+							</strong>
+							<span>
+								정통 아메리칸<br />
+								베이커리 브랜드
 							</span>
 						</li>
 					</ul>

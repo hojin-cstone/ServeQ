@@ -54,16 +54,17 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 					<p>
 						<strong>고객에게 언제나 우수한 품질의 제품과 서비스를 안전하고 신속하게 제공한다는 의미의 삼양사 식자재 유통 전문 브랜드입니다.</strong>
 						<span>
-						서브큐는 ‘생활을 풍요롭고 편리하게 하는 기업’이라는 삼양사의 기업정신 위에서 태어났습니다.
+						서브큐는 ‘생활을 풍요롭고 편리하게 하는 기업’이라는 삼양사의 기업정신 위에서 태어났습니다.<br />
 						보다 완벽하고 안전한 성공을 위한 식자재 유통의 베스트 솔루션 서브큐. 저희는 믿을 수 있는 상품을 제공하고
 						고객의 Needs를 충족시킬 수 있는 전문적인 맞춤형 Solution을 제공하고 있으며, 고객이 만족할 수 있는 Best 가격으로
-						상품을 제공하려 노력하고 있습니다. 고객에게 신뢰받는 식자재 Total Solution Provider가 되어 고객과 함께
+						상품을 제공하려 노력하고 있습니다. 고객에게 신뢰받는 식자재 Total Solution Provider가 되어 고객과 함께 성장하겠습니다.
+						우수한 품질의 제품과 서비스를 공급해 드리기 위해 언제나 최선을 다 하겠습니다.
 						</span>
 					</p>
 				</div>
 				<div class="cont identity">
 					<h3>Brand Identity</h3>
-					<p>‘제공하다. 기여하다.’라는 뜻의 Serve + 품질을 뜻하는 Quality의 Q 조합 ‘Q’부분에 젠틀한 셰프의 타이로 표현하여 친근감과 전문성을 동시에 표현</p>
+					<p>‘제공하다. 기여하다.’라는 뜻의 Serve + 품질을 뜻하는 Quality의 Q 조합<br /> ‘Q’부분에 젠틀한 셰프의 타이로 표현하여 친근감과 전문성을 동시에 표현</p>
 					<dl>
 						<dt>슬로건 조합형</dt>
 						<dd>가독성을 고려한 대소문자의 조합으로  ‘Q’부분에 디자인 컨셉을 집약적으로 표현하여, 식자재 유통 브랜드의 Look & Feel이 반영이 되었습니다.</dd>
@@ -82,7 +83,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 				<div class="cont color">
 					<h3>Color System</h3>
 					<p>
-						전용색상은 ‘ServeQ’ 브랜드 로고와 더불어 ‘ServeQ’의 아이덴티티를 형성하는 데 중요한 요소 중 하나입니다.
+						전용색상은 ‘ServeQ’ 브랜드 로고와 더불어 ‘ServeQ’의 아이덴티티를 형성하는 데 중요한 요소 중 하나입니다.<br />
 						또한 각종 시각 매체에 적용되어 ‘ServeQ’의 이미지를 전달하는 기능을 합니다. 전용색상의 표현은 별색인쇄를 원칙으로 하며,
 						아래 명시된 Pantone Color와 RGB Color를 표준으로 합니다.
 					</p>

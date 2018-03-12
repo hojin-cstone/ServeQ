@@ -26,7 +26,7 @@
 .serveq .cont.slogan dl:last-child { margin-top:23px; }
 .serveq .cont.slogan dl:last-child dd { top:-3px; height:29px; background:url('/pjtCom/images/sub/brand_sloganTxt02.jpg') no-repeat 0 0; }
 .serveq .cont.motif p { font-size:14px; line-height:24px; }
-.serveq .cont.motif ul { display:block; width:100%; height:212px; margin-top:15px; background:url('/pjtCom/images/sub/brand_motif.jpg') no-repeat 0 0; }
+.serveq .cont.motif ul { display:block; width:100%; height:250px; margin-top:15px; background:url('/pjtCom/images/sub/brand_motif.jpg') no-repeat 0 0; }
 .serveq .cont.motif ul li { display:none; }
 
 /* business common */
@@ -41,19 +41,18 @@
 .business .circulation .cont.circu ul { display:none; }
 .business .circulation .cont.food > div { width:656px; height:440px; margin:34px auto 0; background:url('/pjtCom/images/sub/circulation_food.jpg') no-repeat 0 0; }
 .business .circulation .cont.food ul { display:none; }
+.business .circulation .cont.sourcing h3,
+.business .circulation .cont.sourcing p { position:relative; z-index:1; }
 .business .circulation .cont.sourcing h3 span { font-weight:400; }
-.business .circulation .cont.sourcing ul { margin-top:36px; }
+.business .circulation .cont.sourcing .img_box { margin-top:-90px; }
+.business .circulation .cont.sourcing ul { margin-top:46px; }
 .business .circulation .cont.sourcing ul:after { content:""; display:block; clear:both; }
-.business .circulation .cont.sourcing ul li { float:left; width:288px; height:368px; margin-left:9px; }
-.business .circulation .cont.sourcing ul li:nth-child(5),
-.business .circulation .cont.sourcing ul li:nth-child(6),
-.business .circulation .cont.sourcing ul li:nth-child(7) { width:388px; margin-left:8px; }
-.business .circulation .cont.sourcing ul li:first-child,
-.business .circulation .cont.sourcing ul li.royal { margin-left:0; }
-.business .circulation .cont.sourcing ul li strong { display:block; margin-top:32px; font-size:22px; line-height:18px; text-align:center; }
+.business .circulation .cont.sourcing ul li { float:left; width:228px; height:318px; margin-left:10px; }
+.business .circulation .cont.sourcing ul li:nth-child(5n-4) { margin-left:0; }
+.business .circulation .cont.sourcing ul li strong { display:block; margin-top:21px; font-size:22px; line-height:18px; text-align:center; }
 .business .circulation .cont.sourcing ul li strong span { font-size:14px; }
 .business .circulation .cont.sourcing ul li > span { display:block; margin-top:11px; text-align:center; line-height:26px; letter-spacing:-0.04em; }
-.business .circulation .cont.solution { margin-top:138px; }
+.business .circulation .cont.solution { margin-top:78px; }
 .business .circulation .cont.solution ul { margin-top:38px; }
 .business .circulation .cont.solution ul:after { content:""; display:block; clear:both; }
 .business .circulation .cont.solution ul li { float:left; width:388px; height:382px; margin-left:8px; }
@@ -77,6 +76,30 @@
 .business .circulation .cont.hygiene ul li strong span { font-size:14px; }
 .business .circulation .cont.hygiene ul li > span { display:block; margin-top:16px; text-align:center; line-height:26px; letter-spacing:-0.04em; }
 
+/* business_bakery */
+.business .bakery .txt { font-size:14px; line-height:24px; color:#231f20; }
+.business .bakery .tit,
+.business .bakery .txt { position:relative; z-index:1; }
+.business .bakery .cont1 p,
+.business .bakery .cont1 ul { display:none; }
+.business .bakery .cont1 { margin-top:-67px; }
+.business .bakery .cont2 { margin-top:54px; padding-bottom:107px; }
+.business .bakery .cont2 h3 { font-size:30px; text-align:center; }
+.business .bakery .cont2 p { margin-top:12px; font-size:14px; line-height:24px; text-align:center; }
+.business .bakery .cont2 > ul { width:654px; height:55px; margin:54px auto 0; background:url('/pjtCom/images/sub/bakery_img02.jpg') no-repeat 0 0; }
+.business .bakery .cont2 > ul > li {display:none;}
+.business .bakery .cont2 .solution { margin-top:60px; }
+.business .bakery .cont2 .solution .aryzta { text-align:center; }
+.business .bakery .cont2 .solution .aryzta span { display:block; height:60px; text-align:center; font-size:22px; font-weight:600; line-height:60px; }
+.business .bakery .cont2 .solution ul { position:relative; }
+.business .bakery .cont2 .solution ul:before { content:''; display:block; margin:0 auto 20px; width:836px; height:74px; background:url('/pjtCom/images/sub/bakery_img04.jpg') no-repeat 0 0; }
+.business .bakery .cont2 .solution ul:after { content:''; display:block; clear:both; }
+.business .bakery .cont2 .solution ul li { float:left; width:388px; height:320px; margin-left:8px; }
+.business .bakery .cont2 .solution ul li:first-child { margin-left:0; }
+.business .bakery .cont2 .solution ul li strong { display:block; margin-top:26px; font-size:22px; line-height:24px; text-align:center; }
+.business .bakery .cont2 .solution ul li span { display:block; font-size:14px; line-height:24px; text-align:center; }
+.business .bakery .cont2 .solution ul li p { margin-top:10px; font-size:16px; line-height:24px; color:#555; }
+
 /* business_material */
 #contents.business > section.material { margin-bottom:120px; }
 .business .material .cont { position:relative; padding-left:364px; box-sizing:border-box; }
@@ -87,27 +110,40 @@
 .business .material .cont.milling { margin-top:75px; }
 .business .material .cont.oil { margin-top:75px; }
 .business .material .cont.starch { margin-top:115px; }
-.business .material .cont.brand { margin-top:80px; }
+.business .material .cont.brand { margin-top:100px; }
 .business .material .cont.brand strong { font-size:22px; color:#231f20; }
 
 /* business_consum */
 #contents.business > section.consumption { margin-bottom:80px; }
 #contents.business > section.consumption .txt { margin-top:10px; }
-.business .consumption .cont ul { margin-top:35px; }
-.business .consumption .cont ul:after { content:""; display:block; clear:both; }
-.business .consumption .cont ul li { float:left; width:388px; height:325px; margin-left:8px; text-align:center; }
-.business .consumption .cont ul li:nth-child(1),
-.business .consumption .cont ul li:nth-child(4) { margin-left:0; }
-.business .consumption .cont ul li strong { display:block; margin-top:30px; font-size:22px; color:#231f20; text-align:center; }
-.business .consumption .cont ul li a { position:relative; display:inline-block; margin-top:15px; padding-right:16px; font-size:14px; line-height:24px; }
+.business .consumption .cont ul { margin-top:40px; }
+.business .consumption .cont ul li { margin-top:40px; }
+.business .consumption .cont ul li:first-child { margin-top:0; }
+.business .consumption .cont ul li > div { float:left; }
+.business .consumption .cont ul li > div:nth-child(2) { margin-left:60px; }
+.business .consumption .cont ul li .img_box { width:400px; height:300px; margin-left:120px; }
+.business .consumption .cont ul li:after { content:''; display:block; clear:both; }
+.business .consumption .cont ul li h3 { font-size:30px; font-weight:600; padding-top:15px; }
+.business .consumption .cont ul li dl { margin-top:38px; }
+.business .consumption .cont ul li dl:after { content:''; display:block; width:500px; height:1px; margin-top:25px; background:#e4e4e4; }
+.business .consumption .cont ul li dl dt { font-size:22px; font-weight:600; }
+.business .consumption .cont ul li dl dd { margin-top:23px; font-size:16px; line-height:26px; }
+.business .consumption .cont ul li a { position:relative; display:inline-block;margin-top:17px; font-size:14px; line-height:60px; letter-spacing:-0.02em; padding-right:17px; color:#231f20; }
 .business .consumption .cont ul li a:after { content:""; position:absolute; right:0; top:50%; transform:translate(0,-50%); display:block; width:7px; height:11px; background:url('/pjtCom/images/common/form_icon.png') no-repeat -42px -105px; }
+.business .consumption .cont ul li a i { display:inline-block; width:95px; height:60px; margin-right:40px; text-indent:-9999px; background:url('/pjtCom/images/sub/consum01_logo.jpg') no-repeat 0 0;}
+.business .consumption .cont ul li:nth-child(2) a i { width:178px; background:url('/pjtCom/images/sub/consum02_logo.jpg') no-repeat 0 0; }
+.business .consumption .cont ul li:nth-child(3) a i { width:44px; background:url('/pjtCom/images/sub/consum03_logo.jpg') no-repeat 0 0; }
+.business .consumption .cont ul li:nth-child(4) a i { width:109px; background:url('/pjtCom/images/sub/consum04_logo.jpg') no-repeat 0 0; }
+.business .consumption .cont ul li:nth-child(5) a i { width:160px; background:url('/pjtCom/images/sub/consum05_logo.jpg') no-repeat 0 0; }
+.business .consumption .cont ul li:nth-child(6) a i { width:139px; background:url('/pjtCom/images/sub/consum06_logo.jpg') no-repeat 0 0; }
 
 /* business_office */
 #contents.business > section.office { margin-bottom:120px; }
-.business .office .btnbox { width:400px; height:50px; margin:54px auto 0; }
+.business .office .btnbox { width:540px; height:50px; margin:54px auto 0; border-radius:50px; border:1px solid #949494; }
 .business .office .btnbox:after { content:""; display:block; clear:both; }
-.business .office .btnbox .btn_tab { float:left; display:block; width:50%; height:50px; line-height:50px; font-size:16px; color:#949494; border:1px solid #949494; box-sizing:border-box; }
+.business .office .btnbox .btn_tab { float:left; display:block; width:180px; height:50px; line-height:50px; font-size:16px; color:#949494; box-sizing:border-box; border-radius:50px; }
 .business .office .btnbox .btn_tab.on { background:#ce462d; border:none; color:#fff; }
+
 .business .office .cont { margin-top:40px; }
 .business .office .cont:after { content:""; display:block; clear:both; }
 .business .office .info { float:left; width:360px; height:400px; }
@@ -117,20 +153,37 @@
 .business .office .map_wrap { margin-top:40px; }
 .business .office .map_wrap:after { content:""; display:block; clear:both; }
 .business .office .tabbox.op0 .sales,
-.business .office .tabbox.op1 .factory { position:relative; z-index:-1; height:0; overflow:hidden; opacity:0; margin-top:0; }
+.business .office .tabbox.op0 .factory,
+.business .office .tabbox.op1 .sales,
+.business .office .tabbox.op1 .company,
+.business .office .tabbox.op2 .company,
+.business .office .tabbox.op2 .factory { position:relative; z-index:-1; height:0; overflow:hidden; opacity:0; margin-top:0; }
+
+
+.business .office .company .map_wrap:first-child,
 .business .office .factory .map_wrap:first-child { margin-top:0; }
+.business .office .company h3,
 .business .office .factory h3 { margin-top:32px; font-size:22px; font-weight:600; }
+.business .office .company dl,
 .business .office .factory dl { float:left; width:50%; margin-top:12px; }
+.business .office .company dl.w100,
 .business .office .factory dl.w100 { width:100%; margin-top:20px; }
+.business .office .company dl:after,
 .business .office .factory dl:after { content:""; display:block; clear:both; }
+.business .office .company dt,
+.business .office .company dd
 .business .office .factory dt,
 .business .office .factory dd { width:100%; font-size:14px; line-height:24px; }
+.business .office .company dt,
 .business .office .factory dt { font-weight:600; }
-.business .office .sales .info { position:relative; height:320px; padding:16px 0 0 127px; box-sizing:border-box; }
-.business .office .sales .info h3 { position:absolute; left:0; top:0; padding-top:16px; font-size:22px; font-weight:600; }
-.business .office .sales .info h3:before { content:""; position:absolute; left:0; top:0; display:block; width:25px; height:3px; background:#ee3124; }
-.business .office .sales .info dl { font-size:14px; line-height:24px; }
-.business .office .sales .info dt { font-weight:600; }
-.business .office .sales .info dl.w100 { margin-top:-5px; }
-.business .office .sales .info dl:last-child { margin-top:10px; }
-.business .office .sales .map { height:320px; }
+
+.business .office .sales:after { content:''; display:block; clear:both; }
+.business .office .sales .img_box,
+.business .office .sales .tbl_box { float:left; width:590px; }
+.business .office table { width:590px; border:none; line-height:48px; }
+.business .office table thead { border-top:1px solid #ece9e6; }
+.business .office table thead th { background:#f5f4f2; font-size:16px; font-weight:400; }
+.business .office table tbody th { font-weight:400; }
+.business .office table tbody td { padding:9px 40px; line-height:24px; }
+.business .office table tbody tr:nth-child(2n) td { font-size:16px; }
+.business .office table tbody tr { border:1px solid #ece9e6; border-width:1px 0; }
