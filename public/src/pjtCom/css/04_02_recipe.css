@@ -1,9 +1,3 @@
-/**
-* --------------------------------
-* recipe CSS
-* --------------------------------
-*/
-
 /* 레시피 메인 */
 .recipe .recipe_type { width:1180px; margin:36px auto 130px; overflow:hidden; }
 .recipe .recipe_type li { float:left; position:relative; text-align:center; margin-left:32px; }

@@ -1,0 +1,8 @@
+/**
+* --------------------------------
+* 인프라 CSS
+* --------------------------------
+*/
+
+.infra > #contents > section { padding-bottom:110px; }
+.infra > #contents > section > .txt { font-size:14px; color:#231f20; }

@@ -42,7 +42,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 			</h1>
 
 			<!-- path // -->
-			<!--#include virtual="/inCom/path_product.asp"-->
+			<!--#include virtual="/inCom/path.asp"-->
 			<!-- // path -->
 
 			<section class="<%= path3dir %>">
