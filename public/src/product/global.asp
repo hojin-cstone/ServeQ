@@ -2,10 +2,10 @@
 
 <%
 path1dir="product"
-path2dir="overseas"
+path2dir="global"
 path3dir=""
 path1tit="상품안내"
-path2tit="해외브랜드"
+path2tit="글로벌 구매 네트워크"
 path3tit=""
 description = "ServeQ "
 If path3tit = "" Then description=description+path2tit Else description=description+path3tit End If
@@ -47,7 +47,18 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 
 			<section class="<%= path3dir %>">
 				<h2 class="tit"><%= pageTit %></h2>
-				<p class="txt"></p>
+				<p class="txt">국내 Local Value Chain 구축을 통해 안정적이며 가격 경쟁력을 확보한 농산물을 공급하고 있습니다.</p>
+
+				<div class="map_area">
+					<img src="/pjtCom/images/sub/img_product_global_map.jpg" alt="" class="img">
+				</div>
+
+				<div class="btn_area">
+					<p class="txt">식자재 구매에 대해 상담 내용을 남기시면<br>메일 혹은 전화를 통해 신속히 답변드리겠습니다.</p>
+					<a href="#" class="btn_catalogue">상품 카탈로그</a>
+					<a href="#" class="btn_counsel">구매상담</a>
+					<img src="/pjtCom/images/sub/img_product_global_.jpg" alt="">
+				</div>
 			</section>
 		</div>
 	</main>

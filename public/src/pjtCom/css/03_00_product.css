@@ -3,3 +3,47 @@
 * 상품안내 CSS
 * --------------------------------
 */
+
+.product > #contents > section { padding-bottom:110px; }
+.product > #contents > section > .txt { font-size:14px; color:#231f20; }
+
+/* 상품소개 */
+.product .about .product_area { position:relative; width:1180px; margin:0 auto; padding:135px 0 120px; overflow:hidden; }
+.product .about .product_area .img { position:absolute; top:135px; left:0; }
+.product .about .product_list > li { float:left; position:relative; width:220px; min-height:332px; margin-left:20px; }
+.product .about .product_list > li:first-child { margin-left:0; }
+.product .about .product_list > li b { position:absolute; top:154px; left:50%; transform:translateX(-50%); font-size:22px; color:#fff; }
+.product .about .product_list > li ul { position:absolute; width:400px; }
+.product .about .product_list > li:nth-child(2n+1) ul { top:350px; }
+.product .about .product_list > li:nth-child(2n+2) ul { bottom:351px; }
+.product .about .product_list > li li { font-size:16px; line-height:20px; color:#807e7e; margin:6px 0 0 10px; }
+.product .about .product_list > li li:before { content:"-"; display:inline-block; margin:0 3px 0 -10px; }
+.product .about .product_list > li li:first-child { margin-top:0; }
+
+/* 서브큐 PB상품 */
+.product .pb .process_area { position:relative; width:1180px; margin:70px auto 0; }
+.product .pb .process_area .img { position:absolute; z-index:-1; top:0; left:0; }
+.product .pb .process_list { font-size:0; text-align:center; padding:0 134px 0 144px;  }
+.product .pb .process_list li { display:inline-block; text-align:center; margin:90px 0 0 20px; counter-increment:number; }
+.product .pb .process_list b { display:block; font-size:22px; color:#231f20; margin:35px 0 14px; }
+.product .pb .process_list b:before { content:'0' counter(number); margin-right:5px; }
+.product .pb .process_list p { font-size:16px; line-height:26px; color:#555555; }
+.product .pb .process_list > li:nth-child(1) { width:214px; margin-left:0; }
+.product .pb .process_list > li:nth-child(2) { width:209px; }
+.product .pb .process_list > li:nth-child(3) { width:213px; }
+.product .pb .process_list > li:nth-child(4) { width:206px; }
+.product .pb .process_list > li:nth-child(5) { width:209px; margin-top:120px; }
+.product .pb .process_list > li:nth-child(6) { width:213px; margin-top:120px; }
+.product .pb .process_list > li:nth-child(7) { width:211px; margin-top:120px; }
+
+/* 산지직거래 상품 */
+.product .direct .img { width:1180px; text-align:center; margin:50px auto 0; }
+
+/* 글로벌 구매 네트워크 */
+.map_area { width:1180px; margin:55px auto 0; }
+.btn_area { position:relative; width:1180px; margin:95px auto 0; }
+.btn_area .txt { position:absolute; top:50%; left:100px; transform:translateY(-50%); font-weight:400; font-size:22px; line-height:26px; color:#fff; }
+.btn_area a { position:absolute !important; top:56px; width:209px; height:60px; font-size:20px; color:#fff; border:1px solid #fff; background:none !important; box-sizing:border-box; }
+.btn_area a:before { content:""; position:absolute; top:50%; right:36px; transform:translateY(-50%); width:12px; height:20px; vertical-align:middle; background:url(/pjtCom/images/sub/icon_product_global_arrow.png) no-repeat 0 0; }
+.btn_area .btn_catalogue { right:339px; padding-right:25px; }
+.btn_area .btn_counsel { right:110px; padding-right:45px; }

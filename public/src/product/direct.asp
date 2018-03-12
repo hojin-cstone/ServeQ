@@ -2,10 +2,10 @@
 
 <%
 path1dir="product"
-path2dir="overseas"
+path2dir="direct"
 path3dir=""
 path1tit="상품안내"
-path2tit="해외브랜드"
+path2tit="산지직거래 상품"
 path3tit=""
 description = "ServeQ "
 If path3tit = "" Then description=description+path2tit Else description=description+path3tit End If
@@ -47,7 +47,9 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 
 			<section class="<%= path3dir %>">
 				<h2 class="tit"><%= pageTit %></h2>
-				<p class="txt"></p>
+				<p class="txt">국내 Local Value Chain 구축을 통해 안정적이며 가격 경쟁력을 확보한 농산물을 공급하고 있습니다.</p>
+
+				<figure class="img"><img src="/pjtCom/images/sub/img_product_direct_map.jpg" alt=""></figure>
 			</section>
 		</div>
 	</main>

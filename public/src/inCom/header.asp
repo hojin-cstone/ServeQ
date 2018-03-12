@@ -38,13 +38,10 @@
 					</ul>
 
 					<ul class="product">
-						<li><a href="/product/afl_list.asp">농/수/축산물</a></li>
-						<li><a href="/product/processed_list.asp">가공상품</a></li>
-						<li><a href="/product/industrial_list.asp">비식품</a></li>
-						<li><a href="/product/pb_list.asp">서브큐PB상품</a></li>
-						<li><a href="/product/frozen_list.asp">냉동생지</a></li>
-						<li><a href="/product/overseas_list.asp">해외브랜드</a></li>
-						<li><a href="/product/direct_list.asp">산지직거래</a></li>
+						<li><a href="/product/about.asp">상품소개</a></li>
+						<li><a href="/product/pb.asp">서브큐PB상품</a></li>
+						<li><a href="/product/direct.asp">산지직거래 상품</a></li>
+						<li><a href="/product/global.asp">글로벌 구매 네트워크</a></li>
 					</ul>
 
 					<ul class="service">
