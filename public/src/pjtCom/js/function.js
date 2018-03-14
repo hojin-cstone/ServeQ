@@ -115,6 +115,36 @@ var fn = (function() {
         			$objMain.animate({'left':'+=' + ($obj.find('li').width() + optionMargin)}, 500);
         		}
         	});
+        },
+
+        // 댓글 입력
+        reply : function(obj){
+            var $obj = $(obj);
+
+            $(obj).find('textarea').keyup(function(e){
+				var counter = $(this).val();
+				if($(this).val().length > 400){
+					$(this).val($(this).val().substring(0, 400));
+				}
+				$(this).closest('.reply_box').find('.re_counter').html('<b>' + counter.length + '</b>' + '/400');
+			});
+            $(obj).find('textarea').each(function(){
+                $(this).keyup();
+            });
+        },
+
+        //파일첨부 업로드
+        upload : function(obj){
+            var obj = $(obj);
+            obj.find('.upload_hidden').on('change', function(){
+                if(window.FileReader){
+                    var filename = $(this)[0].files[0].name;
+                } else {
+                    var filename = $(this).val().split('/').pop().split('\\').pop();
+                }
+                 obj.find('label').text(filename);
+             });
+
         }
     }
 })();

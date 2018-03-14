@@ -3,3 +3,132 @@
 * 고객센터 CSS
 * --------------------------------
 */
+
+/* common */
+.ui-state-disabled, .ui-widget-content .ui-state-disabled { height:0; overflow:hidden; }
+
+/* list 테이블 common */
+.tbl_list thead { border-top:1px solid #221e1f; }
+.tbl_list thead td { background:#e1e1e1; text-align:center; line-height:57px; }
+.tbl_list tbody td { text-align:center; }
+.tbl_list tbody td .list_tit { position:relative; display:block; width:100%; font-size:16px; line-height:26px; padding:15px 90px 14px 28px; text-align:left; box-sizing:border-box; }
+.tbl_list tbody tr { border-bottom:1px solid #e4e4e4; }
+
+/* 고객센터 리스트 common */
+.customer .qna .btn_box,
+.customer .qna_list .btn_box,
+.customer .qna_view .btn_box,
+.customer .qna_edit .btn_box { margin-top:30px; width:100%; text-align:right; }
+.customer .qna .btn_box button,
+.customer .qna_list .btn_box button,
+.customer .qna_view .btn_box button,
+.customer .qna_edit .btn_box button { display:inline-block; width:167px; height:50px; margin-left:8px; box-sizing:border-box; text-align:center; }
+.customer .qna .btn_box button:first-child,
+.customer .qna_list .btn_box button:first-child,
+.customer .qna_view .btn_box button:first-child,
+.customer .qna_edit .btn_box button:first-child { margin-left:0; }
+.customer .qna .btn_box .btn_org,
+.customer .qna_list .btn_box .btn_org,
+.customer .qna_view .btn_box .btn_org,
+.customer .qna_edit .btn_box .btn_org { background:#ce462e; }
+.customer .qna .btn_box .btn_wht,
+.customer .qna_list .btn_box .btn_wht,
+.customer .qna_view .btn_box .btn_wht,
+.customer .qna_edit .btn_box .btn_wht { background:#fff; background:#fff; border:1px solid #555; color:#555; }
+.customer .qna .btn_box .btn_gray,
+.customer .qna_list .btn_box .btn_gray,
+.customer .qna_view .btn_box .btn_gray,
+.customer .qna_edit .btn_box .btn_gray { background:#555555; color:#fff; }
+
+.customer .tbl_list tbody tr td:nth-child(2) { text-align:left; }
+.customer .tbl_list tbody tr td .list_tit.rock { margin-right:35px; }
+.customer .tbl_list tbody tr td .list_tit.rock:after { width:15px; }
+.customer .tbl_list tbody tr td .list_tit.answer { margin-right:88px; }
+.customer .tbl_list tbody tr td .list_tit.answer:after { width:68px; background-position:-33px 0; }
+.customer .tbl_list tbody tr td .list_tit.rock.answer { margin-right:120px; }
+.customer .tbl_list tbody tr td .list_tit.rock.answer:after { width:102px; background-position:0 0; }
+
+/* faq */
+.customer .faq .tbl_list tbody td .list_tit { width:100%; }
+.customer .faq .tbl_list tbody td .list_tit:after { content:""; position:absolute; right:53px; top:50%; margin-top:-5px; display:block; width:18px; height:10px; background:url('/pjtCom/images/common/btn.png') no-repeat -114px 0; -webkit-transition:0.6s; transition:0.6s; }
+.customer .faq .tbl_list tbody tr.on td .list_tit:after { -webkit-transform:rotate(180deg); transform:rotate(180deg); }
+.customer .faq .tbl_list tbody tr:nth-child(2n) { border-bottom:none; }
+.customer .faq .tbl_list tbody tr:nth-child(2n) td { background:#f7f7f7; overflow:hidden; }
+.customer .faq .tbl_list tbody tr:nth-child(2n) td span { display:block; width:100%; margin-top:-100%; padding:16px 0 16px 193px; box-sizing:border-box; text-align:left; line-height:26px; -webkit-transition:0.6s; transition:0.6s; }
+
+/* qna_list */
+.customer .qna_list .search_area .inner { width:528px; }
+.customer .qna_list label { float:left; }
+.customer .qna_list label:nth-child(2) { float:right;width:342px; }
+.customer .qna_list #select5-button { width:170px; }
+#select5-menu .ui-menu-item-wrapper { padding:0 10px; }
+.customer .qna_list [id^="select5"][id$="-button"] .ui-selectmenu-text { padding-left:10px; }
+.customer .qna_list [id^="select5"][id$="-button"] .ui-selectmenu-icon { right:10px; }
+.customer .qna_list .type3 [id^="select"][id$="-button"] { border:1px solid rgba(255,255,255,0); border-bottom:1px solid #e4e4e4; }
+.customer .qna_list .type3 .ui-widget.ui-selectmenu-button-open { border-bottom:2px solid #231f20; outline:none; }
+
+/* qna_view */
+.customer .qna_view [class*="bbs_gallery_list"] .inner { padding-top:0; }
+.customer .qna_view .tbl_article thead { border-top:1px solid #e4e4e4; border-bottom:1px solid #555555; }
+.customer .qna_view .tbl_article thead td { background:#fff; line-height:55px; }
+.customer .qna_view .tbl_article thead td:first-child {padding:0 24px 0 72px}
+.customer .qna_view .tbl_article thead td .ans_tit { position:relative; display:inline-block; font-size:20px; line-height:32px; padding:12px 0; }
+.customer .qna_view .tbl_article thead td .ans_tit.answer { padding-right:100px; }
+.customer .qna_view .tbl_article thead td .ans_tit.answer:after { content:""; position:absolute; right:0; top:50%; margin-top:-11px; display:block; width:68px; height:22px; background:url('/pjtCom/images/common/icon_answer.png') no-repeat -33px 0; }
+.customer .qna_view .tbl_article thead td:nth-child(2),
+.customer .qna_view .tbl_article thead td:nth-child(2) { text-align:center; }
+.customer .qna_view .tbl_article tbody tr { border-bottom:1px solid #e4e4e4; }
+.customer .qna_view .tbl_article tbody td { padding:25px 72px; line-height:26px; }
+.customer .qna_view .tbl_article tbody td .txt_box { min-height:85px; }
+.customer .qna_view .tbl_article tbody tr:nth-child(1) { background:#fff; }
+.customer .qna_view .tbl_article tbody tr:nth-child(2) { background:#f7f7f7; }
+.customer .qna_view .tbl_article tbody tr:nth-child(2) td { padding:17px 72px; }
+.customer .qna_view .tbl_article tbody tr:nth-child(2) td .ans_txt { font-size:16px; font-weight:600; line-height:26px; margin-bottom:26px; }
+
+/* qna_edit */
+.customer .qna_edit [class*="bbs_gallery_list"] .inner { padding-top:0; }
+.customer .qna_edit .edit_wrap { padding:0 72px; }
+.customer .qna_edit .option_area { display:block; }
+.customer .qna_edit .edit_wrap div { min-height:47px; }
+.customer .qna_edit .edit_wrap div:after { content:""; display:block; clear:both; }
+.customer .qna_edit .add_area,
+.customer .qna_edit .txt_area { margin-top:8px; }
+.customer .qna_edit .tit_area { margin-top:11px; }
+.customer .qna_edit .option_area .select { float:left; display:block; width:200px; }
+.customer .qna_edit .option_area .rdo_box { float:left; }
+.customer .qna_edit .option_area .rdo_box strong,
+.customer .qna_edit .option_area .rdo_box span { float:left; display:block; line-height:47px; }
+.customer .qna_edit .option_area .rdo_box strong { width:98px; font-weight:400; text-indent:29px; }
+.customer .qna_edit .option_area .rdo_box span { margin-right:15px; }
+.customer .qna_edit .add_area > div { float:left; }
+.customer .qna_edit .add_area > div:nth-child(1) { width:200px; }
+.customer .qna_edit .add_area > div:nth-child(2) { width:250px; }
+.customer .qna_edit .add_area > div:nth-child(3) { width:586px; }
+.customer .qna_edit .add_area > div strong,
+.customer .qna_edit .add_area > div label { float:left; font-weight:400; }
+.customer .qna_edit .add_area > div:nth-child(1) strong { display:block; width:66px; line-height:47px; }
+.customer .qna_edit .add_area > div:nth-child(1) label { width:134px; }
+.customer .qna_edit .add_area > div:nth-child(2) strong { display:block; width:65px; line-height:47px; text-indent:29px; }
+.customer .qna_edit .add_area > div:nth-child(2) label { width:185px; }
+.customer .qna_edit .add_area > div:nth-child(3) strong { display:block; width:80px; line-height:47px; text-indent:29px; }
+.customer .qna_edit .add_area > div:nth-child(3) label { width:506px; }
+.customer .qna_edit .txt_area { height:507px; }
+.customer .qna_edit .tit_area .tit { width:100%; }
+.customer .qna_edit .attention { margin-top:35px; padding:0 20px; }
+.customer .qna_edit .attention span { display:block; font-size:16px; line-height:24px; }
+.customer .qna_edit .btn_box { margin-top:57px; height:auto; text-align:center; }
+.customer .qna_edit .file_area { position:relative; width:100%; margin-top:10px; }
+.customer .qna_edit .file_area strong { display:block; width:97px; height:47px; line-height:47px; text-align:center; }
+.customer .qna_edit .file_area .upload { position:absolute; right:0; top:0; display:block; }
+.customer .qna_edit .file_area .upload input[type="file"] { width:0; height:0; overflow:hidden; }
+.customer .qna_edit .file_area .upload label { position:relative; display:block; width:797px; margin-right:142px; height:47px; line-height:47px; border:1px solid #b5b5b5; padding:0 20px; box-sizing:border-box; }
+.customer .qna_edit .file_area .upload label:after { content:"파일선택"; position:absolute; right:-142px; top:-1px; display:block; width:135px; height:47px; line-height:47px; box-sizing:border-box; border:1px solid #b5b5b5; background:#f6f6f6; color:#231f20; text-align:center; }
+.customer .qna_edit #select1-button { width:200px; }
+.customer .qna_edit #select2-button { width:134px; }
+.customer .qna_edit #select3-button { width:185px; }
+.customer .qna_edit [id^="select1"][id$="-button"] .ui-selectmenu-text,
+.customer .qna_edit [id^="select2"][id$="-button"] .ui-selectmenu-text,
+.customer .qna_edit [id^="select3"][id$="-button"] .ui-selectmenu-text { padding-left:20px; }
+.customer .qna_edit [id^="select1"][id$="-button"] .ui-selectmenu-icon,
+.customer .qna_edit [id^="select2"][id$="-button"] .ui-selectmenu-icon,
+.customer .qna_edit [id^="select3"][id$="-button"] .ui-selectmenu-icon  { right:20px; }
