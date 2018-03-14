@@ -67,9 +67,25 @@ var path1 = $('#wrap').attr('class'),
     path2 = $('#contents').attr('class');
 
 switch (path1) {
+    // 상품안내
+    case 'product' :
+
+        switch (path2) {
+            //글로벌 구매 네트워크
+            case 'global' :
+                $('.continent_list li a').click(function(e){
+                    e.preventDefault();
+                });
+            break;
+        }
+
+    break;
+
+    // 고객지원서비스
     case 'service' :
 
         switch (path2) {
+            // 레시피
             case 'recipe' :
                 // 슬라이드
                 fn.slide('.product_area',{
