@@ -1,1 +1,17 @@
 /* 고객지원 안내 */
+.service .about > section { padding-bottom:110px; }
+.service .about .service_area { width:1180px; margin:93px auto 0; }
+.service .about .service_area .txt1 { font-size:30px; text-align:center; color:#807e7e; }
+.service .about .service_area .txt2 { font-size:14px; text-align:center; line-height:24px; color:#231f20; margin:12px 0 54px; }
+.service .about .service_list { font-size:0; text-align:center; margin-top:37px; }
+.service .about .service_list li { display:inline-block; padding:0 37px; }
+.service .about .service_list .item { font-size:22px; color:#231f20; }
+.service .about .service_list .txt { font-weight:500; font-size:16px; line-height:26px; margin-top:14px; }
+.service .about .special_area { width:1180px; margin:155px auto 0; }
+.service .about .special_area .txt1 { font-size:30px; text-align:center; color:#807e7e; margin-bottom:60px; }
+.service .about .special_list li { position:relative; height:180px; color:#fff; margin-top:40px; }
+.service .about .special_list li:first-child { margin-top:0; }
+.service .about .special_list li:after { content:""; display:inline-block; height:100%; vertical-align:middle; }
+.service .about .special_list li .item { display:inline-block; width:430px; font-size:30px; text-align:center; vertical-align:middle; }
+.service .about .special_list li .txt { display:inline-block; font-size:14px; line-height:24px; vertical-align:middle; }
+.service .about .special_list li .img { position:absolute; z-index:-1; top:0; left:0; }

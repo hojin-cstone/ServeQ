@@ -56,7 +56,6 @@
 .map_area .continent_list li a:hover { color:#fff; border:none; background:#ce462d; }
 .map_area .continent_list li a:focus + .provision_area,
 .map_area .continent_list li a:hover + .provision_area { display:block; }
-
 .btn_area { position:relative; width:1180px; margin:95px auto 0; }
 .btn_area .txt { position:absolute; top:50%; left:100px; transform:translateY(-50%); font-weight:400; font-size:22px; line-height:26px; color:#fff; }
 .btn_area a { position:absolute !important; top:56px; width:209px; height:60px; font-size:20px; color:#fff; border:1px solid #fff; background:none !important; box-sizing:border-box; }
