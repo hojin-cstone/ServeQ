@@ -18,14 +18,7 @@
 <% ElseIf path2dir = "calculator" Then %>
 	<a href="/service/calculator.asp" class="path2"><%= path2tit %></a>
 <% ElseIf path2dir = "seminar" Then %>
-	<a href="/service/seminar_list_cooking.asp" class="path2"><%= path2tit %></a>
-	<div class="path3">
-		<span><%= path3tit %></span>
-		<ul class="path3_list">
-			<li <% If path3dir = "cooking" Then %>class="hide"<% End If %>><a href="/service/seminar_list_cooking.asp">쿠킹클래스</a></li>
-			<li <% If path3dir = "baking" Then %>class="hide"<% End If %>><a href="/service/seminar_list_baking.asp">제과제빵 세미나</a></li>
-		</ul>
-	</div>
+	<a href="/service/seminar_list.asp" class="path2"><%= path2tit %></a>
 <% ElseIf path2dir = "form" Then %>
 	<a href="/service/form_list_pop.asp" class="path2"><%= path2tit %></a>
 	<div class="path3">

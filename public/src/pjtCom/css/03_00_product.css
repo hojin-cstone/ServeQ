@@ -40,25 +40,25 @@
 .product .direct .img { width:1180px; text-align:center; margin:50px auto 0; }
 
 /* 글로벌 구매 네트워크 */
-.map_area { position:relative; width:1180px; margin:55px auto 0; }
-.map_area .continent_list li { position:absolute; top:0; left:0; }
-.map_area .continent_list li.eu { top:155px; left:55px; }
-.map_area .continent_list li.af { top:312px; left:84px; }
-.map_area .continent_list li.eas { top:175px; left:327px; }
-.map_area .continent_list li.esas { top:275px; left:365px; }
-.map_area .continent_list li.oc { top:435px; left:500px; }
-.map_area .continent_list li.nam { top:180px; left:810px; }
-.map_area .continent_list li.sam { top:415px; left:935px; }
-.map_area .continent_list li a { display:block; height:40px; font-weight:bold; font-size:18px; line-height:40px; color:#555; padding:0 20px; border:1px solid #cac2b9; border-radius:40px; background:#fff; box-sizing:border-box; }
-.map_area .continent_list li .provision_area { display:none; position:absolute; z-index:1; top:50px; left:0; }
-.map_area .continent_list li .provision_area table { position:absolute; left:-9999px; }
-.map_area .continent_list li a:focus,
-.map_area .continent_list li a:hover { color:#fff; border:none; background:#ce462d; }
-.map_area .continent_list li a:focus + .provision_area,
-.map_area .continent_list li a:hover + .provision_area { display:block; }
-.btn_area { position:relative; width:1180px; margin:95px auto 0; }
-.btn_area .txt { position:absolute; top:50%; left:100px; transform:translateY(-50%); font-weight:400; font-size:22px; line-height:26px; color:#fff; }
-.btn_area a { position:absolute !important; top:56px; width:209px; height:60px; font-size:20px; color:#fff; border:1px solid #fff; background:none !important; box-sizing:border-box; }
-.btn_area a:before { content:""; position:absolute; top:50%; right:36px; transform:translateY(-50%); width:12px; height:20px; vertical-align:middle; background:url(/pjtCom/images/sub/icon_product_global_arrow.png) no-repeat 0 0; }
-.btn_area .btn_catalogue { right:339px; padding-right:25px; }
-.btn_area .btn_counsel { right:110px; padding-right:45px; }
+.product .global .map_area { position:relative; width:1180px; margin:55px auto 0; }
+.product .global .map_area .continent_list li { position:absolute; top:0; left:0; }
+.product .global .map_area .continent_list li.eu { top:155px; left:55px; }
+.product .global .map_area .continent_list li.af { top:312px; left:84px; }
+.product .global .map_area .continent_list li.eas { top:175px; left:327px; }
+.product .global .map_area .continent_list li.esas { top:275px; left:365px; }
+.product .global .map_area .continent_list li.oc { top:435px; left:500px; }
+.product .global .map_area .continent_list li.nam { top:180px; left:810px; }
+.product .global .map_area .continent_list li.sam { top:415px; left:935px; }
+.product .global .map_area .continent_list li a { display:block; height:40px; font-weight:bold; font-size:18px; line-height:40px; color:#555; padding:0 20px; border:1px solid #cac2b9; border-radius:40px; background:#fff; box-sizing:border-box; }
+.product .global .map_area .continent_list li .provision_area { display:none; position:absolute; z-index:1; top:50px; left:0; }
+.product .global .map_area .continent_list li .provision_area table { position:absolute; left:-9999px; }
+.product .global .map_area .continent_list li a:focus,
+.product .global .map_area .continent_list li a:hover { color:#fff; border:none; background:#ce462d; }
+.product .global .map_area .continent_list li a:focus + .provision_area,
+.product .global .map_area .continent_list li a:hover + .provision_area { display:block; }
+.product .global .btn_area { position:relative; width:1180px; margin:95px auto 0; }
+.product .global .btn_area .txt { position:absolute; top:50%; left:100px; transform:translateY(-50%); font-weight:400; font-size:22px; line-height:26px; color:#fff; }
+.product .global .btn_area a { position:absolute !important; top:56px; width:209px; height:60px; font-size:20px; color:#fff; border:1px solid #fff; background:none !important; box-sizing:border-box; }
+.product .global .btn_area a:before { content:""; position:absolute; top:50%; right:36px; transform:translateY(-50%); width:12px; height:20px; vertical-align:middle; background:url(/pjtCom/images/sub/icon_product_global_arrow.png) no-repeat 0 0; }
+.product .global .btn_area .btn_catalogue { right:339px; padding-right:25px; }
+.product .global .btn_area .btn_counsel { right:110px; padding-right:45px; }

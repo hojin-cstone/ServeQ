@@ -1,1 +1,42 @@
 /* 고객지원 안내 */
+.service .seminar .sort_area { width:1180px; margin:54px auto 0; }
+.service .seminar .sort_area:after { content:""; display:block; clear:both; }
+.service .seminar .sort_area .date_area { position:relative; float:left; width:220px; }
+.service .seminar .sort_area .date { font-size:40px; text-align:center; line-height:48px; color:#555; }
+.service .seminar .sort_area .date_area a { position:absolute; top:0; width:12px; height:100%; text-indent:-9999px; }
+.service .seminar .sort_area .date_area a:after { content:""; position:absolute; top:50%; left:0; transform:translateY(-50%); transform-origin:50% 50%; width:12px; height:20px; background:url(/pjtCom/images/sub/btn_seminar.png) no-repeat 0 0; }
+.service .seminar .sort_area .date_area a.btn_prev { left:0; }
+.service .seminar .sort_area .date_area a.btn_next { right:0; }
+.service .seminar .sort_area .date_area a.btn_prev:after { }
+.service .seminar .sort_area .date_area a.btn_next:after { transform:translateY(-50%) rotate(180deg); }
+.service .seminar .sort_area .region_area { float:right; margin-left:20px;  }
+.service .seminar .sort_area .region_area [id^="select_region"] { float:left; width:212px; }
+.service .seminar .sort_area .region_area .btn_search { float:left; width:80px; height:48px; font-size:16px; color:#fff; margin-left:10px; background:#555; }
+.service .seminar .sort_area .category_area { float:right; }
+.service .seminar .sort_area .category_area a { float:left; height:48px; font-size:16px; line-height:48px; color:#807e7e; padding:0 20px; margin-right:10px; border:1px solid #e4e4e4; }
+.service .seminar .sort_area .category_area a:last-child { margin-right:0; }
+.service .seminar .sort_area .category_area a.btn_all { width:112px; }
+.service .seminar .sort_area .category_area a.on { color:#231f20; border:1px solid #807e7e; background:#e4e4e4; }
+.calendar_area { margin-top:40px; padding:60px 0 135px; background:#f6f6f6; }
+.calendar_area .calendar { width:1180px; margin:0 auto; }
+.calendar_area .calendar th { height:40px; font-size:16px; color:#81674a; border-top:1px solid #ece9e6; background:#cac2b9; box-sizing:border-box;}
+.calendar_area .calendar td { position:relative; height:202px; text-align:center; vertical-align:top; padding:10px; border-top:1px solid #ece9e6; border-left:1px solid #ece9e6; background:#fff; box-sizing:border-box; }
+.calendar_area .calendar td:first-child { border-left:none; }
+.calendar_area .calendar td .date { position:absolute; top:10px; left:10px; font-family:'Malgun Gothic', sans-serif; font-size:14px; line-height:20px; }
+.calendar_area .calendar td .schedule_area { position: relative; height:100%; overflow:hidden; }
+.calendar_area .calendar td .schedule_area .schedule_list { height:154px; }
+.calendar_area .calendar td .schedule_list small { display:inline-block; width:100px; height:20px; font-size:13px; line-height:20px; border-radius:20px; box-sizing:border-box; }
+.calendar_area .calendar td .schedule_list small.category { color:#fff; }
+.calendar_area .calendar td .schedule_list small.category.cooking { background:#e67878; }
+.calendar_area .calendar td .schedule_list small.category.baking { background:#e6c378; }
+.calendar_area .calendar td .schedule_list small.region { line-height:18px; margin-top:4px;  border:1px solid #ece9e6; }
+.calendar_area .calendar td .schedule_list .subject { display:block; height:34px; font-size:14px; line-height:17px; color:#555; margin:19px 0 17px; }
+.calendar_area .calendar td .schedule_list [class^="btn"] { width:120px; height:40px; font-weight:bold; font-size:14px; border-radius:40px; }
+.calendar_area .calendar td .schedule_list [class^="btn"].btn_end { color:#949494; border:1px solid #949494; }
+.calendar_area .calendar td .schedule_list [class^="btn"].btn_apply { color:#ce462d; border:1px solid #ce462d; }
+.calendar_area .calendar td .schedule_list [class^="btn"].btn_cancel { color:#231f20; border:1px solid #231f20; }
+
+.calendar_area .calendar .schedule_area .btn_area { position:static; font-size:0; margin-top:19px; }
+.calendar_area .calendar .schedule_area .btn_area span { opacity:1; width:8px; height:8px; transition-duration:0.3s; text-indent:-9999px; margin:0 0 0 8px; border-radius:8px; background:#bfbebe; }
+.calendar_area .calendar .schedule_area .btn_area span:first-child { margin-left:0; }
+.calendar_area .calendar .schedule_area .btn_area span[class*=active] { width:16px; background:#807e7e; }

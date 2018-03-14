@@ -48,6 +48,8 @@ $(window).scroll(function(){
         $('.main').removeClass('scroll');
     }
 
+    $('#header .inner').css({'transform':'matrix(1, 0, 0, 1, '+(0-wScrollLeft)+', 0)'});
+
     // FOOTER 탑 스크롤
     if(wScrollTop > 0){
         $('#footer').addClass('on');
@@ -113,6 +115,19 @@ switch (path1) {
                     $('#header, #wrap, #footer, .btn_print').removeClass('no_print');
             		$('#print').removeClass('show');
             	});
+            break;
+
+            // 세미나
+            case 'seminar' :
+                var swiper = new Swiper('.swiper-container', {
+                	pagination: {
+                		el: '.swiper-pagination',
+                		clickable: true,
+                		renderBullet: function (index, className) {
+                			return '<span class="' + className + '">' + (index + 1) + '</span>';
+                		}
+                	}
+                });
             break;
         }
 
