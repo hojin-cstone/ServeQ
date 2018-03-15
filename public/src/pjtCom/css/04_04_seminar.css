@@ -20,11 +20,12 @@
 .calendar_area { margin-top:40px; padding:60px 0 135px; background:#f6f6f6; }
 .calendar_area .calendar { width:1180px; margin:0 auto; }
 .calendar_area .calendar th { height:40px; font-size:16px; color:#81674a; border-top:1px solid #ece9e6; background:#cac2b9; box-sizing:border-box;}
-.calendar_area .calendar td { position:relative; height:202px; text-align:center; vertical-align:top; padding:10px; border-top:1px solid #ece9e6; border-left:1px solid #ece9e6; background:#fff; box-sizing:border-box; }
+.calendar_area .calendar td { position:relative; height:202px; text-align:center; vertical-align:top; border-top:1px solid #ece9e6; border-left:1px solid #ece9e6; background:#fff; box-sizing:border-box; }
 .calendar_area .calendar td:first-child { border-left:none; }
 .calendar_area .calendar td .date { position:absolute; top:10px; left:10px; font-family:'Malgun Gothic', sans-serif; font-size:14px; line-height:20px; }
 .calendar_area .calendar td .schedule_area { position: relative; height:100%; overflow:hidden; }
-.calendar_area .calendar td .schedule_area .schedule_list { height:154px; }
+.calendar_area .calendar td .schedule_area .schedule_list { height:164px; }
+.calendar_area .calendar td .schedule_list li { width:148px; height:154px; padding:10px 10px 0; }
 .calendar_area .calendar td .schedule_list small { display:inline-block; width:100px; height:20px; font-size:13px; line-height:20px; border-radius:20px; box-sizing:border-box; }
 .calendar_area .calendar td .schedule_list small.category { color:#fff; }
 .calendar_area .calendar td .schedule_list small.category.cooking { background:#e67878; }
@@ -37,6 +38,11 @@
 .calendar_area .calendar td .schedule_list [class^="btn"].btn_cancel { color:#231f20; border:1px solid #231f20; }
 
 .calendar_area .calendar .schedule_area .btn_area { position:static; font-size:0; margin-top:19px; }
-.calendar_area .calendar .schedule_area .btn_area span { opacity:1; width:8px; height:8px; transition-duration:0.3s; text-indent:-9999px; margin:0 0 0 8px; border-radius:8px; background:#bfbebe; }
+.calendar_area .calendar .schedule_area .btn_area span { display:inline-block; opacity:1; width:8px; height:8px; text-indent:-9999px; margin:0 0 0 8px; border-radius:8px; background:#bfbebe; cursor:pointer; }
 .calendar_area .calendar .schedule_area .btn_area span:first-child { margin-left:0; }
-.calendar_area .calendar .schedule_area .btn_area span[class*=active] { width:16px; background:#807e7e; }
+.calendar_area .calendar .schedule_area .btn_area span.active { width:16px; background:#807e7e; }
+
+.calendar_area .calendar .schedule_area .inner { overflow:hidden; }
+.calendar_area .calendar .schedule_area .schedule_list { position:relative; left:0; height:100%; overflow:hidden; word-break:break-all; word-wrap: break-word;}
+.calendar_area .calendar .schedule_area .schedule_list li { float:left; }
+.calendar_area .calendar .schedule_area .schedule_list li:first-child { margin-left:0; }

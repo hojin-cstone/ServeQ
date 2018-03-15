@@ -119,14 +119,12 @@ switch (path1) {
 
             // 세미나
             case 'seminar' :
-                var swiper = new Swiper('.swiper-container', {
-                	pagination: {
-                		el: '.swiper-pagination',
-                		clickable: true,
-                		renderBullet: function (index, className) {
-                			return '<span class="' + className + '">' + (index + 1) + '</span>';
-                		}
-                	}
+                // 슬라이드
+                fn.slide('.schedule_area',{
+                    btnPrev : '.btn_prev',
+                    btnNext : '.btn_next',
+                    pagination: '.btn_area',
+                    margin : '0px'
                 });
             break;
         }

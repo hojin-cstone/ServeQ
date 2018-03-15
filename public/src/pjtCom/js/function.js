@@ -94,27 +94,52 @@ var fn = (function() {
 
         // 슬라이드
         slide : function(obj, option){
-            var $obj = $(obj),
-                $objInner = $obj.children('.inner'),
-                $objMain = $obj.children('.inner').children(),
-                $btnPrev = $(option.btnPrev),
-                $btnNext = $(option.btnNext),
-                optionMargin = parseInt(option.margin);
+            var $obj = $(obj);
 
-            var listWidth = $obj.find('li').length * ($obj.find('li').width() + optionMargin) - optionMargin;
+            $obj.each(function(){
+                var $obj = $(this),
+                    $objInner = $obj.children('.inner'),
+                    $objMain = $obj.children('.inner').children('ul'),
+                    $btnPrev = $obj.find(option.btnPrev),
+                    $btnNext = $obj.find(option.btnNext),
+                    $optionPagination = $obj.find(option.pagination),
+                    optionMargin = parseInt(option.margin);
 
-        	$objMain.css({'width':listWidth});
+                var listLen = $obj.find('li').length,
+                    listWidth = listLen * ($obj.find('li').outerWidth() + optionMargin) - optionMargin;
 
-        	$btnNext.click(function(){
-        		if (!$objMain.is(':animated') && parseInt($objMain.css('left')) > $objInner.width() - $objMain.width()) {
-        			$objMain.animate({'left':'-=' + ($obj.find('li').width() + optionMargin)}, 500);
-        		}
-        	});
-            $btnPrev.click(function(){
-        		if (!$objMain.is(':animated') && parseInt($objMain.css('left')) !== 0 ) {
-        			$objMain.animate({'left':'+=' + ($obj.find('li').width() + optionMargin)}, 500);
-        		}
-        	});
+            	$objMain.css({'width':listWidth});
+
+                if (listLen > 1) {
+                    for (var i=1; i<=listLen; i++) {
+                        if (i === 1) {
+                            $optionPagination.append('<span class="active"></span>');
+                        } else {
+                            $optionPagination.append('<span></span>');
+                        }
+                    }
+                }
+
+                $optionPagination.find('span').click(function(){
+                    $optionPagination.find('span').removeClass('active');
+                    var idx = $(this).index();
+
+                    $(this).addClass('active');
+                    $objMain.animate({'left':0-($obj.find('li').outerWidth()*idx)}, 300);
+                });
+
+            	$btnNext.click(function(){
+            		if (!$objMain.is(':animated') && parseInt($objMain.css('left')) > $objInner.width() - $objMain.width()) {
+            			$objMain.animate({'left':'-=' + ($obj.find('li').outerWidth() + optionMargin)}, 500);
+            		}
+            	});
+                $btnPrev.click(function(){
+            		if (!$objMain.is(':animated') && parseInt($objMain.css('left')) !== 0 ) {
+            			$objMain.animate({'left':'+=' + ($obj.find('li').outerWidth() + optionMargin)}, 500);
+            		}
+            	});
+            })
+
         }
     }
 })();
