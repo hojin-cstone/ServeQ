@@ -6,7 +6,7 @@ path2dir="event"
 path3dir="end"
 path1tit="홍보센터"
 path2tit="이벤트"
-path3tit="지난 이벤트"
+path3tit="이벤트"
 description = "ServeQ "
 If path3tit = "" Then description=description+path2tit Else description=description+path3tit End If
 titImg = ""

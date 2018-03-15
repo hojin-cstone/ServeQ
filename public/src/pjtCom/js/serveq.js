@@ -130,4 +130,28 @@ switch (path1) {
         }
 
     break;
+
+    // 홍보센터
+    case 'pr' :
+
+        switch (path2) {
+            //글로벌 구매 네트워크
+            case 'event' :
+                fn.reply('.reply_box');
+            break;
+        }
+
+    break;
+
+    // 고객센터
+    case 'customer' :
+
+        switch (path2) {
+            //문의 등록
+            case 'qna_edit' :
+                fn.upload('.upload');
+            break;
+        }
+
+    break;
 }
