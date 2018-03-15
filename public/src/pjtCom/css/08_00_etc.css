@@ -7,8 +7,8 @@
 /* terms, privacy */
 .etc .terms .cont,
 .etc .privacy .cont { position:relative; overflow:auto; margin:75px auto 125px; display:block; width:1060px; height:494px; border:1px solid #e4e4e4; box-sizing:border-box; background:#fff; }
+.etc .terms .cont .cont_inner,
 .etc .privacy .cont .cont_inner { padding:40px 40px 40px 26px; font-size:16px; line-height:24px; }
-
 
 /* sitemap */
 .etc .sitemap .cont { margin:52px 0 68px; }
