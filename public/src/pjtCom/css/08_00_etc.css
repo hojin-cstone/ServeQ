@@ -1,0 +1,26 @@
+/**
+* --------------------------------
+* FOOTER CSS
+* --------------------------------
+*/
+
+/* terms, privacy */
+.etc .terms .cont,
+.etc .privacy .cont { position:relative; overflow:auto; margin:75px auto 125px; display:block; width:1060px; height:494px; border:1px solid #e4e4e4; box-sizing:border-box; background:#fff; }
+.etc .privacy .cont .cont_inner { padding:40px 40px 40px 26px; font-size:16px; line-height:24px; }
+
+
+/* sitemap */
+.etc .sitemap .cont { margin:52px 0 68px; }
+.etc .sitemap .cont .cont_inner { width:1180px; margin:0 auto; }
+.etc .sitemap dl:after { content:""; display:block; clear:both; }
+.etc .sitemap dl a { display:inline-block; }
+.etc .sitemap .depth1 { width:100%; border-top:1px solid #e4e4e4; }
+.etc .sitemap .depth1 > dt { position:relative; float:left; width:133px; font-size:22px; font-weight:600; padding-top:35px; box-sizing:border-box; letter-spacing:-0.1em; }
+.etc .sitemap .depth1 > dt:before { content:""; position:absolute; left:0; top:-2px; display:block; width:100%; height:2px; background:#ce462e; }
+.etc .sitemap .depth1 > dd { float:left; width:1047px; padding:32px 0 45px 88px; box-sizing:border-box; letter-spacing:-0.04em; }
+.etc .sitemap .depth1 > dd:after { content:""; display:block; clear:both; }
+.etc .sitemap .depth2 { float:left; width:170px; }
+.etc .sitemap .depth2 dt a { font-size:18px; line-height:26px; font-weight:600; }
+.etc .sitemap .depth2 dd:nth-child(2) { margin-top:15px; }
+.etc .sitemap .depth2 dd a { font-size:16px; line-height:26px; }
