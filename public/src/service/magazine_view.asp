@@ -98,8 +98,8 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 						<h3 class="tit">2018 주목해야 할 외식업 트렌드 키워드</h3>
 
 						<dl>
-							<dt class="date">등록날짜</dt>
-							<dd class="date">2017.10.29</dd>
+							<dt class="name">등록날짜</dt>
+							<dd class="txt">2017.10.29</dd>
 						</dl>
 					</div>
 

@@ -71,20 +71,27 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 
 
 					<div class="info_area">
-						<h3 class="tit">2018 주목해야 할 외식업 트렌드 키워드</h3>
+						<h3 class="tit">
+							중화요리 트렌드 메뉴 세미나
+
+							<dl>
+								<dt class="name">세미나 일시</dt>
+								<dd class="txt">2018.03.08</dd>
+							</dl>
+						</h3>
 
 						<dl>
-							<dt class="date">등록날짜</dt>
-							<dd class="date">2017.10.29</dd>
+							<dt class="name">종류</dt>
+							<dd class="txt">제과제빵 세미나</dd>
 
-							<dt class="date">장소</dt>
-							<dd class="date">전라북도</dd>
+							<dt class="name">장소</dt>
+							<dd class="txt">전라북도</dd>
 
-							<dt class="date">신청여부</dt>
-							<dd class="date">모집중</dd>
+							<dt class="name">신청여부</dt>
+							<dd class="txt">모집중</dd>
 
-							<dt class="date">신청기간</dt>
-							<dd class="date">2018.02.19 ~ 2018.03.02</dd>
+							<dt class="name">신청기간</dt>
+							<dd class="txt">2018.02.19 ~ 2018.03.02</dd>
 						</dl>
 					</div>
 
@@ -103,6 +110,8 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							2.  오래 사용할 수 있도록, 코팅을 해주면 더욱 좋습니다.<br>
 							3  고객 분에게 안내가 진행될 수 있도록 판매대 및 입구에 전시해주세요.
 						</p>
+
+						<a href="#" class="btn_apply">신청하기</a>
 					</div>
 					<!-- // 내용 -->
 

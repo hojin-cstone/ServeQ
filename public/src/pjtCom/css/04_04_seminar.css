@@ -16,7 +16,7 @@
 .service .seminar .sort_area .category_area a { float:left; height:48px; font-size:16px; line-height:48px; color:#807e7e; padding:0 20px; margin-right:10px; border:1px solid #e4e4e4; }
 .service .seminar .sort_area .category_area a:last-child { margin-right:0; }
 .service .seminar .sort_area .category_area a.btn_all { width:112px; }
-.service .seminar .sort_area .category_area a.on { color:#231f20; border:1px solid #807e7e; background:#e4e4e4; }
+.service .seminar .sort_area .category_area a.now { color:#231f20; border:1px solid #807e7e; background:#e4e4e4; }
 .calendar_area { margin-top:40px; padding:60px 0 135px; background:#f6f6f6; }
 .calendar_area .calendar { width:1180px; margin:0 auto; }
 .calendar_area .calendar th { height:40px; font-size:16px; color:#81674a; border-top:1px solid #ece9e6; background:#cac2b9; box-sizing:border-box;}

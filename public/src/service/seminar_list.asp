@@ -80,7 +80,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 					<fieldset class="category_area">
 						<legend>카테고리 선택</legend>
 
-						<a href="#" class="btn_all on">전체</a><!-- 현재 페이지에서 class="on" -->
+						<a href="#" class="btn_all now">전체</a><!-- 현재 페이지에서 class="now" -->
 						<a href="#" class="btn_baking">제과제빵 세미나</a>
 						<a href="#" class="btn_cooking">쿠킹클래스</a>
 					</fieldset>

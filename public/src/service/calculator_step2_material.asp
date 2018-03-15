@@ -46,19 +46,40 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 			<!-- // path -->
 
 			<section class="<%= path3dir %>">
-				<div class="intro_area">
-					<p class="txt">
-						사장님들의 <b>메뉴 개발</b>과 <b>원가계산</b>을 도와주는<br>
-						서브큐의 슬기로운 <b>‘셰프 계산기’</b>
-					</p>
+				<div class="step2_area">
+					<ol class="process">
+						<li class="step1">
+							<div>
+								<b>STEP 01</b>
+								<p>계산 방법</p>
+							</div>
+						</li>
+						<li class="step2">
+							<div>
+								<b>STEP 02</b>
+								<p>재료·레시피 선택</p>
+							</div>
+						</li>
+						<li class="step3">
+							<div>
+								<b>STEP 03</b>
+								<p>원가 계산</p>
+							</div>
+						</li>
+						<li class="step4">
+							<div>
+								<b>STEP 04</b>
+								<p>계산 결과</p>
+							</div>
+						</li>
+					</ol>
 
-					<a href="#" class="btn_info">이용안내</a>
+					<p class="txt">원가가 알고 싶은 서브큐의 레시피를 선택해 주세요.</p>
 
-					<img src="/pjtCom/images/sub/img_service_calculator_intro.jpg" alt="" class="img">
-
-					<strong class="caution">일부 원재료의 가격 정보를 제공하고 있지만, 실제 가격과 차이가 있을 수 있습니다.</strong>
-
-					<a href="/service/calculator_step1.asp" class="btn_start">셰프 계산기 시작</a>
+					<div class="btn_area">
+						<button type="button" class="btn_prev" onclick="history.back(-1);">이전</button>
+						<a href="/service/calculator_step2_recipe.asp" class="btn_next active">다음</a><!-- 라디오버튼 선택시 class="active" 추가 -->
+					</div>
 				</div>
 			</section>
 		</div>

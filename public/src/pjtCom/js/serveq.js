@@ -48,7 +48,7 @@ $(window).scroll(function(){
         $('.main').removeClass('scroll');
     }
 
-    $('#header .inner').css({'transform':'matrix(1, 0, 0, 1, '+(0-wScrollLeft)+', 0)'});
+    // $('#header .inner').css({'transform':'matrix(1, 0, 0, 1, '+(0-wScrollLeft)+', 0)'});
 
     // FOOTER 탑 스크롤
     if(wScrollTop > 0){
