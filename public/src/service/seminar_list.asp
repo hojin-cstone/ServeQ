@@ -67,6 +67,11 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							<option>경기도</option>
 							<option>경상남도</option>
 							<option>경상북도</option>
+							<option>서울</option>
+							<option>전라남도</option>
+							<option>전라북도</option>
+							<option>충청남도</option>
+							<option>충청북도</option>
 						</select>
 
 						<button type="button" class="btn_search">찾기</button>
@@ -117,35 +122,37 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 								<td></td>
 								<td>
 									<b class="date">1</b>
-									<div class="schedule_area swiper-container">
-										<ul class="schedule_list swiper-wrapper">
-											<!-- 반복영역 // -->
-											<li class="swiper-slide">
-												<small class="category cooking">쿠킹클래스</small><!-- 쿠킹클래스 -->
-												<!--<small class="category baking">제과제빵세미나</small>--><!-- 제과제빵세미나 -->
+									<div class="schedule_area">
+										<div class="inner">
+											<ul class="schedule_list">
+												<!-- 반복영역 // -->
+												<li class="swiper-slide">
+													<small class="category cooking">쿠킹클래스</small><!-- 쿠킹클래스 -->
+													<!--<small class="category baking">제과제빵세미나</small>--><!-- 제과제빵세미나 -->
 
-												<small class="region">서울</small>
+													<small class="region">서울</small>
 
-												<a href="#" class="ellipsis subject">페이스트리&디저트 메뉴 세미나 페이스트리&디저트 메뉴 세미나</a>
+													<a href="/service/seminar_view.asp" class="ellipsis subject">페이스트리&디저트 메뉴 세미나 페이스트리&디저트 메뉴 세미나</a>
 
-												<button type="button "class="btn_end" disabled>신청 마감</button><!-- 신청마감 -->
-												<!--<a href="#alert_complete" class="btn_apply" onclick="fn.alertOpen(this);">세미나 신청</a>--><!-- 신청 -->
-												<!--<a href="#alert_cancel" class="btn_cancel" onclick="fn.alertOpen(this);">신청 취소</a>--><!-- 취소 -->
-											</li>
-											<!-- // 반복영역 -->
+													<button type="button "class="btn_end" disabled>신청 마감</button><!-- 신청마감 -->
+													<!--<a href="#alert_complete" class="btn_apply" onclick="fn.alertOpen(this);">세미나 신청</a>--><!-- 신청 -->
+													<!--<a href="#alert_cancel" class="btn_cancel" onclick="fn.alertOpen(this);">신청 취소</a>--><!-- 취소 -->
+												</li>
+												<!-- // 반복영역 -->
 
-											<li class="swiper-slide">
-												<small class="category baking">제과제빵세미나</small>
+												<li class="swiper-slide">
+													<small class="category baking">제과제빵세미나</small>
 
-												<small class="region">서울</small>
+													<small class="region">서울</small>
 
-												<a href="#" class="ellipsis subject">페이스트리&디저트 메뉴 세미나</a>
+													<a href="/service/seminar_view.asp" class="ellipsis subject">페이스트리&디저트 메뉴 세미나</a>
 
-												<a href="#alert_complete" class="btn_apply" onclick="fn.alertOpen(this);">세미나 신청</a>
-											</li>
-										</ul>
+													<a href="#alert_complete" class="btn_apply" onclick="fn.alertOpen(this);">세미나 신청</a>
+												</li>
+											</ul>
 
-										<div class="btn_area swiper-pagination"></div>
+											<div class="btn_area"></div>
+										</div>
 									</div>
 								</td>
 							</tr>
@@ -159,13 +166,13 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 
 												<small class="region">서울</small>
 
-												<a href="#" class="ellipsis subject">페이스트리&디저트 메뉴 세미나</a>
+												<a href="/service/seminar_view.asp" class="ellipsis subject">페이스트리&디저트 메뉴 세미나</a>
 
 												<a href="#alert_complete" class="btn_apply" onclick="fn.alertOpen(this);">세미나 신청</a>
 											</li>
 										</ul>
 
-										<!-- <div class="btn_area swiper-pagination"></div> -->
+										<div class="btn_area"></div>
 									</div>
 								</td>
 								<td>
@@ -177,13 +184,13 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 
 												<small class="region">서울</small>
 
-												<a href="#" class="ellipsis subject">페이스트리&디저트 메뉴 세미나</a>
+												<a href="/service/seminar_view.asp" class="ellipsis subject">페이스트리&디저트 메뉴 세미나</a>
 
 												<a href="#alert_cancel" class="btn_cancel" onclick="fn.alertOpen(this);">신청 취소</a>
 											</li>
 										</ul>
 
-										<!-- <div class="btn_area swiper-pagination"></div> -->
+										<div class="btn_area"></div>
 									</div>
 								</td>
 								<td>
@@ -195,13 +202,13 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 
 												<small class="region">서울</small>
 
-												<a href="#" class="ellipsis subject">페이스트리&디저트 메뉴 세미나</a>
+												<a href="/service/seminar_view.asp" class="ellipsis subject">페이스트리&디저트 메뉴 세미나</a>
 
 												<a href="#alert_login" class="btn_apply" onclick="fn.alertOpen(this);">세미나 신청</a>
 											</li>
 										</ul>
 
-										<!-- <div class="btn_area swiper-pagination"></div> -->
+										<div class="btn_area"></div>
 									</div>
 								</td>
 								<td>

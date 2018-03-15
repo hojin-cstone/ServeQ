@@ -49,7 +49,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 				<h2 class="tit"><%= pageTit %></h2>
 				<p class="txt">매장 운영에 필요한 다양한 노하우와 최신트렌드 및 정보를 제공해 드립니다.</p>
 
-				<article class="bbs_gallery_view view_area">
+				<article class="bbs_basic_view view_area">
 
 					<!-- SNS // -->
 					<div class="share_area">
