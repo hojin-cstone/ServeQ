@@ -139,6 +139,7 @@ var fn = (function() {
             		}
             	});
             })
+        },
 
         // 댓글 입력
         reply : function(obj){
@@ -167,54 +168,6 @@ var fn = (function() {
                 }
                  obj.find('label').text(filename);
              });
-=======
-            var $obj = $(obj);
-
-            $obj.each(function(){
-                var $obj = $(this),
-                    $objInner = $obj.children('.inner'),
-                    $objMain = $obj.children('.inner').children('ul'),
-                    $btnPrev = $obj.find(option.btnPrev),
-                    $btnNext = $obj.find(option.btnNext),
-                    $optionPagination = $obj.find(option.pagination),
-                    optionMargin = parseInt(option.margin);
-
-                var listLen = $obj.find('li').length,
-                    listWidth = listLen * ($obj.find('li').outerWidth() + optionMargin) - optionMargin;
-
-            	$objMain.css({'width':listWidth});
-
-                if (listLen > 1) {
-                    for (var i=1; i<=listLen; i++) {
-                        if (i === 1) {
-                            $optionPagination.append('<span class="active"></span>');
-                        } else {
-                            $optionPagination.append('<span></span>');
-                        }
-                    }
-                }
-
-                $optionPagination.find('span').click(function(){
-                    $optionPagination.find('span').removeClass('active');
-                    var idx = $(this).index();
-
-                    $(this).addClass('active');
-                    $objMain.animate({'left':0-($obj.find('li').outerWidth()*idx)}, 300);
-                });
-
-            	$btnNext.click(function(){
-            		if (!$objMain.is(':animated') && parseInt($objMain.css('left')) > $objInner.width() - $objMain.width()) {
-            			$objMain.animate({'left':'-=' + ($obj.find('li').outerWidth() + optionMargin)}, 500);
-            		}
-            	});
-                $btnPrev.click(function(){
-            		if (!$objMain.is(':animated') && parseInt($objMain.css('left')) !== 0 ) {
-            			$objMain.animate({'left':'+=' + ($obj.find('li').outerWidth() + optionMargin)}, 500);
-            		}
-            	});
-            })
->>>>>>> hojin
-
         }
     }
 })();
