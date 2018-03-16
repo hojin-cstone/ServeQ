@@ -3,7 +3,7 @@
 <%
 path1dir="mypage"
 path2dir="scrap"
-path3dir="recipe"
+path3dir="calc"
 path1tit="마이페이지"
 path2tit="나의 스크랩"
 path3tit=""
@@ -49,10 +49,10 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 				<h2 class="tit"><%= pageTit %></h2>
 
 				<ul class="tab_box">
-					<li class="on">
+					<li>
 						<a href="/mypage/scrap.asp">셰프레시피</a>
 					</li>
-					<li>
+					<li class="on">
 						<a href="/mypage/scrap_calc.asp">메뉴 원가계산기</a>
 					</li>
 					<li>
@@ -60,34 +60,18 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 					</li>
 				</ul>
 
-				<ul class="sort_box">
-					<li>
-						<a href="javascript:void(0)">전체</a>
-					</li>
-					<li>
-						<a href="javascript:void(0)">양식</a>
-					</li>
-					<li>
-						<a href="javascript:void(0)">중식</a>
-					</li>
-					<li>
-						<a href="javascript:void(0)">제과제빵</a>
-					</li>
-				</ul>
-
 				<!-- 셰프레시피 // -->
 				<div class="bbs_gallery_list result_area">
 					<div class="inner">
-						<p class="result">전체(13)</p>
+						<p class="result">전체(25)</p>
 						<ul class="result_list">
 							<!-- 반복영역 // -->
 							<li>
 								<a href="#">
-									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="" class="img">
-									<div class="txt_area">
-										<p class="sort">파스타/누들</p>
-										<p class="ellipsis name">맥 앤 치즈</p>
-									</div>
+									<dl>
+										<dt class="ellipsis">2018 상반기 신상품</dt>
+										<dd>2018.02.01 등록</dd>
+									</dl>
 								</a>
 								<!-- 체크박스 -->
 								<input type="checkbox" id="chk1">
@@ -97,121 +81,110 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							<!-- // 반복영역 -->
 							<li>
 								<a href="#">
-									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="" class="img">
-									<div class="txt_area">
-										<p class="sort">파스타/누들</p>
-										<p class="ellipsis name">맥 앤 치즈</p>
-									</div>
+									<dl>
+										<dt class="ellipsis">2018 상반기 신상품 2018 상반기 신상품 2018 상반기 신상품</dt>
+										<dd>2018.02.01 등록</dd>
+									</dl>
 								</a>
 								<input type="checkbox" id="chk2">
 								<label for="chk2"></label>
 							</li>
 							<li>
 								<a href="#">
-									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="" class="img">
-									<div class="txt_area">
-										<p class="sort">파스타/누들</p>
-										<p class="ellipsis name">맥 앤 치즈</p>
-									</div>
+									<dl>
+										<dt class="ellipsis">2018 상반기 신상품</dt>
+										<dd>2018.02.01 등록</dd>
+									</dl>
 								</a>
 								<input type="checkbox" id="chk3">
 								<label for="chk3"></label>
 							</li>
 							<li>
 								<a href="#">
-									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="" class="img">
-									<div class="txt_area">
-										<p class="sort">파스타/누들</p>
-										<p class="ellipsis name">맥 앤 치즈</p>
-									</div>
+									<dl>
+										<dt class="ellipsis">2018 상반기 신상품</dt>
+										<dd>2018.02.01 등록</dd>
+									</dl>
 								</a>
 								<input type="checkbox" id="chk4">
 								<label for="chk4"></label>
 							</li>
 							<li>
 								<a href="#">
-									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="" class="img">
-									<div class="txt_area">
-										<p class="sort">파스타/누들</p>
-										<p class="ellipsis name">맥 앤 치즈</p>
-									</div>
+									<dl>
+										<dt class="ellipsis">2018 상반기 신상품</dt>
+										<dd>2018.02.01 등록</dd>
+									</dl>
 								</a>
 								<input type="checkbox" id="chk5">
 								<label for="chk5"></label>
 							</li>
 							<li>
 								<a href="#">
-									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="" class="img">
-									<div class="txt_area">
-										<p class="sort">파스타/누들</p>
-										<p class="ellipsis name">맥 앤 치즈</p>
-									</div>
+									<dl>
+										<dt class="ellipsis">2018 상반기 신상품</dt>
+										<dd>2018.02.01 등록</dd>
+									</dl>
 								</a>
 								<input type="checkbox" id="chk6">
 								<label for="chk6"></label>
 							</li>
 							<li>
 								<a href="#">
-									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="" class="img">
-									<div class="txt_area">
-										<p class="sort">파스타/누들</p>
-										<p class="ellipsis name">맥 앤 치즈</p>
-									</div>
+									<dl>
+										<dt class="ellipsis">2018 상반기 신상품</dt>
+										<dd>2018.02.01 등록</dd>
+									</dl>
 								</a>
 								<input type="checkbox" id="chk7">
 								<label for="chk7"></label>
 							</li>
 							<li>
 								<a href="#">
-									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="" class="img">
-									<div class="txt_area">
-										<p class="sort">파스타/누들</p>
-										<p class="ellipsis name">맥 앤 치즈</p>
-									</div>
+									<dl>
+										<dt class="ellipsis">2018 상반기 신상품</dt>
+										<dd>2018.02.01 등록</dd>
+									</dl>
 								</a>
 								<input type="checkbox" id="chk8">
 								<label for="chk8"></label>
 							</li>
 							<li>
 								<a href="#">
-									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="" class="img">
-									<div class="txt_area">
-										<p class="sort">파스타/누들</p>
-										<p class="ellipsis name">맥 앤 치즈</p>
-									</div>
+									<dl>
+										<dt class="ellipsis">2018 상반기 신상품</dt>
+										<dd>2018.02.01 등록</dd>
+									</dl>
 								</a>
 								<input type="checkbox" id="chk9">
 								<label for="chk9"></label>
 							</li>
 							<li>
 								<a href="#">
-									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="" class="img">
-									<div class="txt_area">
-										<p class="sort">파스타/누들</p>
-										<p class="ellipsis name">맥 앤 치즈</p>
-									</div>
+									<dl>
+										<dt class="ellipsis">2018 상반기 신상품</dt>
+										<dd>2018.02.01 등록</dd>
+									</dl>
 								</a>
 								<input type="checkbox" id="chk10">
 								<label for="chk10"></label>
 							</li>
 							<li>
 								<a href="#">
-									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="" class="img">
-									<div class="txt_area">
-										<p class="sort">파스타/누들</p>
-										<p class="ellipsis name">맥 앤 치즈</p>
-									</div>
+									<dl>
+										<dt class="ellipsis">2018 상반기 신상품</dt>
+										<dd>2018.02.01 등록</dd>
+									</dl>
 								</a>
 								<input type="checkbox" id="chk11">
 								<label for="chk11"></label>
 							</li>
 							<li>
 								<a href="#">
-									<img src="/pjtCom/images/temp/img_recipe_170x170.jpg" alt="" class="img">
-									<div class="txt_area">
-										<p class="sort">파스타/누들</p>
-										<p class="ellipsis name">맥 앤 치즈</p>
-									</div>
+									<dl>
+										<dt class="ellipsis">2018 상반기 신상품</dt>
+										<dd>2018.02.01 등록</dd>
+									</dl>
 								</a>
 								<input type="checkbox" id="chk12">
 								<label for="chk12"></label>

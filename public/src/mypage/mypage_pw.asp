@@ -2,10 +2,10 @@
 
 <%
 path1dir="mypage"
-path2dir="mypage_main"
+path2dir="mypage_pw"
 path3dir=""
 path1tit="마이페이지"
-path2tit="마이페이지"
+path2tit="회원정보 수정"
 path3tit=""
 description = "ServeQ "
 If path3tit = "" Then description=description+path2tit Else description=description+path3tit End If
@@ -47,32 +47,41 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 
 			<section class="<%= path3dir %>">
 				<h2 class="tit"><%= pageTit %></h2>
-				<p class="txt">박보검(parkbogum)님 안녕하세요.</p>
 				<div class="cont">
 					<div class="cont_inner">
-						<div class="btn_box">
-							<a href="/mypage/mypage.asp" class="btn_org">회원정보수정</a>
-							<a href="/mypage/password" class="btn_wht">비밀번호변경</a>
-						</div>
-						<div class="mylink">
-							<dl>
-								<dt>나의 스크랩</dt>
-								<dd><a href="javascript:void(0)">셰프 레시피 (12)</a></dd>
-								<dd><a href="javascript:void(0)">메뉴 원가계산기 (1)</a></dd>
-								<dd><a href="javascript:void(0)">서브큐 매거진 (1)</a></dd>
-							</dl>
-							<dl>
-								<dt>나의 활동</dt>
-								<dd><a href="javascript:void(0)">문의하기 (1)</a></dd>
-								<dd><a href="javascript:void(0)">셰프 1:1 상담 (5)</a></dd>
-							</dl>
-						</div>
+						<form>
+							<fieldset>
+								<div class="txt_box">
+									<strong>비밀번호 확인</strong>
+									<span>회원님의 소중한 개인정보 보호를 위해  한 번 더 확인해 주세요.</span>
+								</div>
+								<div class="inp_box inp_type2">
+									<label class="inp_pw">
+										<input type="password" placeholder="비밀번호를 입력해 주세요." />
+									</label>
+									<button type="button" class="btn_gray" onclick="javascript:fn.alertOpen('#alert1')">확인</button>
+								</div>
+							</fieldset>
+						</form>
 					</div>
 				</div>
 			</section>
 		</div>
 	</main>
 	<!-- // wrap -->
+
+	<!-- popup -->
+	<div id="alert1" class="alert type3">
+		<div class="inner">
+			<button onclick="fn.alertClose()" type="button" class="btn_close">닫기</button>
+			<p class="txt">
+				비밀번호가 일치하지 않습니다.<br />
+				다시 입력해 주세요.
+			</p>
+			<button onclick="fn.alertClose()" type="button" class="btn_ok">확인</button>
+		</div>
+	</div>
+	<!-- //popup -->
 
 	<!-- footer // -->
 	<!--#include virtual="/inCom/footer.asp"-->

@@ -46,7 +46,7 @@
 .pr .notice .tbl_list tbody td:nth-child(2) { text-align:left; }
 .pr .notice .tbl_list tbody td .list_tit { display:inline-block; width:auto; font-size:16px; line-height:56px; padding:0 24px; max-height:56px; text-align:left; background:none; }
 .pr .notice .tbl_list tbody td .list_tit.new { padding-right:78px; }
-.pr .notice .tbl_list tbody td .new:after { content:''; position:absolute; right:0; top:50%; transform:translate(0,-50%); display:block; width:53px; height:22px; background:url('/pjtCom/images/common/icon_notice.png') no-repeat 0 -30px; }
+.pr .notice .tbl_list tbody td .new:after { content:''; position:absolute; right:0; top:50%; display:block; width:53px; height:22px; background:url('/pjtCom/images/common/icon_notice.png') no-repeat 0 -30px; }
 .pr .notice .tbl_list tbody .fix_news td { background:#f7f7f7; }
 .pr .notice .tbl_list tbody .fix_news td:first-child { padding:0 20px 0 100px; text-align:left; }
 .pr .notice .tbl_list tbody .fix_news td:first-child a { padding-left:70px; }

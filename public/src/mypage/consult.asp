@@ -2,7 +2,7 @@
 
 <%
 path1dir="mypage"
-path2dir="history"
+path2dir="consult"
 path3dir=""
 path1tit="마이페이지"
 path2tit="나의 활동"
@@ -49,10 +49,10 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 				<h2 class="tit"><%= pageTit %></h2>
 
 				<ul class="tab_box">
-					<li class="on">
+					<li>
 						<a href="/mypage/history.asp">문의하기</a>
 					</li>
-					<li>
+					<li class="on">
 						<a href="/mypage/consult.asp">셰프 1:1 상담</a>
 					</li>
 				</ul>
@@ -84,8 +84,14 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 										</span>
 									</td>
 									<td>12</td>
-									<td><a href="javascript:void(0)" class="list_tit rock">[회원정보 문의] 웹주문 회원가입 웹주문 회원가입 웹주문 회원가입 웹주문 회원가입 웹주문 회원가입 웹주문 회원가입 웹주문 회원가입 웹주문 회원가입 웹주문 회원가입</a></td>
-									<td>2017.08.10</td>
+									<td>
+										<a href="javascript:void(0)" class="list_tit rock">
+											<span>
+											[제과제빵] 비가종 만들기
+											</span>
+										</a>
+									</td>
+									<td>2018.02.10</td>
 								</tr>
 								<tr>
 									<td>
@@ -95,8 +101,14 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 										</span>
 									</td>
 									<td>11</td>
-									<td><a href="javascript:void(0)" class="list_tit answer rock">[고객지원서비스문의] 메뉴 원가계산기 사용방법 문의 메뉴 원가계산기 사용방법 문의 메뉴 원가계산기 사용방법 문의 메뉴 원가계산기 사용방법 문의 메뉴 원가계산기 사용방법 문의 메뉴 원가계산기 사용방법 문의 메뉴 원가계산기 사용방법 문의</a></td>
-									<td>2018.02.01</td>
+									<td>
+										<a href="javascript:void(0)" class="list_tit answer">
+											<span>
+											[제과제빵] 시몬 만들때 껍질이 왜 터지는 것이 궁금합니다.
+											</span>
+										</a>
+									</td>
+									<td>2018.01.02</td>
 								</tr>
 								<tr>
 									<td>
@@ -106,8 +118,17 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 										</span>
 									</td>
 									<td>10</td>
-									<td><a href="javascript:void(0)" class="list_tit answer rock">회원문의] 회원정보</a></td>
-									<td>2018.01.10</td>
+									<td>
+										<a href="javascript:void(0)" class="list_tit answer rock">
+											<div>
+												<img src="/pjtCom/images/temp/img_consult_01.jpg" alt="">
+											</div>
+											<span>
+											[중식] 반죽 냄새에 대해 궁금합니다. 반죽 냄새에 대해 궁금합니다. 반죽 냄새에 대해 궁금합니다. 반죽 냄새에 대해 궁금합니다. 반죽 냄새에 대해 궁금합니다. 반죽 냄새에 대해 궁금합니다. 반죽 냄새에 대해 궁금합니다. 반죽 냄새에 대해 궁금합니다. 반죽 냄새에 대해 궁금합니다.
+											</span>
+										</a>
+									</td>
+									<td>2017.12.25</td>
 								</tr>
 								<tr>
 									<td>
@@ -117,8 +138,14 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 										</span>
 									</td>
 									<td>9</td>
-									<td><a href="javascript:void(0)" class="list_tit answer">[상품문의]베이커리 납품 단가문의드립니다</a></td>
-									<td>2017.11.18</td>
+									<td>
+										<a href="javascript:void(0)" class="list_tit answer">
+											<span>
+											[제과제빵] 팥도드러슈 문의
+											</span>
+										</a>
+									</td>
+									<td>2017.06.16</td>
 								</tr>
 								<tr>
 									<td>
@@ -128,8 +155,17 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 										</span>
 									</td>
 									<td>8</td>
-									<td><a href="javascript:void(0)" class="list_tit answer">[이벤트문의] 이벤트 당첨이 되었는데..</a></td>
-									<td>2017.09.11</td>
+									<td>
+										<a href="javascript:void(0)" class="list_tit answer">
+											<div>
+												<img src="/pjtCom/images/temp/img_consult_01.jpg" alt="">
+											</div>
+											<span>
+											[제과제빵] 기능장님 답변 부탁드립니다!
+											</span>
+										</a>
+									</td>
+									<td>2017.02.02</td>
 								</tr>
 								<tr>
 									<td>
@@ -139,8 +175,14 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 										</span>
 									</td>
 									<td>7</td>
-									<td><a href="javascript:void(0)" class="list_tit answer">[기타] 주소이전</a></td>
-									<td>2017.05.13</td>
+									<td>
+										<a href="javascript:void(0)" class="list_tit answer">
+											<span>
+											[양식] 맥 앤 치즈 문의
+											</span>
+										</a>
+									</td>
+									<td>2016.12.23</td>
 								</tr>
 								<tr>
 									<td>
@@ -150,8 +192,14 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 										</span>
 									</td>
 									<td>6</td>
-									<td><a href="javascript:void(0)" class="list_tit">[기타] 회원정보</a></td>
-									<td>2017.05.01</td>
+									<td>
+										<a href="javascript:void(0)" class="list_tit">
+											<span>
+											[기타] 우유식빵을 만들면서 힘든점이 있습니다..
+											</span>
+										</a>
+									</td>
+									<td>2016.11.18</td>
 								</tr>
 								<tr>
 									<td>
@@ -161,8 +209,14 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 										</span>
 									</td>
 									<td>5</td>
-									<td><a href="javascript:void(0)" class="list_tit">[기타] 서식창고 다운로드 문의</a></td>
-									<td>2017.01.30</td>
+									<td>
+										<a href="javascript:void(0)" class="list_tit">
+											<span>
+											[제과제빵] 밀가루의 구분
+											</span>
+										</a>
+									</td>
+									<td>2016.09.16</td>
 								</tr>
 								<tr>
 									<td>
@@ -172,8 +226,14 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 										</span>
 									</td>
 									<td>4</td>
-									<td><a href="javascript:void(0)" class="list_tit">[사업문의] 무띠 토마토 페이스트 구매문의</a></td>
-									<td>2016.12.01</td>
+									<td>
+										<a href="javascript:void(0)" class="list_tit">
+											<span>
+											[중식] 레시피… 이해가 가지 않습니다.
+											</span>
+										</a>
+									</td>
+									<td>2016.07.03</td>
 								</tr>
 								<tr>
 									<td>
@@ -183,8 +243,14 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 										</span>
 									</td>
 									<td>3</td>
-									<td><a href="javascript:void(0)" class="list_tit">[회원문의] 회원정보</a></td>
-									<td>2016.11.20</td>
+									<td>
+										<a href="javascript:void(0)" class="list_tit">
+											<span>
+											[제과제빵] 중력분 사용용도에 궁금증이 있어요.
+											</span>
+										</a>
+									</td>
+									<td>2016.03.06</td>
 								</tr>
 							</tbody>
 						</table>
