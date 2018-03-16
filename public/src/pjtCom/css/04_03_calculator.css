@@ -28,7 +28,7 @@
 .service .calculator [class^="step3"] .process li.step3:before { background-position:-190px -95px; }
 .service .calculator [class^="step4"] .process li.step4:before { background-position:-285px -95px; }
 
-.service .calculator [class^="step"] .txt { font-size:22px; text-align:center; line-height:25px; color:#231f20; margin:38px 0 60px; }
+.service .calculator [class^="step"] .txt { font-weight:400; font-size:22px; text-align:center; line-height:25px; color:#231f20; margin:38px 0 60px; }
 .service .calculator [class^="step"] .calculator_list { font-size:0; text-align:center; }
 .service .calculator [class^="step"] .calculator_list li { display:inline-block; margin-left:20px; }
 .service .calculator [class^="step2"] .calculator_list li { display:inline-block; margin-left:32px; }
@@ -55,15 +55,23 @@
 .service .calculator [class^="step"] .sort_area .category_area a { float:left; width:142px; height:48px; font-size:16px; line-height:48px; color:#807e7e; margin-right:10px; border:1px solid #e4e4e4; }
 .service .calculator [class^="step"] .sort_area .category_area a:last-child { margin-right:0; }
 .service .calculator [class^="step"] .sort_area .category_area a.now { color:#231f20; border:1px solid #807e7e; }
+.service .calculator [class^="step"] .sort_area .category_area [id^="select_category"] { float:left; width:212px; margin-left:10px; }
+.service .calculator [class^="step"] .sort_area .category_area [id^="select_category_depth1"] { margin-left:0; }
+.service .calculator [class^="step"] .sort_area .category_area .btn_search { float:left; width:80px; height:48px; font-size:16px; color:#fff; margin-left:10px; background:#555; }
+.service .calculator [class^="step"] .sort_area .add_area { display:inline-block; margin-left:73px; }
+.service .calculator [class^="step"] .sort_area .add_area .input_wrap { position:relative; float:left; }
+.service .calculator [class^="step"] .sort_area .add_area .input_wrap:after { content:"재료가 추가되었습니다."; opacity:0; position:absolute; top:0; right:0; transition-duration:0.3s; width:0; height:48px; text-align:left; line-height:48px; color:#fff; padding-left:20px; background:#d86b57; box-sizing:border-box; }
+.service .calculator [class^="step"] .sort_area .add_area .input_wrap.add:after { opacity:1; left:0; right:auto; width:267px; }
+.service .calculator [class^="step"] .sort_area .add_area .input_wrap input { width:267px; border:1px solid #e4e4e4; }
+.service .calculator [class^="step"] .sort_area .add_area .btn_add { float:right; width:80px; height:48px; font-size:16px; color:#fff; margin-left:10px; background:#555; }
 
 .service .calculator [class^="step"] .result_area { background:#f6f6f6; }
 .service .calculator [class^="step"] .result_list a { padding:73px 40px 0; }
 .service .calculator [class^="step"] .result_list a:before { content:""; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:260px; height:400px; border:1px solid #e4e4e4; box-sizing:border-box; }
 .service .calculator [class^="step"] .result_list .img { width:170px; height:170px; }
-
 .service .calculator [class^="step"] .result_list label { padding:73px 40px 0; }
 .service .calculator [class^="step"] .result_list label:after { content:""; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:260px; height:400px; border:1px solid #e4e4e4; box-sizing:border-box; }
-.service .calculator [class^="step"] .result_list .img { width:170px; height:170px; }
+.service .calculator [class^="step"] .result_list .name { padding-top:27px; }
 
 .service .calculator [class^="step"] .btn_area { width:1180px; margin:60px auto 0; overflow:hidden; }
 .service .calculator [class^="step"] .btn_area [class^=btn] { width:128px; height:48px; font-weight:500; font-size:16px; color:#fff; background:#949494; }
@@ -72,3 +80,87 @@
 .service .calculator [class^="step"] .btn_area .btn_next { float:right; }
 .service .calculator [class^="step"] .btn_area .btn_next:after { content:""; display:inline-block; width:12px; height:20px; margin-left:20px; background:url(/pjtCom/images/common/icon_arrow_12x20.png) no-repeat 0 0; }
 .service .calculator [class^="step"] .btn_area .btn_next.active { background:#ce462e; }
+
+.service .calculator [class^="step"] .ingredients_table { width:1180px; margin:0 auto; border-top:1px solid #ece9e6; border-bottom:2px solid #ece9e6; }
+.service .calculator [class^="step"] .ingredients_table th { font-weight:500; height:40px; font-size:16px; color:#81674a; border-left:1px solid #ece9e6; background:#f5f4f2; }
+.service .calculator [class^="step"] .ingredients_table th:first-child { border-left:none; }
+.service .calculator [class^="step"] .ingredients_table td { height:40px; font-size:16px; text-align:center; vertical-align:middle; color:#231f20; border-top:1px solid #ece9e6; border-left:1px solid #ece9e6; }
+.service .calculator [class^="step"] .ingredients_table td input { font-weight:500; text-align:center; border:none; }
+.service .calculator [class^="step"] .ingredients_table td input:focus { border:none; }
+.service .calculator [class^="step"] .ingredients_table td label { font-size:0; margin:0; padding:0; }
+.service .calculator [class^="step"] .ingredients_table td label:before { left:50%; transform:translate(-50%, -50%); }
+.service .calculator [class^="step"] .ingredients_table td:first-child { border-left:none; }
+.service .calculator [class^="step"] .edit_area { width:1180px; margin:20px auto 0; overflow:hidden; }
+.service .calculator [class^="step"] .edit_area button { float:left; width:100px; height:48px; font-weight:500; font-size:14px; color:#231f20; margin-left:10px; border:1px solid #000; }
+.service .calculator [class^="step"] .edit_area button:first-child { margin-left:0; }
+.service .calculator [class^="step"] .edit_area button.btn_add { width:119px; font-size:14px; color:#ce462d; margin-left:20px; border:1px solid #ce462d }
+.service .calculator [class^="step"] .edit_area dl { float:right; line-height:48px; }
+.service .calculator [class^="step"] .edit_area dt { float:left; }
+.service .calculator [class^="step"] .edit_area dd { float:left; }
+.service .calculator [class^="step"] .edit_area dd input { width:182px; height:48px; margin:0 10px 0 20px;  border:1px solid #e4e4e4; }
+.service .calculator [class^="step"] .edit_area dd input:focus { border-bottom:1px solid #e4e4e4; }
+
+.service .calculator [class^="step"] .output_area { width:1180px; margin:20px auto 0; }
+.service .calculator [class^="step"] .output_area dl { width:1000px; margin:0 auto; line-height:48px; overflow:hidden; }
+.service .calculator [class^="step"] .output_area dt { float:left; width:203px; text-align:right; margin-top:10px; }
+.service .calculator [class^="step"] .output_area dd { float:left; margin-top:10px;  }
+.service .calculator [class^="step"] .output_area dt.total_quantity { clear:left; }
+.service .calculator [class^="step"] .output_area dt.gram_price { clear:left; }
+.service .calculator [class^="step"] .output_area dd input { width:182px; height:48px; margin:0 10px 0 20px; border:1px solid #e4e4e4; }
+.service .calculator [class^="step"] .output_area dd input:focus { height:48px; line-height:48px; border-bottom:1px solid #e4e4e4; }
+.service .calculator [class^="step"] .output_area dd input:disabled { background:#fff; }
+.service .calculator [class^="step"] .output_area dt.gram_price,
+.service .calculator [class^="step"] .output_area dt.once_price { font-weight:600; font-size:18px; color:#ce462d; }
+.service .calculator [class^="step"] .output_area dd.gram_price input,
+.service .calculator [class^="step"] .output_area dd.once_price input { color:#ce462d; border:1px solid #ce462d; }
+.service .calculator [class^="step"] .btn_area { font-size:0; overflow:hidden; }
+.service .calculator [class^="step"] .btn_area .page { float:left; }
+.service .calculator [class^="step"] .btn_area .fn { float:right; }
+.service .calculator [class^="step"] .btn_area .btn_first { width:190px; height:48px; margin-left:10px; }
+.service .calculator [class^="step"] .btn_area .btn_first:before { content:""; display:inline-block; width:24px; height:21px; margin-right:20px; background:url(/pjtCom/images/sub/icon_calculator_first.png) no-repeat 0 0; }
+.service .calculator [class^="step"] .btn_area .fn [class^=btn] { color:#fff; background:#cac2b9; }
+.service .calculator [class^="step"] .btn_area .fn .btn_scrap { width:150px; }
+.service .calculator [class^="step"] .btn_area .fn .btn_print { width:168px; margin-left:10px; }
+.service .calculator [class^="step"] .btn_area .fn [class^=btn]:before { content:""; display:inline-block; height:32px; margin-right:20px; background:url(/pjtCom/images/common/icon_function.png) no-repeat 0 0; }
+.service .calculator [class^="step"] .btn_area .fn .btn_scrap:before { width:26px; background-position:-35px -40px; }
+.service .calculator [class^="step"] .btn_area .fn .btn_print:before { width:30px; background-position:0 -40px; }
+
+.choose_area { position:fixed; z-index:999; bottom:0; left:0; width:100%; height:50px; line-height:50px; border-top:1px solid #dadada; background:#fff; user-select:none; }
+.choose_area .inner { position:absolute; bottom:0; left:50%; transform:translateX(-50%); width:1180px; height:100%; }
+.choose_area .ea { position:absolute; z-index:1; bottom:0; right:0; width:570px; height:100%; font-weight:400; font-size:16px; padding-left:20px; border-left:1px solid #dadada; background:#fff; box-sizing:border-box; cursor:pointer; }
+.choose_area .ea:before { content:""; position:absolute; top:0; right:0; width:50px; height:50px; background:#ce462d; }
+.choose_area .ea:after { content:""; position:absolute; top:50%; right:16px; transform-origin:50% 25%; transform:translateY(-50%); transition-duration:0.3s; width:17px; height:9px; background:url(/pjtCom/images/sub/btn_calculator_choose.png) no-repeat 0 0; }
+.choose_area .choose_list { position:absolute; bottom:-100%; right:0; transition-duration:0.3s; width:570px; border:1px solid #dadada; border-bottom:none; background:#fff; box-sizing:border-box; }
+.choose_area .choose_list li { position:relative; line-height:34px; padding-left:20px; }
+.choose_area .choose_list li:hover { background:#f6f6f6; }
+.choose_area .choose_list li .btn_del { position:absolute; right:0; width:35px; height:100%; text-indent:-9999px; background:none; }
+.choose_area .choose_list li .btn_del:after { content:""; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:13px; height:13px; background:url(/pjtCom/images/sub/btn_calculator_del.png) no-repeat 0 0; }
+.choose_area.open .choose_list { bottom:50px; }
+.choose_area.open .ea:after { transform:rotate(180deg); }
+
+.alert input { width:240px; height:30px; line-height:30px; margin-top:15px; font-size:13px; text-align:center; border-bottom:1px solid #000; }
+.alert input:focus { border:none; border-bottom:1px solid #000; }
+.alert input::placeholder { font-size:13px; }
+
+.print .ingredients_table { width:auto; margin:80px auto 0; border-top:1px solid #ece9e6; border-bottom:2px solid #ece9e6; }
+.print .ingredients_table th { font-weight:500; height:40px; font-size:16px; color:#81674a; border-left:1px solid #ece9e6; background:#f5f4f2; }
+.print .ingredients_table th:first-child { border-left:none; }
+.print .ingredients_table td { height:40px; font-size:16px; text-align:center; vertical-align:middle; color:#231f20; border-top:1px solid #ece9e6; border-left:1px solid #ece9e6; }
+.print .ingredients_table td input { font-weight:500; text-align:center; border:none; }
+.print .ingredients_table td input:focus { border:none; }
+.print .ingredients_table td label { font-size:0; margin:0; padding:0; }
+.print .ingredients_table td label:before { left:50%; transform:translate(-50%, -50%); }
+.print .ingredients_table td:first-child { border-left:none; }
+.print .output_area { width:100%; margin:20px auto 0; }
+.print .output_area dl { width:1000px; margin:0 auto; line-height:48px; overflow:hidden; }
+.print .output_area dt { float:left; width:203px; text-align:right; margin-top:10px; }
+.print .output_area dd { float:left; margin-top:10px;  }
+.print .output_area dt.total_quantity { clear:left; }
+.print .output_area dt.gram_price { clear:left; }
+.print .output_area dd input { width:182px; height:48px; margin:0 10px 0 20px; border:1px solid #e4e4e4; }
+.print .output_area dd input:disabled { background:#fff; }
+.print .output_area dd input:focus { height:48px; line-height:48px; border-bottom:1px solid #e4e4e4; }
+.print .output_area dt.gram_price,
+.print .output_area dt.once_price { font-weight:600; font-size:18px; color:#ce462d; }
+.print .output_area dd.gram_price input,
+.print .output_area dd.once_price input { color:#ce462d; border:1px solid #ce462d; }

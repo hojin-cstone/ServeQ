@@ -105,13 +105,28 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 
 					<div class="btn_area">
 						<button type="button" class="btn_prev" onclick="history.back(-1);">이전</button>
-						<a href="/service/calculator_step2_recipe.asp" class="btn_next active">다음</a><!-- 레시피 선택시 class="active" 추가 -->
+						<a href="/service/calculator_step2_recipe.asp" class="btn_next">다음</a><!-- 레시피 선택시 class="active" 추가 -->
+																								<!-- 레시피 미선택시 onclick="fn.alertOpen('#recipe_alert'); return false;" -->
 					</div>
 				</div>
 			</section>
 		</div>
 	</main>
 	<!-- // wrap -->
+
+	<!-- 레시피 비선택 alert // -->
+	<div id="recipe_alert" class="alert type1">
+		<div class="inner">
+			<button type="button" class="btn_close" onclick="fn.alertClose();">닫기</button>
+
+			<p class="txt">
+				레시피를 선택해 주세요.
+			</p>
+
+			<button type="button" class="btn_ok" onclick="fn.alertClose();">확인</button>
+		</div>
+	</div>
+	<!-- // 레시피 비선택 alert -->
 
 	<!-- footer // -->
 	<!--#include virtual="/inCom/footer.asp"-->

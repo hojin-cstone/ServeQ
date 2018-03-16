@@ -16,13 +16,11 @@
 
 <link rel="stylesheet" type="text/css" href="/pjtCom/css/lib/normalize.min.css" />
 <link rel="stylesheet" type="text/css" href="/pjtCom/css/lib/jquery-ui.min.css">
-<link rel="stylesheet" type="text/css" href="/pjtCom/css/lib/swiper.min.css">
 <link rel="stylesheet" type="text/css" href="/pjtCom/css/common.css" />
 
 
 <script src="/pjtCom/js/lib/jquery-3.3.1.min.js"></script>
 <script src="/pjtCom/js/lib/jquery-ui.min.js"></script>
-<script src="/pjtCom/js/lib/swiper.min.js"></script>
 
 
 
