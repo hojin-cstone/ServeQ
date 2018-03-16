@@ -17,7 +17,7 @@
 			<ul class="gnb_depth1">
 				<li><a href="/brand/serveq.asp">브랜드소개</a></li>
 				<li><a href="/infra/lab.asp">인프라</a></li>
-				<li><a href="/product/afl_list.asp">상품안내</a></li>
+				<li><a href="/product/about.asp">상품안내</a></li>
 				<li><a href="/service/about.asp">고객지원서비스</a></li>
 				<li><a href="/pr/press_list.asp">홍보센터</a></li>
 			</ul>

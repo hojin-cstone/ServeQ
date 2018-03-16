@@ -78,8 +78,8 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 
 					<ul class="calculator_list">
 						<li>
-							<a class="choose" href="/service/calculator_step2_material.asp">
-								<img src="/pjtCom/images/sub/img_service_calculator_material.jpg" alt="">
+							<a class="choose" href="/service/calculator_step2_ingredients.asp">
+								<img src="/pjtCom/images/sub/img_service_calculator_ingredients.jpg" alt="">
 								<b>재료로 계산하기</b>
 							</a>
 							<p>개발 중인 레시피의 원가를 알고싶어요!</p>

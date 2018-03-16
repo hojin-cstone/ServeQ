@@ -378,6 +378,22 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 	</main>
 	<!-- // wrap -->
 
+	<!-- 스크랩 alert // -->
+	<div id="scrap_alert" class="alert type2">
+		<div class="inner">
+			<button type="button" class="btn_close" onclick="fn.alertClose();">닫기</button>
+
+			<p class="txt">
+				스크랩이 완료되었습니다.
+
+				<span class="small">스크랩내역은 마이페이지에서<br>확인 가능합니다.</span>
+			</p>
+
+			<button type="button" class="btn_ok" onclick="fn.alertClose();">확인</button>
+		</div>
+	</div>
+	<!-- // 스크랩 alert -->
+	
 	<!-- print -->
 	<div id="print" class="print">
 		<div class="inner">

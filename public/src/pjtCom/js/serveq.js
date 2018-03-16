@@ -96,6 +96,7 @@ switch (path1) {
                     margin : '71px'
                 });
 
+                // 프린트
                 var infoAreaImg = $('.info_area .img').clone();
             	var infoAreaTit = $('.info_area .tit').clone();
             	var tabContents = $('.tab_contents').clone();
@@ -127,6 +128,54 @@ switch (path1) {
                     margin : '0px'
                 });
             break;
+
+            // 원가계산기
+            case 'calculator' :
+                // 계산기 STEP3 전체선택
+                $('.btn_allchk').click(function(){
+                    $('input[type=checkbox]').prop('checked', true);
+                });
+
+                // 프린트
+                var ingredientsTable = $('.ingredients_table').clone();
+            	var outputArea = $('.output_area').clone();
+
+            	$('#print_naming_alert .btn_ok').click(function(){
+                    var infoAreaTit = $('#print_naming_alert input').val();
+
+                    $('#header, #wrap, #footer, .btn_print').addClass('no_print');
+            		$('.print_contents').empty();
+                    $('.print_contents').append('<div class="info_area"></div>');
+                    $('.print_contents div').append('<h3 class="tit">'+infoAreaTit+'</h3>')
+                    $('.print_contents div').append(ingredientsTable, outputArea);
+            		$('.print_contents .product_area button').remove();
+            		$('#print').addClass('show');
+            	});
+
+            	$('#print .btn_close').click(function(){
+                    $('#header, #wrap, #footer, .btn_print').removeClass('no_print');
+            		$('#print').removeClass('show');
+            	});
+
+                // 내가선택한 재료 열기/닫기
+                $('.choose_area .ea').click(function(){
+            		$('.choose_area').toggleClass('open');
+            	});
+
+                // 재료 직접 추가
+                $('.btn_add').click(function(){
+                    if ($('.input_wrap input').val() !== '') {
+                        $('.input_wrap').addClass('add');
+                        setTimeout(function(){
+                            $('.input_wrap').removeClass('add');
+                        }, 1000);
+                    } else {
+                        fn.alertOpen('#add_alert');
+                    }
+                });
+            break;
+
+
         }
 
     break;
