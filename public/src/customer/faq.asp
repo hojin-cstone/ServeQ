@@ -149,7 +149,21 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 									</td>
 								</tr>
 								<tr>
-									<td>셰프 1:1 상담</td>
+									<td>셰프 레시피</td>
+									<td>
+										<a href="javascript:void(0)" class="list_tit">원하는 조건의 레시피를 찾고 싶습니다.</a>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<span>
+											셰프 레시피는 양식, 중식, 제과제빵으로 나뉘어있으며 각각 세부 카테고리가 존재합니다. 원하시는 카테고리를 선택하시거나<br />
+											검색창에 키워드를 검색하여 레시피를 찾아보세요!
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<td>셰프 레시피</td>
 									<td>
 										<a href="javascript:void(0)" class="list_tit">마음에 드는 레시피를 공유하고 싶습니다.</a>
 									</td>
