@@ -91,7 +91,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 					</div>
 				</div>
 				<div class="cont sourcing">
-					<h3>글로벌 제휴 <span>&</span> Product Sourcing</h3>
+					<h3>글로벌 소싱 상품</h3>
 					<p>
 						고객이 필요로 하는 양질의 상품을 조금 더 쉽게 구매하고 사용하실 수 있게 하고자 미국, 네덜란드, 프랑스, 이탈리아 등<br />
 						유명 글로벌 컴퍼니와 제휴하여 전통있는 대표 상품들을 구매, 소싱한 후 고객에게 제공하여 편리하게 이용할 수 있도록 도움을 드립니다.

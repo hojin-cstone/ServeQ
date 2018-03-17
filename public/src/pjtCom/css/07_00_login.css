@@ -21,7 +21,7 @@
 .mypage .type3 [id^="select"][id$="-button"] .ui-selectmenu-icon { width:9px; height:6px; background-position:-24px -105px; }
 .mypage .type3 [id^="select"][id$="-button"] { border:1px solid rgba(255,255,255,0); border-bottom:1px solid #e4e4e4; }
 .mypage .type3 .ui-widget.ui-selectmenu-button-open { border-bottom:2px solid #231f20; outline:none; }
-.mypage .joinform #select3-button { width:134px; }
+.mypage .joinform #select3-button { width:170px; }
 .mypage .joinform #select4-button { width:170px; }
 
 /* login,search_id,searchid_result,searchpw,password 원페이지 중앙정렬 */

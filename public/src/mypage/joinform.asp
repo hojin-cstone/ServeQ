@@ -41,7 +41,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 					<h2 class="sub_tit">회원가입</h2>
 					<p class="sub_txt">Best Solution을 찾으러 오셨나요? 환영합니다!</p>
 					<ul class="step">
-						<li>본인인증</li>
+						<li>이용약관</li>
 						<li class="on">회원정보입력</li>
 						<li>가입완료</li>
 					</ul>

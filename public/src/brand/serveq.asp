@@ -84,7 +84,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 					<h3>Color System</h3>
 					<p>
 						전용색상은 ‘ServeQ’ 브랜드 로고와 더불어 ‘ServeQ’의 아이덴티티를 형성하는 데 중요한 요소 중 하나입니다.<br />
-						또한 각종 시각 매체에 적용되어 ‘ServeQ’의 이미지를 전달하는 기능을 합니다. 전용색상의 표현은 별색인쇄를 원칙으로 하며,
+						또한 각종 시각 매체에 적용되어 ‘ServeQ’의 이미지를 전달하는 기능을 합니다. 전용색상의 표현은 별색인쇄를 원칙으로 하며,<br />
 						아래 명시된 Pantone Color와 RGB Color를 표준으로 합니다.
 					</p>
 

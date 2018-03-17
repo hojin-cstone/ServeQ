@@ -145,6 +145,11 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 								<a href="#">3</a>
 								<a href="#">4</a>
 								<a href="#">5</a>
+								<a href="#">6</a>
+								<a href="#">7</a>
+								<a href="#">8</a>
+								<a href="#">9</a>
+								<a href="#">10</a>
 							</span>
 							<a href="#" class="btn_next">다음</a>
 							<a href="#" class="btn_last">끝으로</a>
