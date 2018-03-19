@@ -121,11 +121,29 @@ switch (path1) {
             // 세미나
             case 'seminar' :
                 // 슬라이드
-                fn.slide('.schedule_area',{
-                    btnPrev : '.btn_prev',
-                    btnNext : '.btn_next',
-                    pagination: '.btn_area',
-                    margin : '0px'
+                // fn.slide('.schedule_area',{
+                //     btnPrev : '.btn_prev',
+                //     btnNext : '.btn_next',
+                //     pagination: '.btn_area',
+                //     margin : '0px'
+                // });
+
+                // 세미나 리스트 열기 / 닫기
+                $('.schedule_list').each(function(){
+                    console.log(1)
+                    $(this).css({'width':$(this).children('li').outerWidth()*$(this).children('li').length});
+                });
+                $('.btn_more').click(function(){
+
+                    if (!$(this).parents('td').hasClass('open')) {
+                        $('td').removeClass('open');
+                        $('td').children('.schedule_area').css({'width':'100%'});
+                        $(this).parents('td').addClass('open');
+                        $(this).parents('.schedule_area').css({'width':$(this).siblings('.inner').find('li').outerWidth()*$(this).siblings('.inner').find('li').length});
+                    } else {
+                        $(this).parents('td').removeClass('open');
+                        $(this).parents('.schedule_area').css({'width':'100%'});
+                    }
                 });
             break;
 
@@ -146,7 +164,7 @@ switch (path1) {
                     $('#header, #wrap, #footer, .btn_print').addClass('no_print');
             		$('.print_contents').empty();
                     $('.print_contents').append('<div class="info_area"></div>');
-                    $('.print_contents div').append('<h3 class="tit">'+infoAreaTit+'</h3>')
+                    $('.print_contents div').append('<h3 class="tit">'+infoAreaTit+'</h3>');
                     $('.print_contents div').append(ingredientsTable, outputArea);
             		$('.print_contents .product_area button').remove();
             		$('#print').addClass('show');

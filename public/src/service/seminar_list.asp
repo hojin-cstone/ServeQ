@@ -114,19 +114,20 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 
 						<tbody>
 							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td>
+								<td class="sun"></td>
+								<td class="mon"></td>
+								<td class="tue"></td>
+								<td class="wed"></td>
+								<td class="thu"></td>
+								<td class="fri"></td>
+								<td class="sat">
 									<b class="date">1</b>
+
 									<div class="schedule_area">
 										<div class="inner">
 											<ul class="schedule_list">
 												<!-- 반복영역 // -->
-												<li class="swiper-slide">
+												<li>
 													<small class="category cooking">쿠킹클래스</small><!-- 쿠킹클래스 -->
 													<!--<small class="category baking">제과제빵세미나</small>--><!-- 제과제빵세미나 -->
 
@@ -134,181 +135,217 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 
 													<a href="/service/seminar_view.asp" class="ellipsis subject">페이스트리&디저트 메뉴 세미나 페이스트리&디저트 메뉴 세미나</a>
 
-													<button type="button "class="btn_end" disabled>신청 마감</button><!-- 신청마감 -->
-													<!--<a href="#alert_complete" class="btn_apply" onclick="fn.alertOpen(this);">세미나 신청</a>--><!-- 신청 -->
-													<!--<a href="#alert_cancel" class="btn_cancel" onclick="fn.alertOpen(this);">신청 취소</a>--><!-- 취소 -->
+													<span class="ing">모집 중</span><!-- 모집중 -->
+													<!--<span class="end">모집마감</span>--><!-- 모집마감 -->
+
+													<p class="period">모집 마감까지 3일</p>
 												</li>
 												<!-- // 반복영역 -->
 
-												<li class="swiper-slide">
+												<li>
 													<small class="category baking">제과제빵세미나</small>
 
 													<small class="region">서울</small>
 
 													<a href="/service/seminar_view.asp" class="ellipsis subject">페이스트리&디저트 메뉴 세미나</a>
 
-													<a href="#alert_complete" class="btn_apply" onclick="fn.alertOpen(this);">세미나 신청</a>
+													<span class="ing">모집 중</span>
+
+													<p class="period">모집 마감까지 3일</p>
 												</li>
 											</ul>
-
-											<div class="btn_area"></div>
 										</div>
+
+										<button type="button" class="btn_more">3</button>
 									</div>
 								</td>
 							</tr>
 							<tr>
-								<td>
+								<td class="sun">
 									<b class="date">2</b>
+
 									<div class="schedule_area">
-										<ul class="schedule_list">
-											<li>
-												<small class="category baking">제과제빵세미나</small>
+										<div class="inner">
+											<ul class="schedule_list">
+												<li>
+													<small class="category baking">제과제빵세미나</small>
 
-												<small class="region">서울</small>
+													<small class="region">서울</small>
 
-												<a href="/service/seminar_view.asp" class="ellipsis subject">페이스트리&디저트 메뉴 세미나</a>
+													<a href="/service/seminar_view.asp" class="ellipsis subject">페이스트리&디저트 메뉴 세미나</a>
 
-												<a href="#alert_complete" class="btn_apply" onclick="fn.alertOpen(this);">세미나 신청</a>
-											</li>
-										</ul>
+													<span class="ing">모집 중</span>
 
-										<div class="btn_area"></div>
+													<p class="period">모집 마감까지 3일</p>
+												</li>
+											</ul>
+										</div>
 									</div>
 								</td>
-								<td>
+								<td class="mon">
 									<b class="date">3</b>
+
 									<div class="schedule_area">
-										<ul class="schedule_list">
-											<li>
-												<small class="category cooking">쿠킹클래스</small><!-- 쿠킹클래스 -->
+										<div class="inner">
+											<ul class="schedule_list">
+												<li>
+													<small class="category cooking">쿠킹클래스</small><!-- 쿠킹클래스 -->
 
-												<small class="region">서울</small>
+													<small class="region">서울</small>
 
-												<a href="/service/seminar_view.asp" class="ellipsis subject">페이스트리&디저트 메뉴 세미나</a>
+													<a href="/service/seminar_view.asp" class="ellipsis subject">페이스트리&디저트 메뉴 세미나</a>
 
-												<a href="#alert_cancel" class="btn_cancel" onclick="fn.alertOpen(this);">신청 취소</a>
-											</li>
-										</ul>
-
-										<div class="btn_area"></div>
+													<span class="end">모집마감</span>
+												</li>
+											</ul>
+										</div>
 									</div>
 								</td>
-								<td>
+								<td class="tue">
 									<b class="date">4</b>
+
 									<div class="schedule_area">
-										<ul class="schedule_list">
-											<li>
-												<small class="category baking">제과제빵세미나</small>
+										<div class="inner">
+											<ul class="schedule_list">
+												<li>
+													<small class="category baking">제과제빵세미나</small>
 
-												<small class="region">서울</small>
+													<small class="region">서울</small>
 
-												<a href="/service/seminar_view.asp" class="ellipsis subject">페이스트리&디저트 메뉴 세미나</a>
+													<a href="/service/seminar_view.asp" class="ellipsis subject">페이스트리&디저트 메뉴 세미나</a>
 
-												<a href="#alert_login" class="btn_apply" onclick="fn.alertOpen(this);">세미나 신청</a>
-											</li>
-										</ul>
+													<span class="ing">모집 중</span>
 
-										<div class="btn_area"></div>
+													<p class="period">모집 마감까지 13일</p>
+												</li>
+
+												<li>
+													<small class="category baking">제과제빵세미나</small>
+
+													<small class="region">서울</small>
+
+													<a href="/service/seminar_view.asp" class="ellipsis subject">페이스트리&디저트 메뉴 세미나</a>
+
+													<span class="ing">모집 중</span>
+
+													<p class="period">모집 마감까지 3일</p>
+												</li>
+
+												<li>
+													<small class="category baking">제과제빵세미나</small>
+
+													<small class="region">서울</small>
+
+													<a href="/service/seminar_view.asp" class="ellipsis subject">페이스트리&디저트 메뉴 세미나</a>
+
+													<span class="ing">모집 중</span>
+
+													<p class="period">모집 마감까지 3일</p>
+												</li>
+											</ul>
+										</div>
+
+										<button type="button" class="btn_more">3</button>
 									</div>
 								</td>
-								<td>
+								<td class="wed">
 									<b class="date">5</b>
 								</td>
-								<td>
+								<td class="thu">
 									<b class="date">6</b>
 								</td>
-								<td>
+								<td class="tri">
 									<b class="date">7</b>
 								</td>
-								<td>
+								<td class="sat">
 									<b class="date">8</b>
 								</td>
 							</tr>
 
 							<tr>
-								<td>
+								<td class="sun">
 									<b class="date">9</b>
 								</td>
-								<td>
+								<td class="mon">
 									<b class="date">10</b>
 								</td>
-								<td>
+								<td class="tue">
 									<b class="date">11</b>
 								</td>
-								<td>
+								<td class="wed">
 									<b class="date">12</b>
 								</td>
-								<td>
+								<td class="thu">
 									<b class="date">13</b>
 								</td>
-								<td>
+								<td class="fri">
 									<b class="date">14</b>
 								</td>
-								<td>
+								<td class="sat">
 									<b class="date">15</b>
 								</td>
 							</tr>
 
 							<tr>
-								<td>
+								<td class="sun">
 									<b class="date">16</b>
 								</td>
-								<td>
+								<td class="mon">
 									<b class="date">17</b>
 								</td>
-								<td>
+								<td class="tue">
 									<b class="date">18</b>
 								</td>
-								<td>
+								<td class="wed">
 									<b class="date">19</b>
 								</td>
-								<td>
+								<td class="thu">
 									<b class="date">20</b>
 								</td>
-								<td>
+								<td class="fri">
 									<b class="date">21</b>
 								</td>
-								<td>
+								<td class="sat">
 									<b class="date">22</b>
 								</td>
 							</tr>
 
 							<tr>
-								<td>
+								<td class="sun">
 									<b class="date">23</b>
 								</td>
-								<td>
+								<td class="mon">
 									<b class="date">24</b>
 								</td>
-								<td>
+								<td class="tue">
 									<b class="date">25</b>
 								</td>
-								<td>
+								<td class="wed">
 									<b class="date">26</b>
 								</td>
-								<td>
+								<td class="thu">
 									<b class="date">27</b>
 								</td>
-								<td>
+								<td class="fri">
 									<b class="date">28</b>
 								</td>
-								<td>
+								<td class="sat">
 									<b class="date">29</b>
 								</td>
 							</tr>
 
 							<tr>
-								<td>
+								<td class="sun">
 									<b class="date">30</b>
 								</td>
-								<td>
+								<td class="mon">
 									<b class="date">31</b>
 								</td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
+								<td class="tue"></td>
+								<td class="wed"></td>
+								<td class="thu"></td>
+								<td class="fri"></td>
+								<td class="sat"></td>
 							</tr>
 						</tbody>
 					</table>

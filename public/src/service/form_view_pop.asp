@@ -97,8 +97,8 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							<li class="facebook">
 								<button type="button">FACEBOOK 공유하기</button>
 							</li>
-							<li class="blog">
-								<button type="button">BLOG 공유하기</button>
+							<li class="band">
+								<button type="button">BAND 공유하기</button>
 							</li>
 							<li class="kakao">
 								<button type="button">KAKAOSTORY 공유하기</button>

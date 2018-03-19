@@ -20,29 +20,34 @@
 .calendar_area { margin-top:40px; padding:60px 0 135px; background:#f6f6f6; }
 .calendar_area .calendar { width:1180px; margin:0 auto; }
 .calendar_area .calendar th { height:40px; font-size:16px; color:#81674a; border-top:1px solid #ece9e6; background:#cac2b9; box-sizing:border-box;}
-.calendar_area .calendar td { position:relative; height:202px; text-align:center; vertical-align:top; border-top:1px solid #ece9e6; border-left:1px solid #ece9e6; background:#fff; box-sizing:border-box; }
+.calendar_area .calendar td { position:relative; height:189px; text-align:center; vertical-align:top; border-top:1px solid #ece9e6; border-left:1px solid #ece9e6; background:#fff; box-sizing:border-box; }
 .calendar_area .calendar td:first-child { border-left:none; }
-.calendar_area .calendar td .date { position:absolute; top:10px; left:10px; font-family:'Malgun Gothic', sans-serif; font-size:14px; line-height:20px; }
-.calendar_area .calendar td .schedule_area { position: relative; height:100%; overflow:hidden; }
-.calendar_area .calendar td .schedule_area .schedule_list { height:164px; }
-.calendar_area .calendar td .schedule_list li { width:148px; height:154px; padding:10px 10px 0; }
+.calendar_area .calendar td .date { position:absolute; z-index:1; top:10px; left:10px; font-family:'Malgun Gothic', sans-serif; font-size:14px; line-height:20px; }
+.calendar_area .calendar td .schedule_area { position:absolute; top:0; width:100%; height:100%; background:#fff; overflow:hidden; }
+.calendar_area .calendar td .schedule_area .btn_more { position:absolute; bottom:10px; right:9px; width:15px; height:19px; font-family:'Malgun Gothic', sans-serif; font-size:12px; line-height:19px; color:#807e7e; background:#fff url(/pjtCom/images/sub/icon_service_seminar_more.png) no-repeat 0 0; }
+.calendar_area .calendar td .schedule_area .inner { position:absolute; width:100%; height:100%; }
+.calendar_area .calendar td .schedule_list { position:relative; top:0; left:0; height:100%; overflow:hidden; word-break:break-all; word-wrap: break-word;}
+.calendar_area .calendar td .schedule_list li { float:left; }
+.calendar_area .calendar td .schedule_list li:first-child { margin-left:0; }
+.calendar_area .calendar td .schedule_list li { position:relative; width:168px; height:100%; padding:20px 20px 0; box-sizing:border-box; }
+.calendar_area .calendar td .schedule_list li:after { content:""; position:absolute; top:50%; left:0; transform:translateY(-50%); width:1px; height:100px; background:#e4e4e4; }
+.calendar_area .calendar td .schedule_list li:first-child:after { display:none; }
 .calendar_area .calendar td .schedule_list small { display:inline-block; width:100px; height:20px; font-size:13px; line-height:20px; border-radius:20px; box-sizing:border-box; }
 .calendar_area .calendar td .schedule_list small.category { color:#fff; }
 .calendar_area .calendar td .schedule_list small.category.cooking { background:#e67878; }
 .calendar_area .calendar td .schedule_list small.category.baking { background:#e6c378; }
 .calendar_area .calendar td .schedule_list small.region { line-height:18px; margin-top:4px;  border:1px solid #ece9e6; }
-.calendar_area .calendar td .schedule_list .subject { display:block; height:34px; font-size:14px; line-height:17px; color:#555; margin:19px 0 17px; }
-.calendar_area .calendar td .schedule_list [class^="btn"] { width:120px; height:40px; font-weight:bold; font-size:14px; border-radius:40px; }
-.calendar_area .calendar td .schedule_list [class^="btn"].btn_end { color:#949494; border:1px solid #949494; }
-.calendar_area .calendar td .schedule_list [class^="btn"].btn_apply { color:#ce462d; border:1px solid #ce462d; }
-.calendar_area .calendar td .schedule_list [class^="btn"].btn_cancel { color:#231f20; border:1px solid #231f20; }
-
-.calendar_area .calendar .schedule_area .btn_area { position:static; font-size:0; margin-top:19px; }
-.calendar_area .calendar .schedule_area .btn_area span { display:inline-block; opacity:1; width:8px; height:8px; text-indent:-9999px; margin:0 0 0 8px; border-radius:8px; background:#bfbebe; cursor:pointer; }
-.calendar_area .calendar .schedule_area .btn_area span:first-child { margin-left:0; }
-.calendar_area .calendar .schedule_area .btn_area span.active { width:16px; background:#807e7e; }
-
-.calendar_area .calendar .schedule_area .inner { overflow:hidden; }
-.calendar_area .calendar .schedule_area .schedule_list { position:relative; left:0; height:100%; overflow:hidden; word-break:break-all; word-wrap: break-word;}
-.calendar_area .calendar .schedule_area .schedule_list li { float:left; }
-.calendar_area .calendar .schedule_area .schedule_list li:first-child { margin-left:0; }
+.calendar_area .calendar td .schedule_list .subject { display:block; height:34px; font-size:14px; line-height:17px; color:#555; margin:18px 0; }
+.calendar_area .calendar td .schedule_list span { display:inline-block; width:100px; height:26px; font-weight:bold; font-size:14px; line-height:26px; border-radius:26px; box-sizing:border-box; }
+.calendar_area .calendar td .schedule_list span.end { color:#949494; border:1px solid #949494; }
+.calendar_area .calendar td .schedule_list span.ing { color:#ce462d; border:1px solid #ce462d; }
+.calendar_area .calendar td .schedule_list .period { font-size:11px; color:#ce462d; margin-top:6px; }
+.calendar_area .calendar td.open .date { z-index:3; top:15px; transition:top 0.5s; }
+.calendar_area .calendar td.open .schedule_area { position:absolute; top:5px; z-index:2; transition-duration:0.5s; width:100%; border:1px solid #949494; }
+.calendar_area .calendar td.sun .schedule_area { left:0; right:auto; }
+.calendar_area .calendar td.mon .schedule_area { left:0; right:auto; }
+.calendar_area .calendar td.tue .schedule_area { left:0; right:auto; }
+.calendar_area .calendar td.wed .schedule_area { left:0; right:auto; }
+.calendar_area .calendar td.fri .schedule_area { left:auto; right:0; }
+.calendar_area .calendar td.sat .schedule_area { left:auto; right:0; }
+/* .calendar_area .calendar td.open .btn_more { display:none; } */
