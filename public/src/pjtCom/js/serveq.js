@@ -19,6 +19,7 @@ $('#footer .family').click(function(){
 // HEADER 검색
 $('#header .menu_search, #search ~ .dimd').click(function(){
     $('#search').toggleClass('on');
+    $('#search').siblings('.menu_search').toggleClass('on');
 });
 
 // 앵커이동 X

@@ -2,7 +2,7 @@
 
 <%
 path1dir=""
-path2dir="1"
+path2dir=""
 path3dir=""
 path1tit=""
 path2tit=""
@@ -37,8 +37,8 @@ If path3tit = "" Then description=description+path2tit Else description=descript
 		<div id="contents" class="<%= path2dir %> <%= path3dir %>">
 			<div class="visual"><img src="/pjtCom/images/main/img_visual1.jpg" alt=""></div>
 
-			<div style="height:1000px;">
-
+			<div style="position:relative; overflow:hidden;">
+				<img src="/pjtCom/images/temp/main.jpg" alt="" style="position:relative; top:0; left:50%; transform:translateX(-50%)">
 			</div>
 		</div>
 	</main>
