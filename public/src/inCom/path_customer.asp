@@ -1,11 +1,11 @@
 <a href="/customer/faq.asp" class="path1"><%= path1tit %></a>
 
-<% If path2dir = "faq" Then %>
-	<a href="/customer/faq.asp" class="path2"><%= path2tit %></a>
-<% ElseIf path2dir = "qna" Then %>
-	<a href="/customer/qna_list.asp" class="path2"><%= path2tit %></a>
-<% ElseIf path2dir = "policy" Then %>
-	<a href="/customer/policy.asp" class="path2"><%= path2tit %></a>
-<% ElseIf path2dir = "location" Then %>
-	<a href="/customer/location.asp" class="path2"><%= path2tit %></a>
-<% End If %>
+<div class="path2">
+	<span><%= path2tit %></span>
+	<ul class="path2_list">
+		<li <% If path2dir = "faq" Then %>class="hide"<% End If %>><a href="/customer/faq.asp">자주 묻는 질문</a></li>
+		<li <% If path2dir = "qna" Then %>class="hide"<% End If %>><a href="/customer/qna_list.asp">문의하기</a></li>
+		<li <% If path2dir = "policy" Then %>class="hide"<% End If %>><a href="/customer/policy.asp">정책안내</a></li>
+		<li <% If path2dir = "location" Then %>class="hide"<% End If %>><a href="/customer/location.asp">오시는 길</a></li>
+	</ul>
+</div>

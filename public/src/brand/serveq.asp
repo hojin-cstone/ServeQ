@@ -5,13 +5,13 @@ path1dir="brand"
 path2dir="serveq"
 path3dir=""
 path1tit="브랜드 소개"
-path2tit="사업소개"
-path3tit="서브큐소개"
+path2tit="서브큐소개"
+path3tit=""
 description = "ServeQ "
 If path3tit = "" Then description=description+path2tit Else description=description+path3tit End If
 titImg = ""
 If path3dir = "" Then titImg=path2dir Else titImg=path2dir+"_"+path3dir End If
-pageTit = "서브큐소개"
+pageTit = ""
 If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 %>
 

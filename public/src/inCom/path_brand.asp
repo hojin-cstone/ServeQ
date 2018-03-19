@@ -1,9 +1,16 @@
 <a href="/brand/serveq.asp" class="path1"><%= path1tit %></a>
 
+<div class="path2">
+	<span><%= path2tit %></span>
+	<ul class="path2_list">
+		<li <% If path2dir = "serveq" Then %>class="hide"<% End If %>><a href="/brand/serveq.asp">브랜드소개</a></li>
+		<li <% If path2dir = "business" Then %>class="hide"<% End If %>><a href="/brand/business_circulation.asp">사업소개</a></li>
+	</ul>
+</div>
+
 <% If path2dir = "serveq" Then %>
-	<a href="/brand/serveq.asp" class="path2"><%= path2tit %></a>
+
 <% ElseIf path2dir = "business" Then %>
-	<a href="/brand/business_circulation.asp" class="path2"><%= path2tit %></a>
 	<div class="path3">
 		<span><%= path3tit %></span>
 		<ul class="path3_list">

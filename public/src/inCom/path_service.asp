@@ -1,9 +1,20 @@
 <a href="/service/about.asp" class="path1"><%= path1tit %></a>
 
+<div class="path2">
+	<span><%= path2tit %></span>
+	<ul class="path2_list">
+		<li <% If path2dir = "about" Then %>class="hide"<% End If %>><a href="/service/about.asp">고객지원서비스 소개</a></li>
+		<li <% If path2dir = "recipe" Then %>class="hide"<% End If %>><a href="/service/recipe.asp">셰프 레시피</a></li>
+		<li <% If path2dir = "calculator" Then %>class="hide"<% End If %>><a href="/service/calculator.asp">메뉴 원가계산기</a></li>
+		<li <% If path2dir = "seminar" Then %>class="hide"<% End If %>><a href="/service/seminar_list.asp">서브큐 세미나</a></li>
+		<li <% If path2dir = "form" Then %>class="hide"<% End If %>><a href="/service/form_list_pop.asp">서식창고</a></li>
+		<li <% If path2dir = "magazine" Then %>class="hide"<% End If %>><a href="/service/magazine_list.asp">서브큐 매거진</a></li>
+	</ul>
+</div>
+
 <% If path2dir = "about" Then %>
-	<a href="/service/about.asp" class="path2"><%= path2tit %></a>
+
 <% ElseIf path2dir = "recipe" Then %>
-	<a href="/service/recipe.asp" class="path2"><%= path2tit %></a>
 	<% If path3dir <> "" Then %>
 	<div class="path3">
 		<span><%= path3tit %></span>
@@ -16,11 +27,10 @@
 	</div>
 	<% End If %>
 <% ElseIf path2dir = "calculator" Then %>
-	<a href="/service/calculator.asp" class="path2"><%= path2tit %></a>
+
 <% ElseIf path2dir = "seminar" Then %>
-	<a href="/service/seminar_list.asp" class="path2"><%= path2tit %></a>
+
 <% ElseIf path2dir = "form" Then %>
-	<a href="/service/form_list_pop.asp" class="path2"><%= path2tit %></a>
 	<div class="path3">
 		<span><%= path3tit %></span>
 		<ul class="path3_list">
@@ -30,5 +40,5 @@
 		</ul>
 	</div>
 <% ElseIf path2dir = "magazine" Then %>
-	<a href="/service/magazine_list.asp" class="path2"><%= path2tit %></a>
+
 <% End If %>

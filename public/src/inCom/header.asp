@@ -80,13 +80,13 @@
 					<div class="recommend">
 						<p>추천</p>
 						<ul>
-							<li>#셰프 레시피</li>
-							<li>#서브큐 이벤트</li>
-							<li>#셰프계산기</li>
-							<li>#제빵레시피</li>
-							<li>#제과제빵</li>
-							<li>#제빵세미나 일정</li>
-							<li>#카카오톡 서브큐</li>
+							<li><a href="#">#셰프 레시피</a></li>
+							<li><a href="#">#서브큐 이벤트</a></li>
+							<li><a href="#">#셰프계산기</a></li>
+							<li><a href="#">#제빵레시피</a></li>
+							<li><a href="#">#제과제빵</a></li>
+							<li><a href="#">#제빵세미나 일정</a></li>
+							<li><a href="#">#카카오톡 서브큐</a></li>
 						</ul>
 					</div>
 				</div>

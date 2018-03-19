@@ -332,22 +332,22 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 										<p class="ellipsis subject">2018년에 주목해야 할 외식업 트렌드 키워드</p>
 									</div>
 								</a>
-							</li>
 
-							<div class="share_area">
-								<span class="hide">SNS 공유하기</span>
-								<ul class="share_list">
-									<li class="facebook">
-										<button type="button">FACEBOOK 공유하기</button>
-									</li>
-									<li class="band">
-										<button type="button">BAND 공유하기</button>
-									</li>
-									<li class="kakao">
-										<button type="button">KAKAOSTORY 공유하기</button>
-									</li>
-								</ul>
-							</div>
+								<div class="share_area">
+									<span class="hide">SNS 공유하기</span>
+									<ul class="share_list">
+										<li class="facebook">
+											<button type="button">FACEBOOK 공유하기</button>
+										</li>
+										<li class="band">
+											<button type="button">BAND 공유하기</button>
+										</li>
+										<li class="kakao">
+											<button type="button">KAKAOSTORY 공유하기</button>
+										</li>
+									</ul>
+								</div>
+							</li>
 						</ul>
 
 

@@ -7,7 +7,7 @@
 /* COMMON */
 
 // SUB 로케이션
-$('#path .path3').click(function(){
+$('#path div[class^="path"]').click(function(){
     $(this).toggleClass('on');
 });
 
@@ -37,18 +37,23 @@ $('.tab_menu a').click(function(e){
     fn.tabMenu(e, this);
 });
 
+if ($('#path')) {
+
+}
+
+
 $(window).scroll(function(){
     var wScrollTop = $(this).scrollTop();
     var wScrollLeft = $(this).scrollLeft();
 
-    // HEADER 스크롤
+    // $('#header .inner').css({'transform':'matrix(1, 0, 0, 1, '+(0-wScrollLeft)+', 0)'});
+
+    // MAIN HEADER 스크롤
     if (wScrollTop > 0) {
         $('.main').addClass('scroll');
     } else {
         $('.main').removeClass('scroll');
     }
-
-    // $('#header .inner').css({'transform':'matrix(1, 0, 0, 1, '+(0-wScrollLeft)+', 0)'});
 
     // FOOTER 탑 스크롤
     if(wScrollTop > 0){
@@ -65,6 +70,22 @@ if ($('body').hasClass('main')) {
 }
 
 /* SUB */
+if ($('body').hasClass('sub')) {
+    var pathT = $('#path').offset().top;
+
+    $(window).scroll(function(){
+        var wScrollTop = $(this).scrollTop();
+        var wScrollLeft = $(this).scrollLeft();
+
+        // SUB HEADER 스크롤
+        if (wScrollTop > pathT) {
+            $('.sub').addClass('scroll');
+        } else {
+            $('.sub').removeClass('scroll');
+        }
+    });
+}
+
 var path1 = $('#wrap').attr('class'),
     path2 = $('#contents').attr('class');
 
