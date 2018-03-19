@@ -347,7 +347,7 @@ input[type=radio].rdo_type2:checked + label:before { background-position:-92px -
 .scroll #gnb .gnb_depth2 ~ .dimd { top:71px; }
 
 .sub #header { min-width:1280px; height:71px; margin-bottom:-71px; }
-.sub #header .logo a { background-position:0 -42px; }
+.sub #header .logo a { background-position:0 0; }
 .sub #header > .inner { position:absolute; background:rgba(0, 0, 0, 0.25); }
 /* .sub #gnb a { color:#fff; }
 .sub #gnb .gnb_depth2 a { color:#231f20; } */
