@@ -57,6 +57,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 			<div class="bbs_gallery_list result_area recipe_western">
 				<div class="inner">
 					<p class="result">양식레시피(10)</p>
+					<a href="#" class="btn_more">전체보기</a>
 
 					<!-- 검색결과 없을때 // -->
 					<div class="no_data">
@@ -116,6 +117,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 			<div class="bbs_gallery_list result_area recipe_chinese">
 				<div class="inner">
 					<p class="result">중식레시피(10)</p>
+					<a href="#" class="btn_more">전체보기</a>
 
 					<!-- 검색결과 없을때 // -->
 					<div class="no_data">
@@ -175,6 +177,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 			<div class="bbs_gallery_list result_area recipe_baking">
 				<div class="inner">
 					<p class="result">제과제빵레시피(10)</p>
+					<a href="#" class="btn_more">전체보기</a>
 
 					<!-- 검색결과 없을때 // -->
 					<div class="no_data">
@@ -234,6 +237,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 			<div class="bbs_gallery_list result_area form_pop">
 				<div class="inner">
 					<p class="result">POP(20)</p>
+					<a href="#" class="btn_more">전체보기</a>
 
 					<!-- 검색결과 없을때 // -->
 					<div class="no_data">
@@ -289,6 +293,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 			<div class="bbs_gallery_list result_area form_name">
 				<div class="inner">
 					<p class="result">Name Tag(10)</p>
+					<a href="#" class="btn_more">전체보기</a>
 
 					<!-- 검색결과 없을때 // -->
 					<div class="no_data">
@@ -344,6 +349,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 			<div class="bbs_gallery_list result_area form_poster">
 				<div class="inner">
 					<p class="result">홍보포스터(44)</p>
+					<a href="#" class="btn_more">전체보기</a>
 
 					<!-- 검색결과 없을때 // -->
 					<div class="no_data">
@@ -521,6 +527,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 			<div class="bbs_gallery_list result_area press">
 				<div class="inner">
 					<p class="result">보도자료(10)</p>
+					<a href="#" class="btn_more">전체보기</a>
 
 					<!-- 검색결과 없을때 // -->
 					<div class="no_data">
@@ -583,6 +590,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 			<div class="bbs_gallery_list result_area notice">
 				<div class="inner">
 					<p class="result">공지사항(10)</p>
+					<a href="#" class="btn_more">전체보기</a>
 
 					<!-- 검색결과 없을때 // -->
 					<div class="no_data">
@@ -590,7 +598,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 						<p class="txt1">검색결과가 없습니다.</p>
 					</div>
 					<!-- // 검색결과 없을때 -->
-					
+
 					<table class="tbl_list">
 						<colgroup>
 							<col style="width:1015px;" />
