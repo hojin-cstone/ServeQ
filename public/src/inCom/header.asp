@@ -45,7 +45,7 @@
 					</ul>
 
 					<ul class="service">
-						<li><a href="/service/about.asp">고객지원 안내</a></li>
+						<li><a href="/service/about.asp">고객지원<br>서비스 소개</a></li>
 						<li><a href="/service/recipe.asp">셰프 레시피</a></li>
 						<li><a href="/service/calculator.asp">메뉴 원가계산기</a></li>
 						<li><a href="/service/seminar_list.asp">서브큐 세미나</a></li>

@@ -67,6 +67,96 @@ $(window).scroll(function(){
 
 /* MAIN */
 if ($('body').hasClass('main')) {
+    // 메인 비주얼
+    var visualLen = $('.visual').length;
+    var visualNum = 1;
+
+    for (visualNum; visualNum <= visualLen; visualNum++) {
+        var pagination = '<span>'+visualNum+'</span>';
+        $('.pagination').append(pagination);
+    }
+
+    var visual = function(direction){
+        switch (direction) {
+            case 'next' :
+                if (!$('.visual:last-child').hasClass('show')) {
+                    $('.show').next().addClass('show');
+                    $('.show').prev().removeClass('show');
+                } else {
+                    $('.visual:first-child').addClass('show');
+                    $('.visual:last-child').removeClass('show');
+                }
+            break;
+
+            case 'prev' :
+                if (!$('.visual:first-child').hasClass('show')) {
+                    $('.show').prev().addClass('show');
+                    $('.show').next().removeClass('show');
+                } else {
+                    $('.visual:first-child').removeClass('show');
+                    $('.visual:last-child').addClass('show');
+                }
+            break;
+
+            default :
+                $('.visual').removeClass('show');
+                $('.visual:nth-child('+direction+')').addClass('show');
+
+            break;
+        }
+
+        var showNum = $('.show').index()+1;
+        $('.pagination span').removeClass('active');
+        $('.pagination span:nth-child('+showNum+')').addClass('active');
+
+        clearInterval(visualInterval);
+        visualInterval = setInterval(function(){
+            visual('next');
+        }, 6000);
+    };
+
+    $('.visual').removeClass('first loading');
+    $('.visual:first-child').addClass('show');
+    $('.pagination span:first-child').addClass('active');
+
+    $('.btn_next').click(function(){
+        visual('next');
+    });
+
+    $('.btn_prev').click(function(){
+        visual('prev');
+    });
+
+    $('.pagination span').click(function(){
+        visual($(this).index()+1);
+    });
+
+    var visualInterval = setInterval(function(){
+        visual('next');
+    }, 8000);
+
+    // 메인 세미나
+    fn.slide('.seminar_list_wrap',{
+        btnPrev : '.btn_prev',
+        btnNext : '.btn_next',
+        margin : '0'
+    });
+
+    // 메인 레시피
+    fn.slide('.recipe_list_wrap',{
+        btnPrev : '.btn_prev',
+        btnNext : '.btn_next',
+        margin : '65px'
+    });
+
+    // 매거진
+    $(document).ready(function(){
+        var $grid =	$('.bbs_masonry_list .result_list').masonry({
+              itemSelector: '.result_list > li',
+              columnWidth: 280,
+              gutter: 20
+            });
+    });
 
 }
 
