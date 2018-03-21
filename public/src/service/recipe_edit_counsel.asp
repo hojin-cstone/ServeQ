@@ -1,12 +1,12 @@
 <%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
 
 <%
-path1dir="customer"
-path2dir="qna_edit"
-path3dir=""
-path1tit="고객센터"
-path2tit="문의하기"
-path3tit=""
+path1dir="service"
+path2dir="recipe"
+path3dir="edit_counsel"
+path1tit="고객지원서비스"
+path2tit="셰프 레시피"
+path3tit="셰프 1:1 상담"
 description = "ServeQ "
 If path3tit = "" Then description=description+path2tit Else description=description+path3tit End If
 titImg = ""
@@ -47,12 +47,22 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 
 			<section class="<%= path3dir %>">
 				<h2 class="tit"><%= pageTit %></h2>
-				<p class="txt">문의하실 사항을 말씀해 주시면 친절히 대답해 드리겠습니다.</p>
+				<p class="txt">레시피에 대해 궁금하신 점 있으신가요? 서브큐의 셰프가 답변해 드립니다.</p>
+
 				<div class="bbs_gallery_list">
 					<div class="inner">
 						<div class="edit_wrap inp_type2">
 							<form>
 								<fieldset>
+									<div class="chef_menu">
+										<span>
+											<img src="/pjtCom/images/temp/img_chef_02.jpg" alt="" />
+										</span>
+										<span>
+											<b>에피타이저</b>
+											<strong>계절과일&크림 퍼프 페이스트리</strong>
+										</span>
+									</div>
 									<div class="option_area">
 										<label class="select">
 											<select id="select1">
@@ -77,57 +87,6 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 												<input type="radio" name="open" id="open2">
 												<label for="open2">비공개</label>
 											</span>
-										</div>
-									</div>
-									<div class="add_area">
-										<div>
-											<strong>구매품목</strong>
-											<label class="select">
-												<select id="select2">
-													<option disabled selected>선택</option>
-													<option>제과재료</option>
-													<option>카페재료</option>
-													<option>중식재료</option>
-													<option>양식재료</option>
-													<option>농산물</option>
-													<option>축산물</option>
-													<option>수산물</option>
-													<option>가공식품</option>
-													<option>기타</option>
-												</select>
-											</label>
-										</div>
-										<div>
-											<strong>지역</strong>
-											<label class="select">
-												<select id="select3">
-													<option disabled selected>시/도</option>
-													<option>강원도</option>
-													<option>경기도</option>
-													<option>경상남도</option>
-													<option>경상북도</option>
-													<option>광주광역시</option>
-													<option>대구광역시</option>
-													<option>대전광역시</option>
-													<option>부산광역시</option>
-													<option>서울특별시</option>
-													<option>세종특별시</option>
-													<option>세종특별자치시</option>
-													<option>울산광역시</option>
-													<option>인천광역시</option>
-													<option>전라남도</option>
-													<option>전라북도</option>
-													<option>제주특별자치도</option>
-													<option>충청남동</option>
-													<option>충청북도</option>
-												</select>
-											</label>
-										</div>
-										<div>
-											<strong>상호명</strong>
-											<label class="businame">
-												<input type="text" />
-											</label>
 										</div>
 									</div>
 									<div class="tit_area">
@@ -156,7 +115,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 						</div>
 
 						<div class="btn_box">
-							<a href="javascript:void(0)" class="btn_org">등록하기</a>
+							<a href="javascript:fn.alertOpen('#alert1')" class="btn_org">등록하기</a>
 							<a href="javascript:void(0)" class="btn_gray">취소하기</a>
 						</div>
 					</div>

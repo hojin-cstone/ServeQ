@@ -26,14 +26,14 @@
 .customer .qna_list .btn_box,
 .customer .qna_view .btn_box,
 .customer .qna_edit .btn_box { margin-top:30px; width:100%; text-align:right; }
-.customer .qna .btn_box button,
-.customer .qna_list .btn_box button,
-.customer .qna_view .btn_box button,
-.customer .qna_edit .btn_box button { display:inline-block; width:167px; height:50px; margin-left:8px; box-sizing:border-box; text-align:center; }
-.customer .qna .btn_box button:first-child,
-.customer .qna_list .btn_box button:first-child,
-.customer .qna_view .btn_box button:first-child,
-.customer .qna_edit .btn_box button:first-child { margin-left:0; }
+.customer .qna .btn_box a,
+.customer .qna_list .btn_box a,
+.customer .qna_view .btn_box a,
+.customer .qna_edit .btn_box a { display:inline-block; width:167px; height:50px; margin-left:8px; box-sizing:border-box; text-align:center; }
+.customer .qna .btn_box a:first-child,
+.customer .qna_list .btn_box a:first-child,
+.customer .qna_view .btn_box a:first-child,
+.customer .qna_edit .btn_box a:first-child { margin-left:0; }
 .customer .qna .btn_box .btn_org,
 .customer .qna_list .btn_box .btn_org,
 .customer .qna_view .btn_box .btn_org,
@@ -119,11 +119,12 @@
 .customer .qna_edit .attention span { display:block; font-size:16px; line-height:24px; }
 .customer .qna_edit .btn_box { margin-top:57px; height:auto; text-align:center; }
 .customer .qna_edit .file_area { position:relative; width:100%; margin-top:10px; }
-.customer .qna_edit .file_area strong { display:block; width:97px; height:47px; line-height:47px; text-align:center; }
+.customer .qna_edit .file_area strong { display:block; width:97px; height:49px; line-height:49px; text-align:center; }
 .customer .qna_edit .file_area .upload { position:absolute; right:0; top:0; display:block; }
 .customer .qna_edit .file_area .upload input[type="file"] { width:0; height:0; overflow:hidden; }
-.customer .qna_edit .file_area .upload label { position:relative; display:block; width:797px; margin-right:142px; height:47px; line-height:47px; border:1px solid #b5b5b5; padding:0 20px; box-sizing:border-box; }
-.customer .qna_edit .file_area .upload label:after { content:"파일선택"; position:absolute; right:-142px; top:-1px; display:block; width:135px; height:47px; line-height:47px; box-sizing:border-box; border:1px solid #b5b5b5; background:#f6f6f6; color:#231f20; text-align:center; }
+.customer .qna_edit .file_area .upload label { position:relative; display:block; width:940px; height:49px; line-height:49px; padding:0 162px 0 20px; box-sizing:border-box;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.customer .qna_edit .file_area .upload label:before {content:"";position:absolute;left:0;top:0;width:797px;height:100%;box-sizing:border-box;border:1px solid #b5b5b5; }
+.customer .qna_edit .file_area .upload label:after { content:"파일선택"; position:absolute; right:0; top:0px; display:block; width:135px; height:49px; line-height:49px; box-sizing:border-box; border:1px solid #b5b5b5; background:#f6f6f6; color:#231f20; text-align:center; }
 .customer .qna_edit #select1-button { width:200px; }
 .customer .qna_edit #select2-button { width:134px; }
 .customer .qna_edit #select3-button { width:185px; }

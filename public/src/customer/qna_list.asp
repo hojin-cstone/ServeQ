@@ -197,7 +197,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 							</tbody>
 						</table>
 						<div class="btn_box">
-							<button onclick="javascript:fn.alertOpen('#alert1')" class="btn_gray">질문 등록하기</button>
+							<a href="javascript:fn.alertOpen('#alert1')" class="btn_gray">질문 등록하기</a>
 						</div>
 						<div class="paging">
 							<a href="#" class="btn_first">처음으로</a>

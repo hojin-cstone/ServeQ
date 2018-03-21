@@ -1,12 +1,12 @@
 <%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
 
 <%
-path1dir="customer"
-path2dir="qna_view"
-path3dir=""
-path1tit="고객센터"
-path2tit="문의하기"
-path3tit=""
+path1dir="service"
+path2dir="recipe"
+path3dir="view_counsel"
+path1tit="고객지원서비스"
+path2tit="셰프 레시피"
+path3tit="셰프 1:1 상담"
 description = "ServeQ "
 If path3tit = "" Then description=description+path2tit Else description=description+path3tit End If
 titImg = ""
@@ -47,7 +47,8 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 
 			<section class="<%= path3dir %>">
 				<h2 class="tit"><%= pageTit %></h2>
-				<p class="txt">문의하실 사항을 말씀해 주시면 친절히 대답해 드리겠습니다.</p>
+				<p class="txt">레시피에 대해 궁금하신 점 있으신가요? 서브큐의 셰프가 답변해 드립니다.</p>
+
 				<div class="bbs_gallery_list">
 					<div class="inner">
 						<table class="tbl_article">
@@ -60,18 +61,31 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 								<tr>
 									<td>
 										<span class="ans_tit answer">
-											[회원정보 문의] 회원정보 수정하고 싶은데
+											[제과제빵] 바삭한 식감을 위해서
 										</span>
 									</td>
 									<td>teenpj**</td>
-									<td>2016.12.15</td>
+									<td>2017.06.16</td>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
 									<td colspan="3">
+										<div class="chef_menu">
+											<span>
+												<img src="/pjtCom/images/temp/img_chef_01.jpg" alt="" />
+											</span>
+											<span>
+												<b>에피타이저</b>
+												<strong>팥도드러슈</strong>
+											</span>
+										</div>
 										<div class="txt_box">
-											<p>회원정보 수정은 어디에서 하면 되나요?</p>
+											<p>
+												안녕하세요. 항상 좋은 답변 주셔서 감사합니다.<br />
+												찰호떡을 만들려고 합니다. 그런데 튀겼을때 겉은 바삭하고<br />
+												속은 쫀득한 식감을 만드려고 하는데요.. 겉이 바삭하려면 무엇을 넣어야 하는지 궁금합니다.
+											</p>
 										</div>
 									</td>
 								</tr>
@@ -80,10 +94,10 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 										<div class="txt_box">
 											<div class="ans_txt">답변</div>
 											<p>
-												안녕하세요. <br />
+												안녕하세요.<br />
 												서브큐 입니다.<br />
 												<br />
-												회원정보 수정의 경우 홈페이지 우측 상단 마이페이지 > 회원정보 수정 카테고리를 통해 이용하실수 있습니다.<br />
+												발효된 밀가루 반죽을 적당량 떼어내어 손바닥에 올린 뒤 손바닥을 둥글게 굴리며 형성해 주십니다.<br />
 												감사합니다.
 											</p>
 										</div>
@@ -93,7 +107,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 						</table>
 						<div class="btn_box">
 							<a href="javascript:void(0)" class="btn_org">수정하기</a>
-							<a href="javascript:void(0)" class="btn_wht">삭제하기</a>
+							<a href="javascript:fn.alertOpen('#alert1')" class="btn_wht">삭제하기</a>
 							<a href="javascript:void(0)" class="btn_gray">목록</a>
 						</div>
 					</div>
@@ -102,6 +116,18 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 		</div>
 	</main>
 	<!-- // wrap -->
+
+	<!-- popup -->
+	<div id="alert1" class="alert type1">
+		<div class="inner">
+			<button onclick="fn.alertClose()" type="button" class="btn_close">닫기</button>
+			<p class="txt">
+				정말 삭제하시겠습니까?
+			</p>
+			<button onclick="fn.alertClose()" type="button" class="btn_ok">확인</button>
+		</div>
+	</div>
+	<!-- //popup -->
 
 	<!-- footer // -->
 	<!--#include virtual="/inCom/footer.asp"-->
