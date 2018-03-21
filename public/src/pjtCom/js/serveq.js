@@ -17,7 +17,8 @@ $('#footer .family').click(function(){
 });
 
 // HEADER 검색
-$('#header .menu_search, #search ~ .dimd').click(function(){
+$('#header .menu_search, #search ~ .dimd').click(function(e){
+    e.preventDefault();
     $('#search').toggleClass('on');
     $('#search').siblings('.menu_search').toggleClass('on');
 });

@@ -62,7 +62,7 @@
 			</div>
 
 			<a href="/customer/faq.asp" class="menu_customer">고객센터</a>
-			<a href="/mypage/login.asp" class="menu_login">로그인</a>
+			<a href="/member/login.asp" class="menu_login">로그인</a>
 			<a href="/mypage/mypage.asp" class="menu_mypage">MY PAGE</a>
 			<a href="#search" class="menu_search">검색하기</a>
 			<div id="search">

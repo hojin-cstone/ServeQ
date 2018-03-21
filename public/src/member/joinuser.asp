@@ -1,7 +1,7 @@
 <%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
 
 <%
-path1dir="mypage"
+path1dir="member"
 path2dir="joinuser"
 path3dir=""
 path1tit="회원가입"
@@ -28,7 +28,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 	<meta property="og:description" content="<%= description %>">
 </head>
 
-<body class="sub">
+<body class="sub <%= path1dir %>">
 	<!-- header // -->
 	<!--#include virtual="/inCom/header.asp"-->
 	<!-- // header -->
