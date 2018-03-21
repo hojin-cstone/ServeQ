@@ -92,7 +92,7 @@
 .print .btn_close { position:absolute; top:0; right:-59px; width:59px; height:59px; text-indent:-9999px; border:1px solid #ebebeb; background:none; }
 .print .btn_close:after { content:""; position:absolute; top:50%;left:50%; transform:translate(-50%, -50%); width:44px; height:44px; background:url(/pjtCom/images/sub/btn_recipe_close.png) no-repeat 0 0; }
 .print .btn_print { position:absolute; top:77px; left:85px; height:33px; font-size:13px; color:#231f20; }
-.print .btn_print:before { content:""; display:inline-block; width:34px; height:33px; vertical-align:middle; margin-right:14px; background:url(/pjtCom/images/common/icon_function.png) no-repeat -72px 0; }
+.print .btn_print:before { content:""; display:inline-block; width:34px; height:35px; vertical-align:middle; margin-right:14px; background:url(/pjtCom/images/common/icon_function.png) no-repeat 0 0; }
 .print .print_contents { border-top:1px solid #221e1f; }
 .print .print_contents .info_area .tit { font-weight:400; font-size:44px; text-align:center; color:#231f20; margin:64px 0 0; }
 .print .print_contents .info_area .img { width:376px; height:345px; margin:35px auto 0; overflow:hidden; }

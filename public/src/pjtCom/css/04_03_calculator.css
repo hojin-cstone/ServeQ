@@ -1,5 +1,5 @@
 /* 메뉴 원가계산기 */
-.service .calculator > section { padding-bottom:110px; }
+.service .calculator > section { padding-bottom:140px; }
 .service .calculator .intro_area { width:996px; margin:0 auto; }
 .service .calculator .intro_area .txt { font-size:40px; text-align:center; line-height:48px; color:#231f20; }
 .service .calculator .intro_area .btn_info { float:right; height:22px; line-height:22px; margin:12px 0 20px; background:none; }

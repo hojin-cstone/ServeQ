@@ -53,7 +53,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 						<a href="/mypage/history.asp">문의하기</a>
 					</li>
 					<li>
-						<a href="/mypage/consult.asp">셰프 1:1 상담</a>
+						<a href="/mypage/counsel.asp">셰프 1:1 상담</a>
 					</li>
 				</ul>
 

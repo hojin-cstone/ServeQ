@@ -2,7 +2,7 @@
 
 <%
 path1dir="mypage"
-path2dir="consult"
+path2dir="counsel"
 path3dir=""
 path1tit="마이페이지"
 path2tit="나의 활동"

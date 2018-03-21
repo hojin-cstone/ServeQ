@@ -52,7 +52,7 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 					<div class="cont_inner">
 						<div class="btn_box">
 							<a href="/mypage/mypage.asp" class="btn_org">회원정보수정</a>
-							<a href="/mypage/password" class="btn_wht">비밀번호변경</a>
+							<a href="/mypage/password_update.asp" class="btn_wht">비밀번호변경</a>
 						</div>
 						<div class="mylink">
 							<dl>
