@@ -384,7 +384,7 @@ input[type=radio].rdo_type2:checked + label:before { background-position:-92px -
 /* #contents { padding:0 0 123px 0; } */
 #contents > .tit { position:relative; z-index:2; height:247px; font-size:30px; color:#fff; text-align:center; background:#999; overflow:hidden; }
 #contents > .tit:after { content:""; display:inline-block; height:100%; vertical-align:middle; }
-#contents > .tit img { position:absolute; z-index:-1; top:0; left:50%; transform:translateX(-50%); height:100%; }
+#contents > .tit img { position:absolute; z-index:-1; top:0; left:50%; transform:translateX(-50%); }
 #contents > section { padding-top:98px; box-sizing:border-box; }
 #contents > section > .tit { font-size:40px; font-weight:600; line-height:53px; text-align:center; color:#2c1004; }
 #contents > section > [class^="txt"] { font-weight:400; font-size:16px; line-height:24px; letter-spacing:-0.04em; text-align:center; color:#807e7f; }
@@ -445,7 +445,7 @@ input[type=radio].rdo_type2:checked + label:before { background-position:-92px -
 #footer .family li { height:36px; line-height:36px; }
 #footer .family li a { display:block; padding-left:15px; }
 #footer .family.on ul { display:block; }
-#footer .btn_top { position:fixed; bottom:200px; right:57px; display:none; width:40px; height:40px; text-indent:-9999px; background:url(/pjtCom/images/common/btn_top.png) no-repeat 0 0; }
+#footer .btn_top { position:fixed; z-index:99; bottom:200px; right:57px; display:none; width:40px; height:40px; text-indent:-9999px; background:url(/pjtCom/images/common/btn_top.png) no-repeat 0 0; }
 #footer.on .btn_top { display:block; }
 
 

@@ -3,7 +3,7 @@
 <%
 path1dir="pr"
 path2dir="press"
-path3dir="press_view"
+path3dir=""
 path1tit="홍보센터"
 path2tit="보도자료"
 path3tit=""
