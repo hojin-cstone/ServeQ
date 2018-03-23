@@ -130,6 +130,7 @@
 .bottom_area .notice_area .header_area .btn_more { position:absolute; top:5px; right:0; height:auto; font-weight:400; font-size:14px; color:#555; }
 .bottom_area .notice_area .header_area .btn_more:after { content:""; display:inline-block; width:11px; height:11px; margin-left:6px; background:url(/pjtCom/images/common/icon_more_11x11.png) no-repeat 0 0; }
 .bottom_area .notice_list { margin-top:10px; overflow:hidden; }
+.bottom_area .notice_list li { overflow:hidden; }
 .bottom_area .notice_list .subject { display:block; float:left; width:230px; height:27px; font-size:14px; letter-spacing:0; line-height:27px; color:#807e7e; }
 .bottom_area .notice_list .date { display:block; float:left; width:73px; font-size:12px; height:27px; letter-spacing:0; line-height:27px; color:#807e7e; }
 .bottom_area .menu_list { float:left; margin:10px 0 0 145px; }

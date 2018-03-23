@@ -26,7 +26,7 @@
 
 
 /* login,search_id,searchid_result,searchpw,password 원페이지 중앙정렬 */
-.member { position:relative; overflow:hidden; }
+.member { position:relative; }
 .member #contents.login { min-height:648px; }
 .member #contents.login section { position:absolute; left:50%; top:44.8%; transform:translate(-50%,-50%); }
 .member #contents.searchid { min-height:500px; }
