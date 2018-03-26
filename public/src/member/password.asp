@@ -43,9 +43,10 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 					<form>
 						<fieldset>
 							<small>비밀번호 재설정</small>
-							<label class="inp_icon log_id">
-								<input type="text" placeholder="아이디">
-							</label>
+							<div class="id_box">
+								<b>아이디 : </b>
+								<span>parkbogum</span>
+							</div>
 							<label class="inp_type2 update_pw">
 								<input type="password" placeholder="새 비밀번호">
 							</label>

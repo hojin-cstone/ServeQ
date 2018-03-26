@@ -134,9 +134,10 @@
 .member .password .section_inner h3 { font-size:48px; font-weight:600; color:#231f20; }
 .member .password .section_inner > p { margin:12px 0 40px; color:#807e7f; }
 .member .password .section_inner small { font-size:16px; }
-.member .password .section_inner .log_id { display:block; margin-top:14px; }
-.member .password .section_inner .log_id input { width:100%; }
-.member .password .section_inner .log_id:before { width:18px; height:20px; }
+.member .password .section_inner .id_box { margin-top:14px; line-height:48px; font-size:16px; }
+.member .password .section_inner .id_box:after { content:''; display:block; clear:both; }
+.member .password .section_inner .id_box b { float:left; margin-left:15px; mdisplay:block; }
+.member .password .section_inner .id_box span { float:left; margin-left:0.5em; display:block; }
 .member .password .section_inner .update_pw { display:block; margin-top:18px; }
 .member .password .section_inner .btnbox { margin-top:44px; }
 .member .password .section_inner .btnbox .btn_org { width:100%; }
