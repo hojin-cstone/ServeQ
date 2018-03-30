@@ -11,11 +11,11 @@ var fn = (function() {
         scroll : function(state){
             switch (state) {
                 case 'enabled' :
-                    $(window).off('scroll touchmove mousewheel');
+                    $('body').off('touchmove');
                 break;
 
                 case 'disabled' :
-                    $(window).on('scroll touchmove mousewheel', function(e) {
+                    $('body').on('touchmove', function(e) {
                         e.preventDefault();
                         return false;
                     });
@@ -49,7 +49,35 @@ var fn = (function() {
                     callback();
                 }, 400);
             }
+        },
 
+        popupOpen : function(obj){
+            if (typeof obj === 'object') {
+                obj = obj.attributes.href.value
+            }
+            var $obj = $(obj);
+
+            $obj.show();
+            $('.iScrollVerticalScrollbar').remove();
+            var myScroll = new IScroll('.popup .contents', {
+    			scrollbars: true,
+    			mouseWheel: true,
+    			interactiveScrollbars: true,
+    			shrinkScrollbars: 'scale',
+    			fadeScrollbars: true
+    		});
+        },
+
+        popupClose : function(callback){
+            var $obj = $('.popup');
+
+            $obj.hide();
+
+            if (callback) {
+                setTimeout(function(){
+                    callback();
+                }, 400);
+            }
         },
 
         // 말줄임 처리
@@ -169,13 +197,19 @@ var fn = (function() {
         //파일첨부 업로드
         upload : function(obj){
             var obj = $(obj);
+            var filename='';
             obj.find('.upload_hidden').on('change', function(){
                 if(window.FileReader){
-                    var filename = $(this)[0].files[0].name;
+                    if($(this)[0].files[0]==undefined){
+                        filename='';
+                    }else{
+                        filename = $(this)[0].files[0].name;
+                    }
+                    obj.find('label').text(filename);
                 } else {
-                    var filename = $(this).val().split('/').pop().split('\\').pop();
+                    filename = $(this).val().split('/').pop().split('\\').pop();
+                    obj.find('label').text(filename);
                 }
-                 obj.find('label').text(filename);
              });
         }
     }
