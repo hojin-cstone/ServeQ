@@ -39,7 +39,7 @@
 .member #contents.password section { position:absolute; left:50%; top:44.3%; transform:translate(-50%,-50%); }
 
 /* login */
-.member #contents.login section { width:618px; padding:77px 0 95px; margin:0 auto 20px; background:#fff; }
+.member #contents.login section { position:static; transform:none; width:618px; padding:71px 0 95px; margin:115px auto 0; background:#fff; }
 .member .login .section_inner { width:345px; margin:0 auto; }
 .member .login .section_inner h3 { font-size:48px; font-weight:600; color:#231f20; }
 .member .login .section_inner > p { margin:12px 0 46px; color:#807e7f; }
@@ -61,6 +61,8 @@
 .member .login .btnbox .btn_org:before,
 .member .login .btnbox .btn_naver:before { content:""; position:absolute; left:21px; top:50%; transform:translate(0, -50%); display:inline-block; width:32px; height:32px; background:url('/pjtCom/images/common/btn.png') no-repeat 0 0; }
 .member .login .btnbox .btn_naver:before { background-position:-42px 0; }
+.member .login .btnbox2 { margin-top:30px; padding-top:30px; border-top:1px solid #e4e4e4; }
+.member .login .btnbox2 .btn_join { width:100%; font-size:16px; height:45px; color:#fff; background:#807e7f; }
 .member .login .txt { display:block; margin-top:25px; text-align:center; }
 .member .login .error_txt { display:none; margin-top:8px; padding-left:51px; font-size:13px; color:#ce462d; box-sizing:border-box; }
 .member .login .error1 .log_id input:focus,

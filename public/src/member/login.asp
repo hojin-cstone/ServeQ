@@ -74,6 +74,11 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 								<a href="javascript:void(0)" class="btn_naver">NAVER 로그인</a>
 							</div>
 							<span class="txt">SNS 계정을 통해 간편하게 이용하세요!</span>
+
+							<div class="btnbox2">
+								<a href="/member/joinuser.asp" class="btn_join">회원가입</a>
+							</div>
+							<p class="txt">서브큐 회원가입을 통해 다양한 서비스를 이용해 보세요!</p>
 						</fieldset>
 					</form>
 				</div>

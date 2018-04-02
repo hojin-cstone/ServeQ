@@ -163,7 +163,10 @@ if ($('body').hasClass('main')) {
 
 /* SUB */
 if ($('body').hasClass('sub')) {
-    var pathT = $('#path').offset().top;
+    if ($('#path').length) {
+        var pathT = $('#path').offset().top;
+    }
+
 
     $(window).scroll(function(){
         var wScrollTop = $(this).scrollTop();
@@ -262,6 +265,19 @@ switch (path1) {
 
             // 원가계산기
             case 'calculator' :
+                // 이용안내
+                fn.slide('.info_contents',{
+                    btnPrev : '.btn_prev',
+                    btnNext : '.btn_next',
+                    margin : '0'
+                });
+                $('.btn_info').click(function(){
+                    $('#popup_info').addClass('show');
+            	});
+                $('.popup_info .btn_close').click(function(){
+                    $('#popup_info').removeClass('show');
+            	});
+
                 // 계산기 STEP3 전체선택
                 $('.btn_allchk').click(function(){
                     $('input[type=checkbox]').prop('checked', true);

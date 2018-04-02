@@ -8,6 +8,20 @@
 .service .calculator .intro_area .caution:before { content:"*"; display:inline-block; vertical-align:-2px; margin-right:3px; }
 .service .calculator .intro_area .btn_start { display:block; width:300px; height:60px; font-weight:500; font-size:20px; color:#fff; margin:0 auto; background:#ce462d; }
 
+.popup_info { opacity:0; position:absolute; z-index:-1; left:0; top:0; width:100%; height:100%; box-sizing:border-box; }
+.popup_info:after { content:""; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0, 0, 0, 0.7);  }
+.popup_info.show { opacity:1; z-index:100; }
+.popup_info > .inner { position:absolute; z-index:1; left:50%; top:71px; width:1180px; margin:0 0 70px -590px; padding:60px 50px 65px; background:#fff; box-sizing:border-box; }
+.popup_info .btn_close { position:absolute; top:0; right:-59px; width:59px; height:59px; text-indent:-9999px; border:1px solid #ebebeb; background:none; }
+.popup_info .btn_close:after { content:""; position:absolute; top:50%;left:50%; transform:translate(-50%, -50%); width:44px; height:44px; background:url(/pjtCom/images/sub/btn_recipe_close.png) no-repeat 0 0; }
+.popup_info .info_contents { border-top:1px solid #221e1f; }
+.popup_info .info_contents > .inner { overflow:hidden; }
+.popup_info .info_contents > .inner > ul { position:relative; left:0; height:100%; overflow:hidden; word-break:break-all; word-wrap: break-word;}
+.popup_info .info_contents > .inner > ul li { float:left; }
+.popup_info .info_contents [class^="btn"] { position:absolute; top:473px; width:31px; height:57px; text-indent:-9999px; background:url(/pjtCom/images/sub/btn_popupinfo_arrow.png) no-repeat 0 0; }
+.popup_info .info_contents .btn_prev { left:30px; }
+.popup_info .info_contents .btn_next { right:30px; transform:rotate(180deg); }
+
 /* .service .calculator section > [class^="step"] { width:1180px; margin:0 auto; } */
 .service .calculator [class^="step"] .process { font-size:0; text-align:center; }
 .service .calculator [class^="step"] .process li { display:inline-block; }
