@@ -83,8 +83,10 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 					</ul>
 				</div>
 
-				<button type="button" class="btn_prev">이전</button>
-				<button type="button" class="btn_next">다음</button>
+				<div class="btn_area">
+					<button type="button" class="btn_prev">이전</button>
+					<button type="button" class="btn_next">다음</button>
+				</div>
 			</div>
 		</div>
 	</div>

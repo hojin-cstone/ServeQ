@@ -140,12 +140,19 @@ var fn = (function() {
                     $btnPrev = $obj.find(option.btnPrev),
                     $btnNext = $obj.find(option.btnNext),
                     $optionPagination = $obj.find(option.pagination),
+                    optionWidth = parseInt(option.width),
                     optionMargin = parseInt(option.margin);
 
-                var listLen = $obj.find('li').length,
-                    listWidth = listLen * ($obj.find('li').outerWidth() + optionMargin) - optionMargin;
+                var listLen = $obj.find('li').length;
 
-            	$objMain.css({'width':listWidth});
+                if (!optionWidth) {
+                    var listWidth = listLen * ($obj.find('li').outerWidth() + optionMargin) - optionMargin;
+                } else {
+                    var listWidth = listLen * (optionWidth + optionMargin) - optionMargin;
+                }
+
+                $objMain.css({'width':listWidth});
+
 
                 if (listLen > 1) {
                     for (var i=1; i<=listLen; i++) {

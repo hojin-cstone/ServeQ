@@ -18,9 +18,10 @@
 .popup_info .info_contents > .inner { overflow:hidden; }
 .popup_info .info_contents > .inner > ul { position:relative; left:0; height:100%; overflow:hidden; word-break:break-all; word-wrap: break-word;}
 .popup_info .info_contents > .inner > ul li { float:left; }
-.popup_info .info_contents [class^="btn"] { position:absolute; top:473px; width:31px; height:57px; text-indent:-9999px; background:url(/pjtCom/images/sub/btn_popupinfo_arrow.png) no-repeat 0 0; }
-.popup_info .info_contents .btn_prev { left:30px; }
-.popup_info .info_contents .btn_next { right:30px; transform:rotate(180deg); }
+.popup_info .info_contents .btn_area { position:absolute; top:473px; left:0; width:100%; height:57px; overflow:hidden; }
+.popup_info .info_contents .btn_area [class^="btn"] { position:absolute; width:31px; height:57px; text-indent:-9999px; background:url(/pjtCom/images/sub/btn_popupinfo_arrow.png) no-repeat 0 0; }
+.popup_info .info_contents .btn_area .btn_prev { left:30px; }
+.popup_info .info_contents .btn_area .btn_next { right:30px; transform:rotate(180deg); }
 
 /* .service .calculator section > [class^="step"] { width:1180px; margin:0 auto; } */
 .service .calculator [class^="step"] .process { font-size:0; text-align:center; }

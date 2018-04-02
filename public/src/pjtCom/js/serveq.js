@@ -269,6 +269,7 @@ switch (path1) {
                 fn.slide('.info_contents',{
                     btnPrev : '.btn_prev',
                     btnNext : '.btn_next',
+                    width : '1080px',
                     margin : '0'
                 });
                 $('.btn_info').click(function(){
