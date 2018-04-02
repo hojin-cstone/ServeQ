@@ -144,12 +144,13 @@
 
 /* joinuser */
 .member #contents.joinuser { background:#fff; }
-.member #contents.joinuser > section { padding-top:106px; padding-bottom:0; margin-bottom:145px; }
+.member #contents.joinuser > section { padding-top:171px; padding-bottom:0; margin-bottom:30px; }
+.member #contents.joinuser .sub_tit { font-size:40px; }
 .member .joinuser .cont { width:345px; margin:53px auto 0; }
 .member .joinuser .cont .join_img { padding-top:73px; border-top:2px solid #989697; }
 .member .joinuser .cont .btnbox { margin-top:73px; }
 .member .joinuser .cont .btnbox .btn_org { display:block; }
-.member .joinuser .cont .btnbox .btn_naver { display:block; margin-top:18px; color:#231f20; border:1px solid #ebebeb; }
+.member .joinuser .cont .btnbox .btn_naver { display:block; margin-top:23px; color:#231f20; border:1px solid #ebebeb; }
 .member .joinuser .cont .btnbox .btn_org:before,
 .member .joinuser .cont .btnbox .btn_naver:before { content:""; position:absolute; left:21px; top:50%; transform:translate(0, -50%); display:inline-block; width:32px; height:32px; background:url('/pjtCom/images/common/btn.png') no-repeat 0 0; }
 .member .joinuser .cont .btnbox .btn_naver:before { background-position:-42px 0; }
@@ -172,7 +173,7 @@
 
 /* agree */
 .member #contents.agree { background:#fff; }
-.member #contents.agree > section { width:1180px; margin:0 auto; padding:106px 10px 94px; }
+.member #contents.agree > section { width:1180px; margin:0 auto; padding:177px 10px 94px; }
 .member #contents.agree > section .sub_tit { font-size:40px; font-weight:600; color:#231f20; }
 .member .agree .agree_terms { position:relative; overflow:auto; margin:15px auto 0; display:block; width:1060px; height:233px; border:1px solid #e4e4e4; box-sizing:border-box; background:#fff; }
 .member .agree .agree_terms .term_inner { padding:40px 40px 40px 26px; font-size:16px; line-height:24px; }
@@ -192,7 +193,7 @@
 
 /* joinform */
 .member #contents.joinform { background:#fff; }
-.member #contents.joinform > section { width:1180px; margin:0 auto; padding:106px 10px 94px; }
+.member #contents.joinform > section { width:1180px; margin:0 auto; padding:177px 10px 94px; }
 .member #contents.joinform > section .sub_tit { font-size:40px; font-weight:600; color:#231f20; }
 .member .joinform .cont { margin-top:55px; padding:80px 130px 93px; border:1px solid #e4e4e4; box-sizing:border-box; }
 .member .joinform .cont small { display:inline-block; margin-top:10px; padding-left:15px; font-size:13px; }
@@ -231,7 +232,7 @@
 
 /* joinfinish */
 .member #contents.joinfinish { background:#fff; }
-.member #contents.joinfinish > section { width:1180px; margin:0 auto; padding:106px 10px 94px; }
+.member #contents.joinfinish > section { width:1180px; margin:0 auto; padding:177px 10px 94px; }
 .member #contents.joinfinish > section .sub_tit { font-size:40px; font-weight:600; color:#231f20; }
 .member .joinfinish .cont { margin-top:55px; padding:80px 360px 93px; border:1px solid #e4e4e4; box-sizing:border-box; }
 .member .joinfinish .cont strong { display:block; line-height:36px; font-size:30px; font-weight:400; }
