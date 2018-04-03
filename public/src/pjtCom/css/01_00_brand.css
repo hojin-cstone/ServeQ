@@ -1,33 +1,66 @@
 /* serveq */
-#contents.serveq section { width:1180px; margin:0 auto 153px; padding-top:100px; }
-.serveq .cont { position:relative; padding-left:366px; margin-top:93px; box-sizing:border-box; font-size:22px; color:#231f20; }
-.serveq .cont p { position:relative; top:-3px; }
-.serveq .cont.intro { min-height:220px; }
-.serveq .cont.intro .img_intro { position:absolute; left:0; top:0; width:100px; height:100px; }
-.serveq .cont.intro p {  line-height:26px; }
-.serveq .cont.intro p strong { display:block; font-size:22px; font-weight:600; }
-.serveq .cont.intro p span { display:block; margin-top:26px; font-size:16px; letter-spacing:-0.02em; }
-.serveq .cont h3 { position:absolute; left:0; top:0; display:block; font-size:30px; font-weight:600; color:#555; }
-.serveq .cont.identity { margin-top:95px; }
-.serveq .cont.identity p { top:-5px; font-size:22px; line-height:32px; }
-.serveq .cont.identity dl { margin-top:27px; }
-.serveq .cont.identity dl.dlf { margin-top:39px; }
-.serveq .cont.identity dt { font-size:16px; line-height:18px; font-weight:600; }
-.serveq .cont.identity dd { margin-top:14px; font-size:14px; line-height:24px; }
-.serveq .cont.identity .img_slogan,
-.serveq .cont.identity .img_frame { margin-top:14px; }
-.serveq .cont.color p { font-size:14px; line-height:24px; }
-.serveq .cont.color ul { display:block; width:100%; height:212px; margin-top:15px; background:url('/pjtCom/images/sub/brand_color.jpg') no-repeat 0 0; }
-.serveq .cont.color ul li { display:none; }
-.serveq .cont.slogan { padding-top:3px; }
-.serveq .cont.slogan dl:after { content:""; display:block; clear:both; }
-.serveq .cont.slogan dt { float:left; width:214px; font-size:16px; font-weight:600; line-height:20px; color:#807e7e; clear:both; }
-.serveq .cont.slogan dd { position:relaitve; float:left; width:326px; height:22px; background:url('/pjtCom/images/sub/brand_sloganTxt01.jpg') no-repeat 0 0; text-indent:-9999px; }
-.serveq .cont.slogan dl:last-child { margin-top:23px; }
-.serveq .cont.slogan dl:last-child dd { top:-3px; height:29px; background:url('/pjtCom/images/sub/brand_sloganTxt02.jpg') no-repeat 0 0; }
-.serveq .cont.motif p { font-size:14px; line-height:24px; }
-.serveq .cont.motif ul { display:block; width:100%; height:250px; margin-top:15px; background:url('/pjtCom/images/sub/brand_motif.jpg') no-repeat 0 0; }
-.serveq .cont.motif ul li { display:none; }
+#contents.serveq section.serveq1  { width:1180px; margin:0 auto 153px; padding-top:100px; }
+.serveq .serveq1 .cont { position:relative; padding-left:366px; margin-top:146px; box-sizing:border-box; font-size:22px; color:#231f20; }
+.serveq .serveq1 .cont p { position:relative; }
+.serveq .serveq1 .cont.intro { min-height:220px; margin-top:95px; }
+.serveq .serveq1 .cont.intro .img_intro { position:absolute; left:0; top:0; }
+.serveq .serveq1 .cont.intro p { position:relative; line-height:26px; height:280px; }
+.serveq .serveq1 .cont.intro p strong { display:block; font-size:24px; font-weight:600; line-height:34px; }
+.serveq .serveq1 .cont.intro p span { position:absolute; left:0; bottom:-8px; display:block; margin-top:26px; font-size:20px; line-height:36px; letter-spacing:-0.01em; }
+.serveq .serveq1 .cont h3 { position:absolute; left:0; top:0; display:block; font-size:30px; font-weight:600; color:#555; }
+.serveq .serveq1 .cont.identity { margin-top:145px; }
+.serveq .serveq1 .cont.identity p { top:-5px; font-size:24px; line-height:34px; }
+.serveq .serveq1 .cont.identity dl { margin-top:32px; }
+.serveq .serveq1 .cont.identity dl.dlf { margin-top:45px; }
+.serveq .serveq1 .cont.identity dt { font-size:24px; line-height:28px; font-weight:600; }
+.serveq .serveq1 .cont.identity dd { margin-top:17px; font-size:18px; line-height:28px; }
+.serveq .serveq1 .cont.identity .img_slogan,
+.serveq .serveq1 .cont.identity .img_frame { margin-top:19px; }
+.serveq .serveq1 .cont.color p { font-size:18px; line-height:28px; }
+.serveq .serveq1 .cont.color ul { display:block; width:100%; height:200px; margin-top:19px; background:url('/pjtCom/images/sub/img_brand_serveq02.jpg') no-repeat 0 0; }
+.serveq .serveq1 .cont.color ul li { display:none; }
+.serveq .serveq1 .cont.slogan { padding-top:3px; }
+.serveq .serveq1 .cont.slogan dl:after { content:""; display:block; clear:both; }
+.serveq .serveq1 .cont.slogan dt { float:left; width:314px; font-size:24px; font-weight:600; color:#807e7e; clear:both; }
+.serveq .serveq1 .cont.slogan dd { position:relaitve; float:left; width:347px; height:23px; background:url('/pjtCom/images/sub/img_brand_serveq03.jpg') no-repeat 0 0; text-indent:-9999px; }
+.serveq .serveq1 .cont.slogan dl:last-child { margin-top:28px; }
+.serveq .serveq1 .cont.slogan dl:last-child dd { top:-3px; height:31px; background:url('/pjtCom/images/sub/img_brand_serveq04.jpg') no-repeat 0 0; }
+.serveq .serveq1 .cont.motif p { font-size:18px; line-height:28px; }
+.serveq .serveq1 .cont.motif ul { display:block; width:100%; height:250px; margin-top:19px; background:url('/pjtCom/images/sub/img_brand_serveq05.jpg') no-repeat 0 0; }
+.serveq .serveq1 .cont.motif ul li { display:none; }
+
+/* serveq_2 */
+#contents.serveq section.serveq2 { width:1180px; margin:0 auto 153px; padding-top:100px; }
+.serveq .serveq2 .cont { position:relative; padding-left:366px; margin-top:93px; box-sizing:border-box; font-size:22px; color:#231f20; }
+.serveq .serveq2 .cont p { position:relative; top:-3px; }
+.serveq .serveq2 .cont.intro { min-height:220px; }
+.serveq .serveq2 .cont.intro .img_intro { position:absolute; left:0; top:0; }
+.serveq .serveq2 .cont.intro p {  line-height:26px; }
+.serveq .serveq2 .cont.intro p strong { display:block; font-size:22px; font-weight:600; }
+.serveq .serveq2 .cont.intro p span { display:block; margin-top:26px; font-size:16px; letter-spacing:-0.02em; }
+.serveq .serveq2 .cont h3 { position:absolute; left:0; top:0; display:block; font-size:30px; font-weight:600; color:#555; }
+.serveq .serveq2 .cont.identity { margin-top:95px; }
+.serveq .serveq2 .cont.identity p { top:-5px; font-size:22px; line-height:32px; }
+.serveq .serveq2 .cont.identity dl { margin-top:27px; }
+.serveq .serveq2 .cont.identity dl.dlf { margin-top:39px; }
+.serveq .serveq2 .cont.identity dt { font-size:16px; line-height:18px; font-weight:600; }
+.serveq .serveq2 .cont.identity dd { margin-top:14px; font-size:14px; line-height:24px; }
+.serveq .serveq2 .cont.identity .img_slogan,
+.serveq .serveq2 .cont.identity .img_frame { margin-top:14px; }
+.serveq .serveq2 .cont.color p { font-size:14px; line-height:24px; }
+.serveq .serveq2 .cont.color ul { display:block; width:100%; height:212px; margin-top:15px; background:url('/pjtCom/images/sub/brand_color.jpg') no-repeat 0 0; }
+.serveq .serveq2 .cont.color ul li { display:none; }
+.serveq .serveq2 .cont.slogan { padding-top:3px; }
+.serveq .serveq2 .cont.slogan dl:after { content:""; display:block; clear:both; }
+.serveq .serveq2 .cont.slogan dt { float:left; width:214px; font-size:16px; font-weight:600; line-height:20px; color:#807e7e; clear:both; }
+.serveq .serveq2 .cont.slogan dd { position:relaitve; float:left; width:326px; height:22px; background:url('/pjtCom/images/sub/brand_sloganTxt01.jpg') no-repeat 0 0; text-indent:-9999px; }
+.serveq .serveq2 .cont.slogan dl:last-child { margin-top:23px; }
+.serveq .serveq2 .cont.slogan dl:last-child dd { top:-3px; height:29px; background:url('/pjtCom/images/sub/brand_sloganTxt02.jpg') no-repeat 0 0; }
+.serveq .serveq2 .cont.motif p { font-size:14px; line-height:24px; }
+.serveq .serveq2 .cont.motif ul { display:block; width:100%; height:250px; margin-top:15px; background:url('/pjtCom/images/sub/brand_motif.jpg') no-repeat 0 0; }
+.serveq .serveq2 .cont.motif ul li { display:none; }
+
+
 
 /* business common */
 #contents.business > section { width:1180px; padding-top:103px; margin:0 auto; }
