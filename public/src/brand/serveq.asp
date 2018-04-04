@@ -67,14 +67,20 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 					<p>‘제공하다. 기여하다.’라는 뜻의 Serve + 품질을 뜻하는 Quality의 Q 조합<br /> ‘Q’부분에 젠틀한 셰프의 타이로 표현하여 친근감과 전문성을 동시에 표현</p>
 					<dl>
 						<dt>슬로건 조합형</dt>
-						<dd>가독성을 고려한 대소문자의 조합으로  ‘Q’부분에 디자인 컨셉을 집약적으로 표현하여, 식자재 유통 브랜드의 Look & Feel이 반영이 되었습니다.</dd>
+						<dd>
+							가독성을 고려한 대소문자의 조합으로  ‘Q’부분에 디자인 컨셉을 집약적으로 표현하여, 식자재 유통 브랜드의<br />
+							Look & Feel이 반영이 되었습니다.
+						</dd>
 					</dl>
 					<div class="img_slogan">
 						<img src="/pjtCom/images/sub/brand_slogan.jpg" alt="Brand Identity 슬로건 조합형" />
 					</div>
 					<dl class="dlf">
 						<dt>프레임형</dt>
-						<dd>‘ServeQ’ 브랜드 로고를 활용하는데 있어 아이템에 따른 적용을 용이하게 하기 위하여 임팩트 효과를 고려한 프레임 타입의 로고가 개발 되었습니다. 박스나 개별 패키지에 활용할 수 있습니다.</dd>
+						<dd>
+							‘ServeQ’ 브랜드 로고를 활용하는데 있어 아이템에 따른 적용을 용이하게 하기 위하여 임팩트 효과를 고려한<br />
+							프레임 타입의 로고가 개발 되었습니다. 박스나 개별 패키지에 활용할 수 있습니다.
+						</dd>
 					</dl>
 					<div class="img_frame">
 						<img src="/pjtCom/images/sub/brand_frame.jpg" alt="Brand Identity 프레임형" />
@@ -83,7 +89,9 @@ If path3tit = "" Then pageTit = path2tit Else pageTit = path3tit End If
 				<div class="cont color">
 					<h3>Color System</h3>
 					<p>
-						전용색상은 ‘ServeQ’ 브랜드 로고와 더불어 ‘ServeQ’의 아이덴티티를 형성하는 데 중요한 요소 중 하나입니다. 또한 각종 시각 매체에 적용되어 ‘ServeQ’의 이미지를 전달하는 기능을 합니다. 전용색상의 표현은 별색인쇄를 원칙으로 하며, 아래 명시된 Pantone Color와 RGB Color를 표준으로 합니다.
+						전용색상은 ‘ServeQ’ 브랜드 로고와 더불어 ‘ServeQ’의 아이덴티티를 형성하는 데 중요한 요소 중 하나입니다.<br />
+						또한 각종 시각 매체에 적용되어 ‘ServeQ’의 이미지를 전달하는 기능을 합니다. 전용색상의 표현은 별색인쇄를<br />
+						원칙으로 하며, 아래 명시된 Pantone Color와 RGB Color를 표준으로 합니다.
 					</p>
 
 					<ul>

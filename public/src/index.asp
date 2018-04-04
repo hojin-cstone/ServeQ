@@ -47,7 +47,7 @@ If path3tit = "" Then description=description+path2tit Else description=descript
 						<img src="/pjtCom/images/main/img_visual2.jpg" alt="" class="img">
 					</div>
 					<div class="visual loading">
-						<b class="txt">식자재 유통의 베스트<br>솔루션</b>
+						<b class="txt">고객의 성공을 위해 함께하는<br>파트너</b>
 						<img src="/pjtCom/images/main/img_visual3.jpg" alt="" class="img">
 					</div>
 				</div>
@@ -61,36 +61,6 @@ If path3tit = "" Then description=description+path2tit Else description=descript
 			</div>
 			<!-- // 비주얼 -->
 
-			<!-- 인프라 // -->
-			<section class="infra_area">
-				<header class="header_area">
-					<h2 class="tit">INFRA</h2>
-					<p class="desc">서브큐의 인프라는 식품 안전성과 전문성을 위해 노력하고 있습니다.</p>
-				</header>
-
-				<ul class="infra_list">
-					<li>
-						<a href="/infra/lab.asp">
-							<b>식품연구소</b>
-							<img src="/pjtCom/images/main/img_infra_lab.jpg" alt="">
-						</a>
-					</li>
-					<li>
-						<a href="/infra/safety.asp">
-							<b>식품안전센터</b>
-							<img src="/pjtCom/images/main/img_infra_safety.jpg" alt="">
-						</a>
-					</li>
-					<li>
-						<a href="/infra/plaza.asp">
-							<b>셰프 플라자</b>
-							<img src="/pjtCom/images/main/img_infra_plaza.jpg" alt="">
-						</a>
-					</li>
-				</ul>
-			</section>
-			<!-- // 인프라 -->
-
 			<!-- 프로덕트 // -->
 			<section class="product_area">
 				<header class="header_area">
@@ -100,40 +70,120 @@ If path3tit = "" Then description=description+path2tit Else description=descript
 
 				<ul class="product_list">
 					<li class="about">
-						<a href="/product/about.asp">
-							<img src="/pjtCom/images/main/img_product_about.jpg" alt="">
-							<div class="txt_area">
-								<b>상품소개</b>
+						<img src="/pjtCom/images/main/img_product_about.jpg" alt="">
+						<div class="txt_area">
+							<b>가공식품</b>
+							<div class="hover_area">
+								<p>
+									맛있는 음식을 위해 필요한<br />
+									좋은 재료를 제공합니다.
+								</p>
+								<a href="/product/about.asp">
+									<span>더 알아보기</span>
+								</a>
 							</div>
-						</a>
+						</div>
+						<!--
+						<a href="/product/about.asp">
+						</a>-->
 					</li>
 					<li class="pb">
-						<a href="/product/pb.asp">
-							<img src="/pjtCom/images/main/img_product_pb.jpg" alt="">
-							<div class="txt_area">
-								<b>서브큐 PB상품</b>
+						<img src="/pjtCom/images/main/img_product_pb.jpg" alt="">
+						<div class="txt_area">
+							<b>서브큐 PB상품</b>
+							<div class="hover_area">
+								<p>
+									서브큐만의 노하우가 담긴<br />
+									PB상품을 제공합니다.
+								</p>
+								<a href="/product/about.asp">
+									<span>더 알아보기</span>
+								</a>
 							</div>
-						</a>
+						</div>
 					</li>
 					<li class="global">
-						<a href="/brand/business_circulation.asp#sourcing">
-							<img src="/pjtCom/images/main/img_product_global.jpg" alt="">
-							<div class="txt_area">
-								<b>글로벌 소싱 상품</b>
+						<img src="/pjtCom/images/main/img_product_global.jpg" alt="">
+						<div class="txt_area">
+							<b>글로벌 소싱 상품</b>
+							<div class="hover_area">
+								<p>
+									고객님께 양질의<br />
+									해외 상품을 제공합니다.
+								</p>
+								<a href="/brand/business_circulation.asp#sourcing">
+									<span>더 알아보기</span>
+								</a>
 							</div>
-						</a>
+						</div>
 					</li>
 					<li class="bakery">
-						<a href="/brand/business_bakery.asp">
-							<img src="/pjtCom/images/main/img_product_bakery.jpg" alt="">
-							<div class="txt_area">
-								<b>냉동 베이커리</b>
+						<img src="/pjtCom/images/main/img_product_bakery.jpg" alt="">
+						<div class="txt_area">
+							<b>냉동 베이커리</b>
+							<div class="hover_area">
+								<p>
+									간편하고 편리한<br />
+									냉동생지를 소개합니다.
+								</p>
+								<a href="/brand/business_bakery.asp">
+									<span>더 알아보기</span>
+								</a>
 							</div>
-						</a>
+						</div>
 					</li>
 				</ul>
 			</section>
 			<!-- // 프로덕트 -->
+
+			<!-- 인프라 // -->
+			<section class="infra_area">
+				<header class="header_area">
+					<h2 class="tit">INFRA</h2>
+					<p class="desc">서브큐의 인프라는 식품 안전성과 전문성을 위해 노력하고 있습니다.</p>
+				</header>
+
+				<ul class="infra_list">
+					<li>
+						<div class="hover_area">
+							<b>식품연구소</b>
+							<p>
+								고객에게 차별화 된 가치 제공과<br />
+								경쟁력 우위의 신제품 개발을<br />
+								위해 노력하고 있습니다.
+							</p>
+							<a href="/infra/lab.asp">자세히 보기</a>
+						</div>
+						<img src="/pjtCom/images/main/img_infra_lab.jpg" alt="">
+
+					</li>
+					<li>
+						<div class="hover_area">
+							<b>식품안전센터</b>
+							<p>
+								고객에게 차별화 된 가치 제공과<br />
+								경쟁력 우위의 신제품 개발을<br />
+								위해 노력하고 있습니다.
+							</p>
+							<a href="/infra/safety.asp">자세히 보기</a>
+						</div>
+						<img src="/pjtCom/images/main/img_infra_safety.jpg" alt="">
+					</li>
+					<li>
+						<div class="hover_area">
+							<b>물류시스템</b>
+							<p>
+								고객에게 차별화 된 가치 제공과<br />
+								경쟁력 우위의 신제품 개발을<br />
+								위해 노력하고 있습니다.
+							</p>
+							<a href="/infra/distribute.asp">자세히 보기</a>
+						</div>
+						<img src="/pjtCom/images/main/img_infra_plaza.jpg" alt="">
+					</li>
+				</ul>
+			</section>
+			<!-- // 인프라 -->
 
 			<!-- 세미나 // -->
 			<section class="seminar_area">
@@ -180,7 +230,7 @@ If path3tit = "" Then description=description+path2tit Else description=descript
 									<p class="day">월요일</p>
 									<p class="ellipsis subject">[전주] 2018년 14차 제과제빵 기술 세미나 세미나 세미나 세미나</p>
 
-									<b class="state">세미나 신청</b>
+									<b class="state">모집중</b>
 								</a>
 							</li>
 
@@ -213,7 +263,7 @@ If path3tit = "" Then description=description+path2tit Else description=descript
 									<p class="day">월요일</p>
 									<p class="ellipsis subject">[전주] 2018년 14차 제과제빵 기술 세미나 세미나 세미나 세미나</p>
 
-									<b class="state">세미나 신청</b>
+									<b class="state">모집중</b>
 								</a>
 							</li>
 
@@ -224,7 +274,7 @@ If path3tit = "" Then description=description+path2tit Else description=descript
 									<p class="day">월요일</p>
 									<p class="ellipsis subject">[전주] 2018년 14차 제과제빵 기술 세미나 세미나 세미나 세미나</p>
 
-									<b class="state">세미나 신청</b>
+									<b class="state">모집중</b>
 								</a>
 							</li>
 						</ul>
@@ -257,7 +307,7 @@ If path3tit = "" Then description=description+path2tit Else description=descript
 									<!-- <small class="category western">양식</small> -->
 									<!-- <small class="category baking">제과제빵</small> -->
 									<small class="category chinese">중식</small>
-									<small class="sort">메뉴별 > 식사류</small>
+									<small class="sort">식사류</small>
 									<p class="name">철판어향가지</p>
 								</div>
 								<div class="menu">
@@ -271,7 +321,7 @@ If path3tit = "" Then description=description+path2tit Else description=descript
 								<div class="info">
 									<figure class="img"><img src="/pjtCom/images/temp/img_main_recipe_304x327.jpg" alt=""></figure>
 									<small class="category western">양식</small>
-									<small class="sort">메뉴별 > 파스타/누들</small>
+									<small class="sort">파스타/누들</small>
 									<p class="name">단호박스프</p>
 								</div>
 								<div class="menu">
@@ -285,7 +335,7 @@ If path3tit = "" Then description=description+path2tit Else description=descript
 								<div class="info">
 									<figure class="img"><img src="/pjtCom/images/temp/img_main_recipe_304x327.jpg" alt=""></figure>
 									<small class="category baking">제과제빵</small>
-									<small class="sort">빵 > 조리빵</small>
+									<small class="sort">조리빵</small>
 									<p class="name">베이컨 레몬 소스롤</p>
 								</div>
 								<div class="menu">
@@ -299,7 +349,7 @@ If path3tit = "" Then description=description+path2tit Else description=descript
 								<div class="info">
 									<figure class="img"><img src="/pjtCom/images/temp/img_main_recipe_304x327.jpg" alt=""></figure>
 									<small class="category baking">제과제빵</small>
-									<small class="sort">빵 > 조리빵</small>
+									<small class="sort">조리빵</small>
 									<p class="name">베이컨 레몬 소스롤</p>
 								</div>
 								<div class="menu">
@@ -313,7 +363,7 @@ If path3tit = "" Then description=description+path2tit Else description=descript
 								<div class="info">
 									<figure class="img"><img src="/pjtCom/images/temp/img_main_recipe_304x327.jpg" alt=""></figure>
 									<small class="category baking">제과제빵</small>
-									<small class="sort">빵 > 조리빵</small>
+									<small class="sort">조리빵</small>
 									<p class="name">베이컨 레몬 소스롤</p>
 								</div>
 								<div class="menu">
@@ -327,7 +377,7 @@ If path3tit = "" Then description=description+path2tit Else description=descript
 								<div class="info">
 									<figure class="img"><img src="/pjtCom/images/temp/img_main_recipe_304x327.jpg" alt=""></figure>
 									<small class="category baking">제과제빵</small>
-									<small class="sort">빵 > 조리빵</small>
+									<small class="sort">조리빵</small>
 									<p class="name">베이컨 레몬 소스롤</p>
 								</div>
 								<div class="menu">

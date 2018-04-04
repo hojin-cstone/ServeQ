@@ -8,12 +8,13 @@
 
 .visual_area { position:relative; height:860px; overflow:hidden;  }
 .visual_area .visual { opacity:0; position:absolute; top:0; left:0; transition-duration:1.5s; }
-.visual_area .visual .txt { opacity:0; position:absolute; z-index:1; top:50%; left:50%; transform:translate(-50%, -50%); font-size:56px; line-height:70px; text-align:center; color:#fff; }
-.visual_area .visual .img { transform:scale(1.1); transition-delay:1s; }
+.visual_area .visual .txt { opacity:0; position:absolute; z-index:1; top:50%; left:50%; display:block; width:700px; transform:translate(-50%, -50%); font-size:56px; line-height:70px; text-align:center; color:#fff; }
+.visual_area .visual .img {  position:relative; left:50%; margin-left:-960px; transform:scale(1.1); transition-delay:1s; }
 .visual_area .pagination { position:absolute; z-index:1; top:633px; left:0; width:100%; font-size:0; text-align:center; }
 .visual_area .pagination span { display:inline-block; width:13px; height:13px; margin-left:10px; border:2px solid #fff; border-radius:100%; background:none; box-sizing:border-box; cursor:pointer; }
 .visual_area .pagination span:first-child { margin-left:0; }
 .visual_area .pagination span.active { background:#fff; }
+.visual_area .visual { width:100%; }
 .visual_area .visual.first { opacity:1; }
 .visual_area .visual.loading { display:none; }
 .visual_area .visual.show { opacity:1; z-index:1; }
@@ -24,30 +25,53 @@
 .visual_area .btn_area .btn_prev { left:0; }
 .visual_area .btn_area .btn_next { right:0; transform:rotate(180deg); }
 
-.infra_area { width:1180px; margin:0 auto; padding:120px 0 120px 0 !important; }
+.infra_area { width:100%; padding:120px 0 120px 0 !important; background:url(/pjtCom/images/main/bg_product.jpg) no-repeat center bottom;  }
 .infra_area .header_area { position:relative; text-align:center; }
 .infra_area .header_area .tit { font-size:30px; color:#231f20; }
 .infra_area .header_area .desc { font-size:16px; color:#807e7e; margin:14px 0 50px 0; }
-.infra_list { overflow:hidden; }
+.infra_list { width:1180px; margin:0 auto; overflow:hidden; }
 .infra_list li { float:left; position:relative; text-align:center; margin-left:8px; }
 .infra_list li:first-child { margin-left:0; }
-.infra_list b { position:absolute; top:50%; left:0; transform:translateY(-50%); width:100%; font-size:30px; color:#fff; }
+.infra_list li .hover_area { position:absolute; left:0; top:0; display:block; width:100%; height:100%; padding-top:108px; box-sizing:border-box; background:rgba(0,0,0,0); transition:0.6s; }
+.infra_list li .hover_area b { position:relative; display:block; padding-top:70px; font-size:30px; color:#fff; }
+.infra_list li .hover_area b:before { content:''; position:absolute; left:50%; top:0; margin-left:-32px; display:block; width:64px; height:52px; background:url('/pjtCom/images/main/icon_infra.png') no-repeat 0 0; opacity:0; transition:0.6s; }
+.infra_list li:nth-child(2) .hover_area b:before { background-position-x:-74px; }
+.infra_list li:nth-child(3) .hover_area b:before { background-position-x:-148px; }
+.infra_list li .hover_area p { margin-top:20px; font-size:16px; line-height:24px; color:#fff;  opacity:0; transition:0.6s; }
+.infra_list li .hover_area a { display:inline-block; width:118px; height:38px; margin-top:32px; line-height:38px; border:1px solid rgba(255,255,255,1); color:rgba(255,255,255,1); background:rgba(255,255,255,0); border-radius:2px; font-size:14px; font-weight:600;  opacity:0; transition:0.6s; }
+.infra_list li:hover .hover_area { padding-top:50px; background:rgba(0,0,0,0.71); }
+.infra_list li:hover .hover_area b:before,
+.infra_list li:hover .hover_area p,
+.infra_list li:hover .hover_area a { opacity:1; }
+.infra_list li .hover_area a:hover { background:rgba(255,255,255,1); color:#231f20; }
 
-.product_area { margin-top:80px; padding:0 0 120px 0 !important; background:url(/pjtCom/images/main/bg_product.jpg) no-repeat center bottom; }
+.product_area { margin-top:80px; padding:0 0 120px 0 !important;}
 .product_area .header_area { position:relative; text-align:center; }
 .product_area .header_area .tit { font-size:30px; color:#231f20; }
 .product_area .header_area .desc { font-size:16px; color:#807e7e; margin:14px 0 50px 0; }
 .product_list { font-size:0; text-align:center; }
 .product_list li { display:inline-block; position:relative; text-align:center; margin-left:23px; box-shadow:0 1px 5px rgba(0, 0, 0, 0.08); }
 .product_list li:first-child { margin-left:0; }
-.product_list .txt_area { position:relative; height:190px; padding:32px 0 0 0; background:#fff; box-sizing:border-box; }
-.product_list .txt_area:before { content:""; position:absolute; top:76px; left:50%; height:59px; transform:translateX(-50%); background:url(/pjtCom/images/main/icon_product.png) no-repeat 0 0; }
-.product_list .txt_area:after { content:""; position:absolute; top:160px; left:50%; transform:translateX(-50%); width:33px; height:1px; background:#949494; }
+.product_list .txt_area { position:relative; height:190px; padding:32px 0 0 0; background:#fff; box-sizing:border-box; overflow:hidden; }
+.product_list .txt_area:before { content:""; position:absolute; top:76px; left:50%; height:59px; transform:translateX(-50%); background:url(/pjtCom/images/main/icon_product.png) no-repeat 0 0; transition:0.6s; }
+.product_list .txt_area:after { content:""; position:absolute; top:160px; left:50%; transform:translateX(-50%); width:33px; height:1px; background:#949494; transition:0.6s; }
 .product_list .about .txt_area:before { width:72px; background-position:0 0; }
 .product_list .pb .txt_area:before { width:46px; background-position:-76px 0; }
 .product_list .global .txt_area:before { width:59px; background-position:-127px 0; }
 .product_list .bakery .txt_area:before { width:60px; background-position:-191px 0; }
 .product_list b { font-size:22px; text-align:center; color:#231f20; }
+.product_list li .hover_area { position:absolute; left:230px; bottom:0; width:100%; color:#000; font-size:16px; transition:0.6s; }
+.product_list li .hover_area:after { content:''; display:block; width:100%; height:6px; background:#ee3124; transition:0.6s; }
+.product_list li .hover_area p { position:relative; left:100px; font-size:16px; line-height:24px; transition:0.6s; }
+.product_list li .hover_area a { position:relative; left:100px; margin-top:14px; display:block; font-size:14px; line-height:54px; transition:0.6s; }
+.product_list li .hover_area a span { position:relative; display:inline-block; padding-right:17px; }
+.product_list li .hover_area a span:after { content:''; position:absolute; right:0; top:50%; margin-top:-6px; display:block; width:7px; height:11px; background:url(/pjtCom/images/common/form_icon.png) no-repeat -42px -105px; }
+.product_list li:hover .txt_area:before,
+.product_list li:hover .txt_area:after { margin-left:-230px; }
+.product_list li:hover .hover_area { left:0; }
+.product_list li:hover .hover_area:after { width:100%; height:6px; }
+.product_list li:hover .hover_area p { left:0; }
+.product_list li:hover .hover_area a { left:0; }
 
 .seminar_area { position:relative; padding:82px 0 120px !important; background:url(/pjtCom/images/main/bg_seminar.jpg) no-repeat 0 0; overflow:hidden; }
 .seminar_area .header_area { position:relative; width:1180px; text-align:center; margin:0 auto; }
