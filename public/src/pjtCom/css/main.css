@@ -73,7 +73,7 @@
 .product_list li:hover .hover_area p { left:0; }
 .product_list li:hover .hover_area a { left:0; }
 
-.seminar_area { position:relative; padding:82px 0 120px !important; background:url(/pjtCom/images/main/bg_seminar.jpg) no-repeat 0 0; overflow:hidden; }
+.seminar_area { position:relative; padding:82px 0 120px !important; overflow:hidden; }
 .seminar_area .header_area { position:relative; width:1180px; text-align:center; margin:0 auto; }
 .seminar_area .header_area .tit { font-size:30px; color:#231f20; }
 .seminar_area .header_area .desc { font-size:16px; color:#807e7e; margin:14px 0 50px 0; }
@@ -81,6 +81,7 @@
 .seminar_area .header_area .btn_more:after { content:""; display:inline-block; width:11px; height:11px; margin-left:6px; background:url(/pjtCom/images/common/icon_more_11x11.png) no-repeat 0 0; }
 .seminar_area .today { font-size:22px; color:#000; text-align:center; }
 .seminar_area .inner { width:1105px; margin:0 auto; overflow:hidden; }
+.seminar_area .plating { position:absolute; left:50%; top:261px; width:521px; height:422px; margin-left:560px; }
 .seminar_area .seminar_list { position:relative; width:1104px; margin:60px auto 0; overflow:hidden; }
 .seminar_area .seminar_list li { float:left; position:relative; }
 .seminar_area .seminar_list li:after { content:""; position:absolute; top:0; left:0; width:1px; height:227px; background:#e8e8e8; }

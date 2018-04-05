@@ -285,6 +285,9 @@ If path3tit = "" Then description=description+path2tit Else description=descript
 						<button type="button" class="btn_next">다음</button>
 					</div>
 				</div>
+				<div class="plating">
+					<img src="/pjtCom/images/main/bg_seminar.png" alt="" />
+				</div>
 			</section>
 			<!-- // 세미나 -->
 
