@@ -34,9 +34,9 @@
 .infra_list li:first-child { margin-left:0; }
 .infra_list li .hover_area { position:absolute; left:0; top:0; display:block; width:100%; height:100%; padding-top:108px; box-sizing:border-box; background:rgba(0,0,0,0); transition:0.6s; }
 .infra_list li .hover_area b { position:relative; display:block; padding-top:70px; font-size:30px; color:#fff; }
-.infra_list li .hover_area b:before { content:''; position:absolute; left:50%; top:0; margin-left:-32px; display:block; width:64px; height:52px; background:url('/pjtCom/images/main/icon_infra.png') no-repeat 0 0; opacity:0; transition:0.6s; }
-.infra_list li:nth-child(2) .hover_area b:before { background-position-x:-74px; }
-.infra_list li:nth-child(3) .hover_area b:before { background-position-x:-148px; }
+.infra_list li .hover_area b:before { content:''; position:absolute; left:50%; top:0; margin-left:-32px; display:block; width:64px; height:52px; background:url('/pjtCom/images/main/icon_infra.png') no-repeat -148px 0; opacity:0; transition:0.6s; }
+.infra_list li:nth-child(2) .hover_area b:before { background-position-x:0px; }
+.infra_list li:nth-child(3) .hover_area b:before { background-position-x:-74px; }
 .infra_list li .hover_area p { margin-top:20px; font-size:16px; line-height:24px; color:#fff;  opacity:0; transition:0.6s; }
 .infra_list li .hover_area a { display:inline-block; width:118px; height:38px; margin-top:32px; line-height:38px; border:1px solid rgba(255,255,255,1); color:rgba(255,255,255,1); background:rgba(255,255,255,0); border-radius:2px; font-size:14px; font-weight:600;  opacity:0; transition:0.6s; }
 .infra_list li:hover .hover_area { padding-top:50px; background:rgba(0,0,0,0.71); }

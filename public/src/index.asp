@@ -124,7 +124,7 @@ If path3tit = "" Then description=description+path2tit Else description=descript
 							<div class="hover_area">
 								<p>
 									간편하고 편리한<br />
-									냉동생지를 소개합니다.
+									냉동 베이커리를 소개합니다.
 								</p>
 								<a href="/brand/business_bakery.asp">
 									<span>더 알아보기</span>
@@ -144,6 +144,18 @@ If path3tit = "" Then description=description+path2tit Else description=descript
 				</header>
 
 				<ul class="infra_list">
+					<li>
+						<div class="hover_area">
+							<b>물류시스템</b>
+							<p>
+								고객에게 차별화 된 가치 제공과<br />
+								경쟁력 우위의 신제품 개발을<br />
+								위해 노력하고 있습니다.
+							</p>
+							<a href="/infra/distribute.asp">자세히 보기</a>
+						</div>
+						<img src="/pjtCom/images/main/img_infra_plaza.jpg" alt="">
+					</li>
 					<li>
 						<div class="hover_area">
 							<b>식품연구소</b>
@@ -168,18 +180,6 @@ If path3tit = "" Then description=description+path2tit Else description=descript
 							<a href="/infra/safety.asp">자세히 보기</a>
 						</div>
 						<img src="/pjtCom/images/main/img_infra_safety.jpg" alt="">
-					</li>
-					<li>
-						<div class="hover_area">
-							<b>물류시스템</b>
-							<p>
-								고객에게 차별화 된 가치 제공과<br />
-								경쟁력 우위의 신제품 개발을<br />
-								위해 노력하고 있습니다.
-							</p>
-							<a href="/infra/distribute.asp">자세히 보기</a>
-						</div>
-						<img src="/pjtCom/images/main/img_infra_plaza.jpg" alt="">
 					</li>
 				</ul>
 			</section>
@@ -324,7 +324,7 @@ If path3tit = "" Then description=description+path2tit Else description=descript
 								<div class="info">
 									<figure class="img"><img src="/pjtCom/images/temp/img_main_recipe_304x327.jpg" alt=""></figure>
 									<small class="category western">양식</small>
-									<small class="sort">파스타/누들</small>
+									<small class="sort">누들</small>
 									<p class="name">단호박스프</p>
 								</div>
 								<div class="menu">
