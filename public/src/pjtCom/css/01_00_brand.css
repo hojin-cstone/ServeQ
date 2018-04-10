@@ -60,20 +60,19 @@
 .serveq .serveq2 .cont.motif ul { display:block; width:100%; height:250px; margin-top:15px; background:url('/pjtCom/images/sub/brand_motif.jpg') no-repeat 0 0; }
 .serveq .serveq2 .cont.motif ul li { display:none; }
 
-
-
 /* business common */
 #contents.business > section { width:1180px; padding-top:103px; margin:0 auto; }
 #contents.business > section >.txt { margin-top:13px; font-size:14px; line-height:24px; }
 
 /* business_circulation */
-.business .circulation .cont { padding-top:180px; }
 .business .circulation .cont h3 { font-size:30px; text-align:center; }
 .business .circulation .cont p { margin-top:13px; font-size:14px; line-height:24px; text-align:center; }
-.business .circulation .cont.circu { display:block; width:712px; height:534px; margin:60px auto 0; background:url('/pjtCom/images/sub/circulation_circu.jpg') no-repeat 0 0; }
+.business .circulation .cont.circu { display:block; width:712px; height:534px; margin:60px auto 0; padding:0; background:url('/pjtCom/images/sub/circulation_circu.jpg') no-repeat 0 0; }
 .business .circulation .cont.circu ul { display:none; }
+.business .circulation .cont.food { margin-top:170px; }
 .business .circulation .cont.food > div { width:656px; height:440px; margin:34px auto 0; background:url('/pjtCom/images/sub/circulation_food.jpg') no-repeat 0 0; }
 .business .circulation .cont.food ul { display:none; }
+.business .circulation .cont.sourcing { margin-top:180px; }
 .business .circulation .cont.sourcing h3,
 .business .circulation .cont.sourcing p { position:relative; }
 .business .circulation .cont.sourcing h3 span { font-weight:400; }
@@ -93,12 +92,12 @@
 .business .circulation .cont.solution ul li strong { display:block; margin-top:32px; font-size:22px; line-height:18px; text-align:center; }
 .business .circulation .cont.solution ul li strong span { font-size:14px; }
 .business .circulation .cont.solution ul li > span { display:block; margin-top:13px; text-align:center; line-height:26px; letter-spacing:-0.04em; }
-.business .circulation .cont.customer { margin-top:100px; }
+.business .circulation .cont.customer { margin-top:100px;  }
 .business .circulation .cont.customer span,
 .business .circulation .cont.customer ul { display:none; }
 .business .circulation .cont.customer h3,
 .business .circulation .cont.customer p { margin-top:23px; margin-left:-10px; }
-.business .circulation .cont.customer { position:relative; left:10px; height:344px; background:url('/pjtCom/images/sub/circulation_customer.jpg') no-repeat 0 0; }
+.business .circulation .cont.customer { position:relative; left:10px; height:344px; background:url('/pjtCom/images/sub/circulation_customer.jpg') no-repeat 0 bottom; }
 .business .circulation .cont.hygiene { margin-top:120px; }
 .business .circulation .cont.hygiene ul { margin:40px 0 100px; }
 .business .circulation .cont.hygiene ul:after { content:""; display:block; clear:both; }
@@ -191,8 +190,6 @@
 .business .office .tabbox.op1 .company,
 .business .office .tabbox.op2 .company,
 .business .office .tabbox.op2 .factory { position:relative; z-index:-1; height:0; overflow:hidden; opacity:0; margin-top:0; }
-
-
 .business .office .company .map_wrap:first-child,
 .business .office .factory .map_wrap:first-child { margin-top:0; }
 .business .office .company h3,
@@ -209,7 +206,6 @@
 .business .office .factory dd { width:100%; font-size:14px; line-height:24px; }
 .business .office .company dt,
 .business .office .factory dt { font-weight:600; }
-
 .business .office .sales:after { content:''; display:block; clear:both; }
 .business .office .sales .img_box,
 .business .office .sales .tbl_box { float:left; width:590px; }

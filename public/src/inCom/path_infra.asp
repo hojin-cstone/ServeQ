@@ -1,5 +1,6 @@
 <a href="/infra/lab.asp" class="path1"><%= path1tit %></a>
 
+<!--
 <div class="path2">
 	<span><%= path2tit %></span>
 	<ul class="path2_list">
@@ -10,3 +11,4 @@
 		<li <% If path2dir = "oms" Then %>class="hide"<% End If %>><a href="/infra/oms.asp">OMS시스템</a></li>
 	</ul>
 </div>
+-->

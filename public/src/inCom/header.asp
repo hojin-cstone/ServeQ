@@ -41,11 +41,11 @@
 						<li><a href="/product/about.asp">상품소개</a></li>
 						<li><a href="/product/pb.asp">서브큐PB상품</a></li>
 						<li><a href="/product/direct.asp">산지직거래 상품</a></li>
-						<li><a href="/product/global.asp">글로벌 구매 네트워크</a></li>
+						<li><a href="/product/global.asp">글로벌 구매<br />네트워크</a></li>
 					</ul>
 
 					<ul class="service">
-						<li><a href="/service/about.asp">고객지원<br>서비스 소개</a></li>
+						<li><a href="/service/about.asp">고객지원서비스 소개</a></li>
 						<li><a href="/service/recipe.asp">셰프 레시피</a></li>
 						<li><a href="/service/calculator.asp">메뉴 원가계산기</a></li>
 						<li><a href="/service/seminar_list.asp">서브큐 세미나</a></li>

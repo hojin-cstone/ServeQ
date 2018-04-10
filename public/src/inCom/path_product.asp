@@ -1,5 +1,6 @@
 <a href="/project/about.asp" class="path1"><%= path1tit %></a>
 
+<!--
 <div class="path2">
 	<span><%= path2tit %></span>
 	<ul class="path2_list">
@@ -9,3 +10,4 @@
 		<li <% If path2dir = "global" Then %>class="hide"<% End If %>><a href="/product/global.asp">글로벌 구매 네트워크</a></li>
 	</ul>
 </div>
+-->
